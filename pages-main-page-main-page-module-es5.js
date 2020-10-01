@@ -1155,7 +1155,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-general-preview-component"]],
       decls: 36,
       vars: 0,
-      consts: [[1, "frame"], [1, "frame__description"], [1, "subtitle"], [1, "primary-text-color"], ["src", "../../../../assets/images/clock.png", "alt", ""], [1, "title"], [1, "text"], [1, "button"], [1, "shine"], [1, "frame__image"], [1, "image-content"], [1, "f-icon"], ["src", "../../../../assets/images/Frame.png", "alt", ""], ["src", "../../../../assets/images/armchair.png", "alt", ""], [1, "footer"], [1, "block"], [1, "block__title"], [1, "block__description"]],
+      consts: [[1, "frame"], [1, "frame__description"], [1, "subtitle"], [1, "primary-text-color"], ["src", "../../../../assets/images/clock.png", "alt", ""], [1, "title"], [1, "text"], [1, "button"], [1, "shine"], [1, "frame__image"], [1, "image-content"], [1, "f-icon"], ["src", "../../../../assets/images/Frame.png", "alt", ""], ["src", "../../../../assets/images/header-block/armchair.png", "alt", ""], [1, "footer"], [1, "block"], [1, "block__title"], [1, "block__description"]],
       template: function GeneralPreviewComponentComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
