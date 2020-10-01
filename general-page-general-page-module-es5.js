@@ -157,6 +157,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _modules_general_components_recomended_block_recomended_block_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ../../modules/general/components/recomended-block/recomended-block.component */
     "./src/app/modules/general/components/recomended-block/recomended-block.component.ts");
+    /* harmony import */
+
+
+    var _modules_general_components_social_block_social_block_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ../../modules/general/components/social-block/social-block.component */
+    "./src/app/modules/general/components/social-block/social-block.component.ts");
+    /* harmony import */
+
+
+    var _modules_general_components_benefit_block_benefit_block_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ../../modules/general/components/benefit-block/benefit-block.component */
+    "./src/app/modules/general/components/benefit-block/benefit-block.component.ts");
+    /* harmony import */
+
+
+    var _modules_general_components_bonus_block_bonus_block_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! ../../modules/general/components/bonus-block/bonus-block.component */
+    "./src/app/modules/general/components/bonus-block/bonus-block.component.ts");
+    /* harmony import */
+
+
+    var _modules_general_components_map_block_map_block_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! ../../modules/general/components/map-block/map-block.component */
+    "./src/app/modules/general/components/map-block/map-block.component.ts");
 
     var GeneralPageComponent = /*#__PURE__*/function () {
       function GeneralPageComponent() {
@@ -178,7 +202,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     GeneralPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: GeneralPageComponent,
       selectors: [["app-general-page"]],
-      decls: 8,
+      decls: 12,
       vars: 0,
       template: function GeneralPageComponent_Template(rf, ctx) {
         if (rf & 1) {
@@ -197,9 +221,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "app-quality-block");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "app-recomended-block");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "app-social-block");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "app-benefit-block");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "app-bonus-block");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "app-map-block");
         }
       },
-      directives: [_modules_general_components_calculate_block_calculate_block_component__WEBPACK_IMPORTED_MODULE_1__["CalculateBlockComponent"], _modules_general_components_designer_order_block_designer_order_block_component__WEBPACK_IMPORTED_MODULE_2__["DesignerOrderBlockComponent"], _modules_general_components_progress_work_block_progress_work_block_component__WEBPACK_IMPORTED_MODULE_3__["ProgressWorkBlockComponent"], _modules_general_components_responsibility_block_responsibility_block_component__WEBPACK_IMPORTED_MODULE_4__["ResponsibilityBlockComponent"], _modules_general_components_production_block_production_block_component__WEBPACK_IMPORTED_MODULE_5__["ProductionBlockComponent"], _modules_general_components_examples_block_examples_block_component__WEBPACK_IMPORTED_MODULE_6__["ExamplesBlockComponent"], _modules_general_components_quality_block_quality_block_component__WEBPACK_IMPORTED_MODULE_7__["QualityBlockComponent"], _modules_general_components_recomended_block_recomended_block_component__WEBPACK_IMPORTED_MODULE_8__["RecomendedBlockComponent"]],
+      directives: [_modules_general_components_calculate_block_calculate_block_component__WEBPACK_IMPORTED_MODULE_1__["CalculateBlockComponent"], _modules_general_components_designer_order_block_designer_order_block_component__WEBPACK_IMPORTED_MODULE_2__["DesignerOrderBlockComponent"], _modules_general_components_progress_work_block_progress_work_block_component__WEBPACK_IMPORTED_MODULE_3__["ProgressWorkBlockComponent"], _modules_general_components_responsibility_block_responsibility_block_component__WEBPACK_IMPORTED_MODULE_4__["ResponsibilityBlockComponent"], _modules_general_components_production_block_production_block_component__WEBPACK_IMPORTED_MODULE_5__["ProductionBlockComponent"], _modules_general_components_examples_block_examples_block_component__WEBPACK_IMPORTED_MODULE_6__["ExamplesBlockComponent"], _modules_general_components_quality_block_quality_block_component__WEBPACK_IMPORTED_MODULE_7__["QualityBlockComponent"], _modules_general_components_recomended_block_recomended_block_component__WEBPACK_IMPORTED_MODULE_8__["RecomendedBlockComponent"], _modules_general_components_social_block_social_block_component__WEBPACK_IMPORTED_MODULE_9__["SocialBlockComponent"], _modules_general_components_benefit_block_benefit_block_component__WEBPACK_IMPORTED_MODULE_10__["BenefitBlockComponent"], _modules_general_components_bonus_block_bonus_block_component__WEBPACK_IMPORTED_MODULE_11__["BonusBlockComponent"], _modules_general_components_map_block_map_block_component__WEBPACK_IMPORTED_MODULE_12__["MapBlockComponent"]],
       styles: ["[_nghost-%COMP%] {\n  display: flex;\n  flex-direction: column;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvZ2VuZXJhbC1wYWdlL0M6L1VzZXJzL01hb2xpbmsvRGVza3RvcC9EZXYvZnVybml0dXJlL3NyYy9hcHAvcGFnZXMvZ2VuZXJhbC1wYWdlL2dlbmVyYWwtcGFnZS5jb21wb25lbnQubGVzcyIsInNyYy9hcHAvcGFnZXMvZ2VuZXJhbC1wYWdlL2dlbmVyYWwtcGFnZS5jb21wb25lbnQubGVzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGFBQUE7RUFDQSxzQkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvZ2VuZXJhbC1wYWdlL2dlbmVyYWwtcGFnZS5jb21wb25lbnQubGVzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59XG4iLCI6aG9zdCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59XG4iXX0= */"]
     });
     /*@__PURE__*/
