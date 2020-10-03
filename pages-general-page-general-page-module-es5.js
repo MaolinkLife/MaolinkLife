@@ -4,7 +4,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["general-page-general-page-module"], {
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["pages-general-page-general-page-module"], {
   /***/
   "./src/app/pages/general-page/general-page-routing.module.ts":
   /*!*******************************************************************!*\
@@ -112,9 +112,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _modules_general_components_calculate_block_calculate_block_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ../../modules/general/components/calculate-block/calculate-block.component */
-    "./src/app/modules/general/components/calculate-block/calculate-block.component.ts");
+    var _modules_blocks_components_calculate_block_calculate_block_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ../../modules/blocks/components/calculate-block/calculate-block.component */
+    "./src/app/modules/blocks/components/calculate-block/calculate-block.component.ts");
     /* harmony import */
 
 
@@ -130,15 +130,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _modules_general_components_responsibility_block_responsibility_block_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! ../../modules/general/components/responsibility-block/responsibility-block.component */
-    "./src/app/modules/general/components/responsibility-block/responsibility-block.component.ts");
+    var _modules_blocks_components_responsibility_block_responsibility_block_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ../../modules/blocks/components/responsibility-block/responsibility-block.component */
+    "./src/app/modules/blocks/components/responsibility-block/responsibility-block.component.ts");
     /* harmony import */
 
 
-    var _modules_general_components_production_block_production_block_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-    /*! ../../modules/general/components/production-block/production-block.component */
-    "./src/app/modules/general/components/production-block/production-block.component.ts");
+    var _modules_blocks_components_production_block_production_block_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ../../modules/blocks/components/production-block/production-block.component */
+    "./src/app/modules/blocks/components/production-block/production-block.component.ts");
     /* harmony import */
 
 
@@ -172,15 +172,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _modules_general_components_bonus_block_bonus_block_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
-    /*! ../../modules/general/components/bonus-block/bonus-block.component */
-    "./src/app/modules/general/components/bonus-block/bonus-block.component.ts");
+    var _modules_blocks_components_bonus_block_bonus_block_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! ../../modules/blocks/components/bonus-block/bonus-block.component */
+    "./src/app/modules/blocks/components/bonus-block/bonus-block.component.ts");
     /* harmony import */
 
 
-    var _modules_general_components_map_block_map_block_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
-    /*! ../../modules/general/components/map-block/map-block.component */
-    "./src/app/modules/general/components/map-block/map-block.component.ts");
+    var _modules_blocks_components_map_block_map_block_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! ../../modules/blocks/components/map-block/map-block.component */
+    "./src/app/modules/blocks/components/map-block/map-block.component.ts");
 
     var GeneralPageComponent = /*#__PURE__*/function () {
       function GeneralPageComponent() {
@@ -204,9 +204,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-general-page"]],
       decls: 12,
       vars: 0,
+      consts: [["id", "customId"]],
       template: function GeneralPageComponent_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-calculate-block");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "block-calculate");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-designer-order-block");
 
@@ -224,14 +225,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "app-social-block");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "app-benefit-block");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "app-benefit-block", 0);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "app-bonus-block");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "app-map-block");
         }
       },
-      directives: [_modules_general_components_calculate_block_calculate_block_component__WEBPACK_IMPORTED_MODULE_1__["CalculateBlockComponent"], _modules_general_components_designer_order_block_designer_order_block_component__WEBPACK_IMPORTED_MODULE_2__["DesignerOrderBlockComponent"], _modules_general_components_progress_work_block_progress_work_block_component__WEBPACK_IMPORTED_MODULE_3__["ProgressWorkBlockComponent"], _modules_general_components_responsibility_block_responsibility_block_component__WEBPACK_IMPORTED_MODULE_4__["ResponsibilityBlockComponent"], _modules_general_components_production_block_production_block_component__WEBPACK_IMPORTED_MODULE_5__["ProductionBlockComponent"], _modules_general_components_examples_block_examples_block_component__WEBPACK_IMPORTED_MODULE_6__["ExamplesBlockComponent"], _modules_general_components_quality_block_quality_block_component__WEBPACK_IMPORTED_MODULE_7__["QualityBlockComponent"], _modules_general_components_recomended_block_recomended_block_component__WEBPACK_IMPORTED_MODULE_8__["RecomendedBlockComponent"], _modules_general_components_social_block_social_block_component__WEBPACK_IMPORTED_MODULE_9__["SocialBlockComponent"], _modules_general_components_benefit_block_benefit_block_component__WEBPACK_IMPORTED_MODULE_10__["BenefitBlockComponent"], _modules_general_components_bonus_block_bonus_block_component__WEBPACK_IMPORTED_MODULE_11__["BonusBlockComponent"], _modules_general_components_map_block_map_block_component__WEBPACK_IMPORTED_MODULE_12__["MapBlockComponent"]],
+      directives: [_modules_blocks_components_calculate_block_calculate_block_component__WEBPACK_IMPORTED_MODULE_1__["CalculateBlockComponent"], _modules_general_components_designer_order_block_designer_order_block_component__WEBPACK_IMPORTED_MODULE_2__["DesignerOrderBlockComponent"], _modules_general_components_progress_work_block_progress_work_block_component__WEBPACK_IMPORTED_MODULE_3__["ProgressWorkBlockComponent"], _modules_blocks_components_responsibility_block_responsibility_block_component__WEBPACK_IMPORTED_MODULE_4__["ResponsibilityBlockComponent"], _modules_blocks_components_production_block_production_block_component__WEBPACK_IMPORTED_MODULE_5__["ProductionBlockComponent"], _modules_general_components_examples_block_examples_block_component__WEBPACK_IMPORTED_MODULE_6__["ExamplesBlockComponent"], _modules_general_components_quality_block_quality_block_component__WEBPACK_IMPORTED_MODULE_7__["QualityBlockComponent"], _modules_general_components_recomended_block_recomended_block_component__WEBPACK_IMPORTED_MODULE_8__["RecomendedBlockComponent"], _modules_general_components_social_block_social_block_component__WEBPACK_IMPORTED_MODULE_9__["SocialBlockComponent"], _modules_general_components_benefit_block_benefit_block_component__WEBPACK_IMPORTED_MODULE_10__["BenefitBlockComponent"], _modules_blocks_components_bonus_block_bonus_block_component__WEBPACK_IMPORTED_MODULE_11__["BonusBlockComponent"], _modules_blocks_components_map_block_map_block_component__WEBPACK_IMPORTED_MODULE_12__["MapBlockComponent"]],
       styles: ["[_nghost-%COMP%] {\n  display: flex;\n  flex-direction: column;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvZ2VuZXJhbC1wYWdlL0M6L1VzZXJzL01hb2xpbmsvRGVza3RvcC9EZXYvZnVybml0dXJlL3NyYy9hcHAvcGFnZXMvZ2VuZXJhbC1wYWdlL2dlbmVyYWwtcGFnZS5jb21wb25lbnQubGVzcyIsInNyYy9hcHAvcGFnZXMvZ2VuZXJhbC1wYWdlL2dlbmVyYWwtcGFnZS5jb21wb25lbnQubGVzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGFBQUE7RUFDQSxzQkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvZ2VuZXJhbC1wYWdlL2dlbmVyYWwtcGFnZS5jb21wb25lbnQubGVzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59XG4iLCI6aG9zdCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59XG4iXX0= */"]
     });
     /*@__PURE__*/
@@ -274,37 +275,43 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    var src_app_modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! src/app/modules/blocks/blocks.module */
+    "./src/app/modules/blocks/blocks.module.ts");
+    /* harmony import */
+
+
+    var _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! ./../../shared/components/icons/icons.module */
     "./src/app/shared/components/icons/icons.module.ts");
     /* harmony import */
 
 
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
     /* harmony import */
 
 
-    var _general_page_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _general_page_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./general-page-routing.module */
     "./src/app/pages/general-page/general-page-routing.module.ts");
     /* harmony import */
 
 
-    var _general_page_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _general_page_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./general-page.component */
     "./src/app/pages/general-page/general-page.component.ts");
     /* harmony import */
 
 
-    var src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! src/app/modules/general/general-content.module */
     "./src/app/modules/general/general-content.module.ts");
 
@@ -312,31 +319,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, GeneralPageModule);
     };
 
-    GeneralPageModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
+    GeneralPageModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineNgModule"]({
       type: GeneralPageModule
     });
-    GeneralPageModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
+    GeneralPageModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjector"]({
       factory: function GeneralPageModule_Factory(t) {
         return new (t || GeneralPageModule)();
       },
-      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_3__["GeneralPageRoutingModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_5__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__["IconsModule"]]]
+      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_4__["GeneralPageRoutingModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_6__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], src_app_modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"]]]
     });
 
     (function () {
-      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](GeneralPageModule, {
-        declarations: [_general_page_component__WEBPACK_IMPORTED_MODULE_4__["GeneralPageComponent"]],
-        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_3__["GeneralPageRoutingModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_5__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__["IconsModule"]]
+      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsetNgModuleScope"](GeneralPageModule, {
+        declarations: [_general_page_component__WEBPACK_IMPORTED_MODULE_5__["GeneralPageComponent"]],
+        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_4__["GeneralPageRoutingModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_6__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], src_app_modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"]]
       });
     })();
     /*@__PURE__*/
 
 
     (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](GeneralPageModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵsetClassMetadata"](GeneralPageModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"],
         args: [{
-          declarations: [_general_page_component__WEBPACK_IMPORTED_MODULE_4__["GeneralPageComponent"]],
-          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_3__["GeneralPageRoutingModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_5__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__["IconsModule"]]
+          declarations: [_general_page_component__WEBPACK_IMPORTED_MODULE_5__["GeneralPageComponent"]],
+          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_4__["GeneralPageRoutingModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_6__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], src_app_modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"]]
         }]
       }], null, null);
     })();
@@ -344,4 +351,4 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   }
 }]);
-//# sourceMappingURL=general-page-general-page-module-es5.js.map
+//# sourceMappingURL=pages-general-page-general-page-module-es5.js.map

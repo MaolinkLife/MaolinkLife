@@ -64,7 +64,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"pages-main-page-main-page-module":"pages-main-page-main-page-module","general-page-general-page-module":"general-page-general-page-module"}[chunkId]||chunkId) + "-es2015.js"
+/******/ 		return __webpack_require__.p + "" + ({"pages-main-page-main-page-module":"pages-main-page-main-page-module","pages-general-page-general-page-module":"pages-general-page-general-page-module","pages-padding-furniture-page-padding-furniture-page-module":"pages-padding-furniture-page-padding-furniture-page-module","pages-working-with-genuine-leather-page-working-with-genuine-leather-page-module":"pages-working-with-genuine-leather-page-working-with-genuine-leather-page-module"}[chunkId]||chunkId) + "-es2015.js"
 /******/ 	}
 /******/
 /******/ 	// The require function
