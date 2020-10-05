@@ -299,21 +299,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _general_page_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! ./general-page-routing.module */
-    "./src/app/pages/general-page/general-page-routing.module.ts");
-    /* harmony import */
-
-
-    var _general_page_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _general_page_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./general-page.component */
     "./src/app/pages/general-page/general-page.component.ts");
     /* harmony import */
 
 
-    var src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! src/app/modules/general/general-content.module */
     "./src/app/modules/general/general-content.module.ts");
+    /* harmony import */
+
+
+    var _general_page_routing_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ./general-page-routing.module */
+    "./src/app/pages/general-page/general-page-routing.module.ts");
 
     var GeneralPageModule = function GeneralPageModule() {
       _classCallCheck(this, GeneralPageModule);
@@ -326,13 +326,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       factory: function GeneralPageModule_Factory(t) {
         return new (t || GeneralPageModule)();
       },
-      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_4__["GeneralPageRoutingModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_6__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], src_app_modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"]]]
+      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_5__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], src_app_modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_6__["GeneralPageRoutingModule"]]]
     });
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsetNgModuleScope"](GeneralPageModule, {
-        declarations: [_general_page_component__WEBPACK_IMPORTED_MODULE_5__["GeneralPageComponent"]],
-        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_4__["GeneralPageRoutingModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_6__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], src_app_modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"]]
+        declarations: [_general_page_component__WEBPACK_IMPORTED_MODULE_4__["GeneralPageComponent"]],
+        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_5__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], src_app_modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_6__["GeneralPageRoutingModule"]]
       });
     })();
     /*@__PURE__*/
@@ -342,8 +342,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵsetClassMetadata"](GeneralPageModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"],
         args: [{
-          declarations: [_general_page_component__WEBPACK_IMPORTED_MODULE_5__["GeneralPageComponent"]],
-          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_4__["GeneralPageRoutingModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_6__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], src_app_modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"]]
+          declarations: [_general_page_component__WEBPACK_IMPORTED_MODULE_4__["GeneralPageComponent"]],
+          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], src_app_modules_general_general_content_module__WEBPACK_IMPORTED_MODULE_5__["GeneralContentModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], src_app_modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"], _general_page_routing_module__WEBPACK_IMPORTED_MODULE_6__["GeneralPageRoutingModule"]]
         }]
       }], null, null);
     })();

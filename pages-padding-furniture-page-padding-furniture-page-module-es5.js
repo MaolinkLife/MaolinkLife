@@ -1,168 +1,6 @@
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["pages-padding-furniture-page-padding-furniture-page-module"], {
-  /***/
-  "./src/app/modules/padding-furniture/components/headboards/headboards.component.ts":
-  /*!*****************************************************************************************!*\
-    !*** ./src/app/modules/padding-furniture/components/headboards/headboards.component.ts ***!
-    \*****************************************************************************************/
-
-  /*! exports provided: HeadboardsComponent */
-
-  /***/
-  function srcAppModulesPaddingFurnitureComponentsHeadboardsHeadboardsComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "HeadboardsComponent", function () {
-      return HeadboardsComponent;
-    });
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-
-    var HeadboardsComponent = /*#__PURE__*/function () {
-      function HeadboardsComponent() {
-        _classCallCheck(this, HeadboardsComponent);
-      }
-
-      _createClass(HeadboardsComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
-
-      return HeadboardsComponent;
-    }();
-
-    HeadboardsComponent.ɵfac = function HeadboardsComponent_Factory(t) {
-      return new (t || HeadboardsComponent)();
-    };
-
-    HeadboardsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
-      type: HeadboardsComponent,
-      selectors: [["app-headboards"]],
-      decls: 2,
-      vars: 0,
-      template: function HeadboardsComponent_Template(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "headboards works!");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        }
-      },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL21vZHVsZXMvcGFkZGluZy1mdXJuaXR1cmUvY29tcG9uZW50cy9oZWFkYm9hcmRzL2hlYWRib2FyZHMuY29tcG9uZW50Lmxlc3MifQ== */"],
-      changeDetection: 0
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HeadboardsComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
-        args: [{
-          selector: 'app-headboards',
-          templateUrl: './headboards.component.html',
-          styleUrls: ['./headboards.component.less'],
-          changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush
-        }]
-      }], function () {
-        return [];
-      }, null);
-    })();
-    /***/
-
-  },
-
-  /***/
-  "./src/app/modules/padding-furniture/components/poufs-and-banquets/poufs-and-banquets.component.ts":
-  /*!*********************************************************************************************************!*\
-    !*** ./src/app/modules/padding-furniture/components/poufs-and-banquets/poufs-and-banquets.component.ts ***!
-    \*********************************************************************************************************/
-
-  /*! exports provided: PoufsAndBanquetsComponent */
-
-  /***/
-  function srcAppModulesPaddingFurnitureComponentsPoufsAndBanquetsPoufsAndBanquetsComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "PoufsAndBanquetsComponent", function () {
-      return PoufsAndBanquetsComponent;
-    });
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-
-    var PoufsAndBanquetsComponent = /*#__PURE__*/function () {
-      function PoufsAndBanquetsComponent() {
-        _classCallCheck(this, PoufsAndBanquetsComponent);
-      }
-
-      _createClass(PoufsAndBanquetsComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
-
-      return PoufsAndBanquetsComponent;
-    }();
-
-    PoufsAndBanquetsComponent.ɵfac = function PoufsAndBanquetsComponent_Factory(t) {
-      return new (t || PoufsAndBanquetsComponent)();
-    };
-
-    PoufsAndBanquetsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
-      type: PoufsAndBanquetsComponent,
-      selectors: [["app-poufs-and-banquets"]],
-      decls: 2,
-      vars: 0,
-      template: function PoufsAndBanquetsComponent_Template(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "poufs-and-banquets works!");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        }
-      },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL21vZHVsZXMvcGFkZGluZy1mdXJuaXR1cmUvY29tcG9uZW50cy9wb3Vmcy1hbmQtYmFucXVldHMvcG91ZnMtYW5kLWJhbnF1ZXRzLmNvbXBvbmVudC5sZXNzIn0= */"],
-      changeDetection: 0
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PoufsAndBanquetsComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
-        args: [{
-          selector: 'app-poufs-and-banquets',
-          templateUrl: './poufs-and-banquets.component.html',
-          styleUrls: ['./poufs-and-banquets.component.less'],
-          changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush
-        }]
-      }], function () {
-        return [];
-      }, null);
-    })();
-    /***/
-
-  },
-
   /***/
   "./src/app/modules/padding-furniture/padding-furniture.module.ts":
   /*!***********************************************************************!*\
@@ -185,61 +23,67 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    var _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./../../shared/components/icons/icons.module */
+    "./src/app/shared/components/icons/icons.module.ts");
+    /* harmony import */
+
+
+    var _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./../../shared/components/shield-item/shield-item.module */
+    "./src/app/shared/components/shield-item/shield-item.module.ts");
+    /* harmony import */
+
+
+    var _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ./../../shared/components/button/button.module */
     "./src/app/shared/components/button/button.module.ts");
     /* harmony import */
 
 
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
     /* harmony import */
 
 
-    var _components_padding_furniture_preview_padding_furniture_preview_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! ./components/padding-furniture-preview/padding-furniture-preview.component */
-    "./src/app/modules/padding-furniture/components/padding-furniture-preview/padding-furniture-preview.component.ts");
-    /* harmony import */
-
-
-    var _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./components/corner-sofas/corner-sofas.component */
     "./src/app/modules/padding-furniture/components/corner-sofas/corner-sofas.component.ts");
     /* harmony import */
 
 
-    var _components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./components/straight-sofas/straight-sofas.component */
     "./src/app/modules/padding-furniture/components/straight-sofas/straight-sofas.component.ts");
     /* harmony import */
 
 
-    var _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./components/armchairs/armchairs.component */
     "./src/app/modules/padding-furniture/components/armchairs/armchairs.component.ts");
     /* harmony import */
 
 
-    var _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./components/chairs/chairs.component */
     "./src/app/modules/padding-furniture/components/chairs/chairs.component.ts");
     /* harmony import */
 
 
-    var _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./components/headboards/headboards.component */
     "./src/app/modules/padding-furniture/components/headboards/headboards.component.ts");
     /* harmony import */
 
 
-    var _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ./components/poufs-and-banquets/poufs-and-banquets.component */
     "./src/app/modules/padding-furniture/components/poufs-and-banquets/poufs-and-banquets.component.ts");
 
@@ -247,31 +91,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _classCallCheck(this, PaddingFurnitureModule);
     };
 
-    PaddingFurnitureModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
+    PaddingFurnitureModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
       type: PaddingFurnitureModule
     });
-    PaddingFurnitureModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
+    PaddingFurnitureModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({
       factory: function PaddingFurnitureModule_Factory(t) {
         return new (t || PaddingFurnitureModule)();
       },
-      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_0__["ObbeyButtonModule"]]]
+      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_4__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_2__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_1__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__["IconsModule"]]]
     });
 
     (function () {
-      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](PaddingFurnitureModule, {
-        declarations: [_components_padding_furniture_preview_padding_furniture_preview_component__WEBPACK_IMPORTED_MODULE_3__["PaddingFurniturePreviewComponent"], _components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_5__["StraightSofasComponent"], _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_4__["CornerSofasComponent"], _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_6__["ArmchairsComponent"], _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_7__["ChairsComponent"], _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_8__["HeadboardsComponent"], _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_9__["PoufsAndBanquetsComponent"]],
-        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_0__["ObbeyButtonModule"]]
+      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](PaddingFurnitureModule, {
+        declarations: [_components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_6__["StraightSofasComponent"], _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_5__["CornerSofasComponent"], _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_7__["ArmchairsComponent"], _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_8__["ChairsComponent"], _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_9__["HeadboardsComponent"], _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_10__["PoufsAndBanquetsComponent"]],
+        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_2__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_1__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__["IconsModule"]]
       });
     })();
     /*@__PURE__*/
 
 
     (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](PaddingFurnitureModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵsetClassMetadata"](PaddingFurnitureModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"],
         args: [{
-          declarations: [_components_padding_furniture_preview_padding_furniture_preview_component__WEBPACK_IMPORTED_MODULE_3__["PaddingFurniturePreviewComponent"], _components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_5__["StraightSofasComponent"], _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_4__["CornerSofasComponent"], _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_6__["ArmchairsComponent"], _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_7__["ChairsComponent"], _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_8__["HeadboardsComponent"], _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_9__["PoufsAndBanquetsComponent"]],
-          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_0__["ObbeyButtonModule"]]
+          declarations: [_components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_6__["StraightSofasComponent"], _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_5__["CornerSofasComponent"], _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_7__["ArmchairsComponent"], _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_8__["ChairsComponent"], _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_9__["HeadboardsComponent"], _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_10__["PoufsAndBanquetsComponent"]],
+          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_2__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_1__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__["IconsModule"]]
         }]
       }], null, null);
     })();
