@@ -23,67 +23,73 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    var _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./../../shared/components/messagers/messagers.module */
+    "./src/app/shared/components/messagers/messagers.module.ts");
+    /* harmony import */
+
+
+    var _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! ./../../shared/components/icons/icons.module */
     "./src/app/shared/components/icons/icons.module.ts");
     /* harmony import */
 
 
-    var _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    var _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ./../../shared/components/shield-item/shield-item.module */
     "./src/app/shared/components/shield-item/shield-item.module.ts");
     /* harmony import */
 
 
-    var _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ./../../shared/components/button/button.module */
     "./src/app/shared/components/button/button.module.ts");
     /* harmony import */
 
 
-    var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
     /* harmony import */
 
 
-    var _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./components/corner-sofas/corner-sofas.component */
     "./src/app/modules/padding-furniture/components/corner-sofas/corner-sofas.component.ts");
     /* harmony import */
 
 
-    var _components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./components/straight-sofas/straight-sofas.component */
     "./src/app/modules/padding-furniture/components/straight-sofas/straight-sofas.component.ts");
     /* harmony import */
 
 
-    var _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./components/armchairs/armchairs.component */
     "./src/app/modules/padding-furniture/components/armchairs/armchairs.component.ts");
     /* harmony import */
 
 
-    var _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./components/chairs/chairs.component */
     "./src/app/modules/padding-furniture/components/chairs/chairs.component.ts");
     /* harmony import */
 
 
-    var _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ./components/headboards/headboards.component */
     "./src/app/modules/padding-furniture/components/headboards/headboards.component.ts");
     /* harmony import */
 
 
-    var _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./components/poufs-and-banquets/poufs-and-banquets.component */
     "./src/app/modules/padding-furniture/components/poufs-and-banquets/poufs-and-banquets.component.ts");
 
@@ -91,31 +97,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, PaddingFurnitureModule);
     };
 
-    PaddingFurnitureModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
+    PaddingFurnitureModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineNgModule"]({
       type: PaddingFurnitureModule
     });
-    PaddingFurnitureModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({
+    PaddingFurnitureModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjector"]({
       factory: function PaddingFurnitureModule_Factory(t) {
         return new (t || PaddingFurnitureModule)();
       },
-      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_4__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_2__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_1__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__["IconsModule"]]]
+      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_5__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_3__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_2__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]]]
     });
 
     (function () {
-      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](PaddingFurnitureModule, {
-        declarations: [_components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_6__["StraightSofasComponent"], _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_5__["CornerSofasComponent"], _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_7__["ArmchairsComponent"], _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_8__["ChairsComponent"], _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_9__["HeadboardsComponent"], _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_10__["PoufsAndBanquetsComponent"]],
-        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_2__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_1__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__["IconsModule"]]
+      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetNgModuleScope"](PaddingFurnitureModule, {
+        declarations: [_components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_7__["StraightSofasComponent"], _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_6__["CornerSofasComponent"], _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_8__["ArmchairsComponent"], _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_9__["ChairsComponent"], _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_10__["HeadboardsComponent"], _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_11__["PoufsAndBanquetsComponent"]],
+        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_3__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_2__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]]
       });
     })();
     /*@__PURE__*/
 
 
     (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵsetClassMetadata"](PaddingFurnitureModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"],
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵsetClassMetadata"](PaddingFurnitureModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_4__["NgModule"],
         args: [{
-          declarations: [_components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_6__["StraightSofasComponent"], _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_5__["CornerSofasComponent"], _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_7__["ArmchairsComponent"], _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_8__["ChairsComponent"], _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_9__["HeadboardsComponent"], _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_10__["PoufsAndBanquetsComponent"]],
-          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_2__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_1__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_0__["IconsModule"]]
+          declarations: [_components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_7__["StraightSofasComponent"], _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_6__["CornerSofasComponent"], _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_8__["ArmchairsComponent"], _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_9__["ChairsComponent"], _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_10__["HeadboardsComponent"], _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_11__["PoufsAndBanquetsComponent"]],
+          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_3__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_2__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]]
         }]
       }], null, null);
     })();
