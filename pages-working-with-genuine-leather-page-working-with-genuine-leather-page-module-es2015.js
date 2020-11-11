@@ -21,6 +21,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_leahter_chairs_leahter_chairs_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/leahter-chairs/leahter-chairs.component */ "./src/app/modules/leaher-furniture/components/leahter-chairs/leahter-chairs.component.ts");
 /* harmony import */ var _components_leather_straight_sofas_leather_straight_sofas_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/leather-straight-sofas/leather-straight-sofas.component */ "./src/app/modules/leaher-furniture/components/leather-straight-sofas/leather-straight-sofas.component.ts");
 /* harmony import */ var _components_leather_poufs_and_banquets_leather_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/leather-poufs-and-banquets/leather-poufs-and-banquets.component */ "./src/app/modules/leaher-furniture/components/leather-poufs-and-banquets/leather-poufs-and-banquets.component.ts");
+/* harmony import */ var _blocks_blocks_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../blocks/blocks.module */ "./src/app/modules/blocks/blocks.module.ts");
+
 
 
 
@@ -42,6 +44,7 @@ LeaherFurnitureModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵde
             src_app_shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_4__["ShieldItemModule"],
             src_app_shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_6__["IconsModule"],
             _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"],
+            _blocks_blocks_module__WEBPACK_IMPORTED_MODULE_11__["BlocksModule"],
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](LeaherFurnitureModule, { declarations: [_components_leather_armchair_leather_armchair_component__WEBPACK_IMPORTED_MODULE_3__["LeatherArmchairComponent"],
         _components_leather_corner_sofas_leather_corner_sofas_component__WEBPACK_IMPORTED_MODULE_7__["LeatherCornerSofasComponent"],
@@ -51,7 +54,8 @@ LeaherFurnitureModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵde
         src_app_shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_5__["ObbeyButtonModule"],
         src_app_shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_4__["ShieldItemModule"],
         src_app_shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_6__["IconsModule"],
-        _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]], exports: [_components_leather_armchair_leather_armchair_component__WEBPACK_IMPORTED_MODULE_3__["LeatherArmchairComponent"],
+        _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"],
+        _blocks_blocks_module__WEBPACK_IMPORTED_MODULE_11__["BlocksModule"]], exports: [_components_leather_armchair_leather_armchair_component__WEBPACK_IMPORTED_MODULE_3__["LeatherArmchairComponent"],
         _components_leather_corner_sofas_leather_corner_sofas_component__WEBPACK_IMPORTED_MODULE_7__["LeatherCornerSofasComponent"],
         _components_leahter_chairs_leahter_chairs_component__WEBPACK_IMPORTED_MODULE_8__["LeahterChairsComponent"],
         _components_leather_straight_sofas_leather_straight_sofas_component__WEBPACK_IMPORTED_MODULE_9__["LeatherStraightSofasComponent"]] }); })();
@@ -71,6 +75,7 @@ LeaherFurnitureModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵde
                     src_app_shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_4__["ShieldItemModule"],
                     src_app_shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_6__["IconsModule"],
                     _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"],
+                    _blocks_blocks_module__WEBPACK_IMPORTED_MODULE_11__["BlocksModule"],
                 ],
                 exports: [
                     _components_leather_armchair_leather_armchair_component__WEBPACK_IMPORTED_MODULE_3__["LeatherArmchairComponent"],

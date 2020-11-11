@@ -86,6 +86,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_leather_poufs_and_banquets_leather_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ./components/leather-poufs-and-banquets/leather-poufs-and-banquets.component */
     "./src/app/modules/leaher-furniture/components/leather-poufs-and-banquets/leather-poufs-and-banquets.component.ts");
+    /* harmony import */
+
+
+    var _blocks_blocks_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! ../blocks/blocks.module */
+    "./src/app/modules/blocks/blocks.module.ts");
 
     var LeaherFurnitureModule = function LeaherFurnitureModule() {
       _classCallCheck(this, LeaherFurnitureModule);
@@ -98,13 +104,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       factory: function LeaherFurnitureModule_Factory(t) {
         return new (t || LeaherFurnitureModule)();
       },
-      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], src_app_shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_5__["ObbeyButtonModule"], src_app_shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_4__["ShieldItemModule"], src_app_shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_6__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]]]
+      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], src_app_shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_5__["ObbeyButtonModule"], src_app_shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_4__["ShieldItemModule"], src_app_shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_6__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"], _blocks_blocks_module__WEBPACK_IMPORTED_MODULE_11__["BlocksModule"]]]
     });
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](LeaherFurnitureModule, {
         declarations: [_components_leather_armchair_leather_armchair_component__WEBPACK_IMPORTED_MODULE_3__["LeatherArmchairComponent"], _components_leather_corner_sofas_leather_corner_sofas_component__WEBPACK_IMPORTED_MODULE_7__["LeatherCornerSofasComponent"], _components_leahter_chairs_leahter_chairs_component__WEBPACK_IMPORTED_MODULE_8__["LeahterChairsComponent"], _components_leather_straight_sofas_leather_straight_sofas_component__WEBPACK_IMPORTED_MODULE_9__["LeatherStraightSofasComponent"], _components_leather_poufs_and_banquets_leather_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_10__["LeatherPoufsAndBanquetsComponent"]],
-        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], src_app_shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_5__["ObbeyButtonModule"], src_app_shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_4__["ShieldItemModule"], src_app_shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_6__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]],
+        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], src_app_shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_5__["ObbeyButtonModule"], src_app_shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_4__["ShieldItemModule"], src_app_shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_6__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"], _blocks_blocks_module__WEBPACK_IMPORTED_MODULE_11__["BlocksModule"]],
         exports: [_components_leather_armchair_leather_armchair_component__WEBPACK_IMPORTED_MODULE_3__["LeatherArmchairComponent"], _components_leather_corner_sofas_leather_corner_sofas_component__WEBPACK_IMPORTED_MODULE_7__["LeatherCornerSofasComponent"], _components_leahter_chairs_leahter_chairs_component__WEBPACK_IMPORTED_MODULE_8__["LeahterChairsComponent"], _components_leather_straight_sofas_leather_straight_sofas_component__WEBPACK_IMPORTED_MODULE_9__["LeatherStraightSofasComponent"]]
       });
     })();
@@ -116,7 +122,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
           declarations: [_components_leather_armchair_leather_armchair_component__WEBPACK_IMPORTED_MODULE_3__["LeatherArmchairComponent"], _components_leather_corner_sofas_leather_corner_sofas_component__WEBPACK_IMPORTED_MODULE_7__["LeatherCornerSofasComponent"], _components_leahter_chairs_leahter_chairs_component__WEBPACK_IMPORTED_MODULE_8__["LeahterChairsComponent"], _components_leather_straight_sofas_leather_straight_sofas_component__WEBPACK_IMPORTED_MODULE_9__["LeatherStraightSofasComponent"], _components_leather_poufs_and_banquets_leather_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_10__["LeatherPoufsAndBanquetsComponent"]],
-          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], src_app_shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_5__["ObbeyButtonModule"], src_app_shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_4__["ShieldItemModule"], src_app_shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_6__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]],
+          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], src_app_shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_5__["ObbeyButtonModule"], src_app_shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_4__["ShieldItemModule"], src_app_shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_6__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"], _blocks_blocks_module__WEBPACK_IMPORTED_MODULE_11__["BlocksModule"]],
           exports: [_components_leather_armchair_leather_armchair_component__WEBPACK_IMPORTED_MODULE_3__["LeatherArmchairComponent"], _components_leather_corner_sofas_leather_corner_sofas_component__WEBPACK_IMPORTED_MODULE_7__["LeatherCornerSofasComponent"], _components_leahter_chairs_leahter_chairs_component__WEBPACK_IMPORTED_MODULE_8__["LeahterChairsComponent"], _components_leather_straight_sofas_leather_straight_sofas_component__WEBPACK_IMPORTED_MODULE_9__["LeatherStraightSofasComponent"]]
         }]
       }], null, null);
