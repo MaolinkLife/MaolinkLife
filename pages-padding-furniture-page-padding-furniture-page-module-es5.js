@@ -93,37 +93,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./components/poufs-and-banquets/poufs-and-banquets.component */
     "./src/app/modules/padding-furniture/components/poufs-and-banquets/poufs-and-banquets.component.ts");
 
-    var PaddingFurnitureModule = function PaddingFurnitureModule() {
-      _classCallCheck(this, PaddingFurnitureModule);
-    };
+    var PaddingFurnitureModule = /*@__PURE__*/function () {
+      var PaddingFurnitureModule = function PaddingFurnitureModule() {
+        _classCallCheck(this, PaddingFurnitureModule);
+      };
 
-    PaddingFurnitureModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineNgModule"]({
-      type: PaddingFurnitureModule
-    });
-    PaddingFurnitureModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjector"]({
-      factory: function PaddingFurnitureModule_Factory(t) {
-        return new (t || PaddingFurnitureModule)();
-      },
-      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_5__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_3__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_2__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]]]
-    });
+      PaddingFurnitureModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineNgModule"]({
+        type: PaddingFurnitureModule
+      });
+      PaddingFurnitureModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjector"]({
+        factory: function PaddingFurnitureModule_Factory(t) {
+          return new (t || PaddingFurnitureModule)();
+        },
+        imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_5__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_3__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_2__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]]]
+      });
+      return PaddingFurnitureModule;
+    }();
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetNgModuleScope"](PaddingFurnitureModule, {
         declarations: [_components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_7__["StraightSofasComponent"], _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_6__["CornerSofasComponent"], _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_8__["ArmchairsComponent"], _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_9__["ChairsComponent"], _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_10__["HeadboardsComponent"], _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_11__["PoufsAndBanquetsComponent"]],
         imports: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_3__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_2__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]]
       });
-    })();
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵsetClassMetadata"](PaddingFurnitureModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_4__["NgModule"],
-        args: [{
-          declarations: [_components_straight_sofas_straight_sofas_component__WEBPACK_IMPORTED_MODULE_7__["StraightSofasComponent"], _components_corner_sofas_corner_sofas_component__WEBPACK_IMPORTED_MODULE_6__["CornerSofasComponent"], _components_armchairs_armchairs_component__WEBPACK_IMPORTED_MODULE_8__["ArmchairsComponent"], _components_chairs_chairs_component__WEBPACK_IMPORTED_MODULE_9__["ChairsComponent"], _components_headboards_headboards_component__WEBPACK_IMPORTED_MODULE_10__["HeadboardsComponent"], _components_poufs_and_banquets_poufs_and_banquets_component__WEBPACK_IMPORTED_MODULE_11__["PoufsAndBanquetsComponent"]],
-          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["CommonModule"], _shared_components_button_button_module__WEBPACK_IMPORTED_MODULE_3__["ObbeyButtonModule"], _shared_components_shield_item_shield_item_module__WEBPACK_IMPORTED_MODULE_2__["ShieldItemModule"], _shared_components_icons_icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"], _shared_components_messagers_messagers_module__WEBPACK_IMPORTED_MODULE_0__["MessagersModule"]]
-        }]
-      }], null, null);
     })();
     /***/
 
@@ -179,37 +170,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! src/app/modules/padding-furniture/padding-furniture.module */
     "./src/app/modules/padding-furniture/padding-furniture.module.ts");
 
-    var PaddingFurniturePageModule = function PaddingFurniturePageModule() {
-      _classCallCheck(this, PaddingFurniturePageModule);
-    };
+    var PaddingFurniturePageModule = /*@__PURE__*/function () {
+      var PaddingFurniturePageModule = function PaddingFurniturePageModule() {
+        _classCallCheck(this, PaddingFurniturePageModule);
+      };
 
-    PaddingFurniturePageModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
-      type: PaddingFurniturePageModule
-    });
-    PaddingFurniturePageModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
-      factory: function PaddingFurniturePageModule_Factory(t) {
-        return new (t || PaddingFurniturePageModule)();
-      },
-      imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], src_app_modules_padding_furniture_padding_furniture_module__WEBPACK_IMPORTED_MODULE_4__["PaddingFurnitureModule"], _modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"]]]
-    });
+      PaddingFurniturePageModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
+        type: PaddingFurniturePageModule
+      });
+      PaddingFurniturePageModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
+        factory: function PaddingFurniturePageModule_Factory(t) {
+          return new (t || PaddingFurniturePageModule)();
+        },
+        imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], src_app_modules_padding_furniture_padding_furniture_module__WEBPACK_IMPORTED_MODULE_4__["PaddingFurnitureModule"], _modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"]]]
+      });
+      return PaddingFurniturePageModule;
+    }();
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](PaddingFurniturePageModule, {
         declarations: [_padding_furniture_page_component__WEBPACK_IMPORTED_MODULE_3__["PaddingFurniturePageComponent"]],
         imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], src_app_modules_padding_furniture_padding_furniture_module__WEBPACK_IMPORTED_MODULE_4__["PaddingFurnitureModule"], _modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"]]
       });
-    })();
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](PaddingFurniturePageModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
-        args: [{
-          declarations: [_padding_furniture_page_component__WEBPACK_IMPORTED_MODULE_3__["PaddingFurniturePageComponent"]],
-          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], src_app_modules_padding_furniture_padding_furniture_module__WEBPACK_IMPORTED_MODULE_4__["PaddingFurnitureModule"], _modules_blocks_blocks_module__WEBPACK_IMPORTED_MODULE_0__["BlocksModule"]]
-        }]
-      }], null, null);
     })();
     /***/
 
