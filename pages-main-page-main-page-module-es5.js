@@ -20093,7 +20093,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return ctx.openPopup();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -20328,7 +20328,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return ctx.openPopup();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -20563,7 +20563,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return ctx.openPopup();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -21476,7 +21476,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return ctx.openPopup();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -21914,7 +21914,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return ctx.openPopup();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -22155,7 +22155,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return ctx.openPopup();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 

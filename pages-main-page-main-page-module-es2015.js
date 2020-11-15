@@ -12853,7 +12853,7 @@ LeatherArmchairComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "obbey-button", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function LeatherArmchairComponent_Template_obbey_button_click_9_listener() { return ctx.openPopup(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 7);
@@ -12961,7 +12961,7 @@ LeatherCornerSofasComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "obbey-button", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function LeatherCornerSofasComponent_Template_obbey_button_click_9_listener() { return ctx.openPopup(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 7);
@@ -13069,7 +13069,7 @@ LeatherPoufsAndBanquetsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "obbey-button", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function LeatherPoufsAndBanquetsComponent_Template_obbey_button_click_9_listener() { return ctx.openPopup(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "div", 7);
@@ -13518,7 +13518,7 @@ CornerSofasComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "obbey-button", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function CornerSofasComponent_Template_obbey_button_click_5_listener() { return ctx.openPopup(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -13738,7 +13738,7 @@ PoufsAndBanquetsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "obbey-button", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PoufsAndBanquetsComponent_Template_obbey_button_click_6_listener() { return ctx.openPopup(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 6);
@@ -13859,7 +13859,7 @@ StraightSofasComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "obbey-button", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StraightSofasComponent_Template_obbey_button_click_6_listener() { return ctx.openPopup(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " \u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430-\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0430 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 6);
