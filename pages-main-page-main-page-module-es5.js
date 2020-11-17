@@ -28734,26 +28734,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.navigationsService = navigationsService;
         this.activatedRoute = activatedRoute;
         this.itemClick = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
-        this.component$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](null); // public dropdownList = [
-        //     {
-        //         caption: 'ПЕРЕТЯЖКА МЯГКОЙ МЕБЕЛИ',
-        //         routerLink: '/',
-        //         active: false,
-        //         children: [
-        //             {
-        //                 caption: 'Перетяжка прямых диванов',
-        //                 routerLink: '/',
-        //                 active: false,
-        //             },
-        //             {
-        //                 caption: 'Перетяжка угловых диванов',
-        //                 routerLink: '/',
-        //                 active: false,
-        //             }
-        //         ]
-        //     }
-        // ];
-
+        this.component$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](null);
         this.opened = false;
         this.menuItems$ = this.navigationsService.sidebarMenuItems$;
       }
@@ -28761,12 +28742,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(MobileHeaderComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          this.menuItems$.subscribe(function (list) {});
           this.component$ = this.navigationsService.dynamicComponentView$;
         }
-      }, {
-        key: "ngOnChanges",
-        value: function ngOnChanges(changes) {}
       }, {
         key: "menuClick",
         value: function menuClick(element, id) {
@@ -28797,10 +28774,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "menuItemClick",
         value: function menuItemClick(value) {
-          window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-          });
           value.items.forEach(function (link) {
             return link.active = false;
           });
@@ -28810,6 +28783,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             this.router.navigateByUrl(value.item.routerPath);
             this.opened = !this.opened;
           } else {
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+            });
             value.item.children.forEach(function (link) {
               return link.active = false;
             });
@@ -28838,7 +28815,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       outputs: {
         itemClick: "itemClick"
       },
-      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]],
       decls: 27,
       vars: 7,
       consts: [[1, "box"], [1, "fixed-container"], [1, "header-panel"], [1, "title-block"], [3, "click"], ["type", "MOBILE"], [1, "underline-text"], [1, "contact-block"], ["href", "tel:+74952080778", 1, "mobile"], [1, "address"], [1, "address__icon"], ["name", "iconPinAddress"], [1, "address__description"], [1, "underline-gradient-left"], [3, "items", "opened", "itemSelected"], [1, "menu-container"], [1, "menu-panel", 3, "click"], ["name", "iconLeftMenuBurger", 1, "icon"], [1, "menu-text"], [4, "ngIf"], [3, "component"]],

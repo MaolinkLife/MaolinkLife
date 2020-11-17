@@ -17602,34 +17602,11 @@ class MobileHeaderComponent {
         this.activatedRoute = activatedRoute;
         this.itemClick = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
         this.component$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](null);
-        // public dropdownList = [
-        //     {
-        //         caption: 'ПЕРЕТЯЖКА МЯГКОЙ МЕБЕЛИ',
-        //         routerLink: '/',
-        //         active: false,
-        //         children: [
-        //             {
-        //                 caption: 'Перетяжка прямых диванов',
-        //                 routerLink: '/',
-        //                 active: false,
-        //             },
-        //             {
-        //                 caption: 'Перетяжка угловых диванов',
-        //                 routerLink: '/',
-        //                 active: false,
-        //             }
-        //         ]
-        //     }
-        // ];
         this.opened = false;
         this.menuItems$ = this.navigationsService.sidebarMenuItems$;
     }
     ngOnInit() {
-        this.menuItems$.subscribe(list => {
-        });
         this.component$ = this.navigationsService.dynamicComponentView$;
-    }
-    ngOnChanges(changes) {
     }
     menuClick(element, id) {
         element.classList.toggle('active');
@@ -17655,10 +17632,6 @@ class MobileHeaderComponent {
      * @param item - текущий элемент меню, по которому происходит проверка, необходимо или перейти или раскрыть список
      */
     menuItemClick(value) {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
         value.items.forEach((link) => link.active = false);
         value.item.active = true;
         if (!value.item.children) {
@@ -17666,6 +17639,10 @@ class MobileHeaderComponent {
             this.opened = !this.opened;
         }
         else {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            });
             value.item.children.forEach((link) => link.active = false);
             if (document.body.offsetWidth <= 768) {
                 value.item.active = true;
@@ -17679,7 +17656,7 @@ class MobileHeaderComponent {
     }
 }
 MobileHeaderComponent.ɵfac = function MobileHeaderComponent_Factory(t) { return new (t || MobileHeaderComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_modules_navigations_navigations_service__WEBPACK_IMPORTED_MODULE_4__["NavigationsService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"])); };
-MobileHeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MobileHeaderComponent, selectors: [["app-mobile-header"]], outputs: { itemClick: "itemClick" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 27, vars: 7, consts: [[1, "box"], [1, "fixed-container"], [1, "header-panel"], [1, "title-block"], [3, "click"], ["type", "MOBILE"], [1, "underline-text"], [1, "contact-block"], ["href", "tel:+74952080778", 1, "mobile"], [1, "address"], [1, "address__icon"], ["name", "iconPinAddress"], [1, "address__description"], [1, "underline-gradient-left"], [3, "items", "opened", "itemSelected"], [1, "menu-container"], [1, "menu-panel", 3, "click"], ["name", "iconLeftMenuBurger", 1, "icon"], [1, "menu-text"], [4, "ngIf"], [3, "component"]], template: function MobileHeaderComponent_Template(rf, ctx) { if (rf & 1) {
+MobileHeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MobileHeaderComponent, selectors: [["app-mobile-header"]], outputs: { itemClick: "itemClick" }, decls: 27, vars: 7, consts: [[1, "box"], [1, "fixed-container"], [1, "header-panel"], [1, "title-block"], [3, "click"], ["type", "MOBILE"], [1, "underline-text"], [1, "contact-block"], ["href", "tel:+74952080778", 1, "mobile"], [1, "address"], [1, "address__icon"], ["name", "iconPinAddress"], [1, "address__description"], [1, "underline-gradient-left"], [3, "items", "opened", "itemSelected"], [1, "menu-container"], [1, "menu-panel", 3, "click"], ["name", "iconLeftMenuBurger", 1, "icon"], [1, "menu-text"], [4, "ngIf"], [3, "component"]], template: function MobileHeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
