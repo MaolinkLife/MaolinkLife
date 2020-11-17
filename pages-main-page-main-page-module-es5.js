@@ -28782,11 +28782,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           if (!value.item.children) {
             this.router.navigateByUrl(value.item.routerPath);
             this.opened = !this.opened;
-          } else {
             window.scrollTo({
               top: 0,
               behavior: 'smooth'
             });
+          } else {
             value.item.children.forEach(function (link) {
               return link.active = false;
             });
@@ -28797,6 +28797,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               value.item.children[0].active = true;
               this.router.navigateByUrl(value.item.children[0].routerPath);
               this.opened = !this.opened;
+              window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+              });
             }
           }
         }

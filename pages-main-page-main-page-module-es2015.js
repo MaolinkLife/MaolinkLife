@@ -17637,12 +17637,12 @@ class MobileHeaderComponent {
         if (!value.item.children) {
             this.router.navigateByUrl(value.item.routerPath);
             this.opened = !this.opened;
-        }
-        else {
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth',
             });
+        }
+        else {
             value.item.children.forEach((link) => link.active = false);
             if (document.body.offsetWidth <= 768) {
                 value.item.active = true;
@@ -17651,6 +17651,10 @@ class MobileHeaderComponent {
                 value.item.children[0].active = true;
                 this.router.navigateByUrl(value.item.children[0].routerPath);
                 this.opened = !this.opened;
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth',
+                });
             }
         }
     }
