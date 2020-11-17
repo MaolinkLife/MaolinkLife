@@ -28814,7 +28814,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               return link.active = false;
             });
 
-            if (document.body.offsetWidth <= 414) {
+            if (document.body.offsetWidth <= 768) {
               value.item.active = true;
             } else {
               value.item.children[0].active = true;

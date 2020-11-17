@@ -17667,7 +17667,7 @@ class MobileHeaderComponent {
         }
         else {
             value.item.children.forEach((link) => link.active = false);
-            if (document.body.offsetWidth <= 414) {
+            if (document.body.offsetWidth <= 768) {
                 value.item.active = true;
             }
             else {
