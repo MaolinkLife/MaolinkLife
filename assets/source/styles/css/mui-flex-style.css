@@ -1,0 +1,500 @@
+@import url('./mui-library/mui-flex-directions.css');
+
+/* Направляющие */
+
+@import url('./mui-library/mui-flex-text.css');
+
+/* Текстовые */
+
+@import url('./mui-library/mui-flex-custom.css');
+
+/* Специальные */
+
+@import url('./mui-library/mui-flex-color.css');
+
+/* Красители */
+
+@import url('./mui-library/mui-flex-format.css');
+
+/* Форматирующие */
+
+@import url('./mui-library/mui-flex-decorations.css');
+
+/* Декораторы */
+
+.mui-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto Regular';
+    text-decoration: none;
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ffdd2d;
+    transition: .2s ease-in-out;
+}
+
+.mui-button:hover {
+    transition: .2s ease-in-out;
+    background-color: #fcc521;
+}
+
+[mui-slide-panel-right] {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    [mui-slide-panel-right] {
+        height: 100%;
+        max-width: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    [mui-slide-panel-right] {
+        height: 100%;
+        max-width: 100px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+    [mui-slide-panel-right] {
+        height: 100%;
+        max-width: 100px;
+    }
+}
+
+@media screen and (min-width: 1216px) and (max-width: 1407px) {
+    [mui-slide-panel-right] {
+        height: 100%;
+        max-width: 100px;
+    }
+}
+
+@media screen and (min-width: 1408px) {
+    [mui-slide-panel-right] {
+        height: 100%;
+        max-width: 100px;
+    }
+}
+
+@media screen and (min-width: 1408px) {
+    [mui-slide-panel-right] {
+        height: 100%;
+        max-width: 100px;
+    }
+}
+
+[mui-slide-panel-right="darken"] {
+    background-color: #050223;
+    color: #fff;
+}
+
+[mui-number="large"] {
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+[mui-text] {
+    font-family: 'Quicksand', sans-serif;
+}
+
+[mui-text="small"] {
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+[mui-text="extra-small"] {
+    font-size: 13px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* LISTS */
+
+[mui-list] {
+    display: flex;
+    flex-direction: column;
+}
+
+[mui-list][option="noMargin"] {
+    margin: 0;
+}
+
+[mui-list]>* {
+    margin: 0 !important;
+    padding: 5px 18px !important;
+}
+
+
+/*
+  HEADER
+*/
+
+header[mui-flex-header] {
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header[mui-flex-header][size="small"] {
+    max-height: 150px;
+    height: 100%;
+}
+
+header[mui-flex-header][size="normal"] {
+    max-height: 300px;
+    height: 100%;
+}
+
+header[mui-flex-header][size="large"] {
+    max-height: 600px;
+    height: 100%;
+}
+
+
+/* MODAL */
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    width: 600px;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: .8s;
+    animation-name: animatetop;
+    animation-duration: .8s;
+    border-radius: 6px;
+    z-index: 1000;
+    transition: opacity, .3s ease-in-out;
+}
+
+.modal-content.single {
+    padding: 40px;
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -50px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -50px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #616871;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 8px 16px;
+    background-color: #e7e8ea;
+    color: #616871;
+    border-radius: 6px 6px 0 0;
+}
+
+.modal-body {
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-footer {
+    padding: 8px 16px;
+    background-color: #e7e8ea;
+    color: #616871;
+    border-radius: 0 0 6px 6px;
+}
+
+
+/* SWITCHER */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #ffdd2d;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #ffdd2d;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/* TOOLTIPS */
+
+
+/* Tooltip container */
+
+.tooltip {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+    /* If you want dots under the hoverable text */
+}
+
+
+/* Tooltip text */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1000;
+    bottom: 125%;
+    left: 12px;
+    margin-left: -150px;
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+/* Tooltip arrow */
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* LOADER */
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #333;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+
+/* Safari */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* PAGES */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #ffdd2d;
+    color: #333;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.mui-text_h1 {
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: -.3px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Roboto Regular';
+}
+
+.mui-text_h6 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    letter-spacing: -.3px;
+    font-style: normal;
+    font-family: 'Roboto Regular';
+}
+
+.mui-text_bold {
+    font-weight: bold;
+}
+
+.mui-text_body-l {
+    font-size: 17px;
+    line-height: 24px;
+    font-style: normal;
+    font-family: 'Roboto Regular';
+}
+
+.mui-text_body-s {
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 20px;
+    font-family: 'Roboto Regular';
+}

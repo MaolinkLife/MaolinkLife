@@ -1,0 +1,205 @@
+[{
+    "name": "Раэлтар",
+    "heroType": "Дикий охотник",
+    "id": "WILD_HUNTER",
+    "image": {
+      "url": "assets/heroes/wildhunter/BTNForestGuardiansHeroWildHunter.jpg",
+      "position": "center",
+      "size": "cover"
+    },
+    "unitType": "Герой - Воин ближнего боя.",
+    "defaultChar": {
+      "name": "Сила",
+      "color": "text-red"
+    },
+    "defaultDamage": "26 - 36",
+    "str": {
+      "name": "Сила",
+      "base": 22,
+      "index": 2.20
+    },
+    "agi": {
+      "name": "Ловкость",
+      "base": 17,
+      "index": 1.80
+    },
+    "int": {
+      "name": "Интеллект",
+      "base": 14,
+      "index": 2.80
+    },
+    "hotkey": "Z",
+    "armor": 3.38,
+    "speedMovement": 290,
+    "abilities": [{
+        "name": "Бросок топора",
+        "abilityKey": "Q",
+        "description": {
+          "active": "Герой бросает в противника топор, который наносит 80 / 130 / 180 ед. урона и замедляет передвижения противника на 50 / 60 / 70% на 3 сек.",
+          "passive": ""
+        },
+        "image": {
+          "url": "assets/heroes/wildhunter/spells/BTNForestGuardiansThrowingAxe.jpg",
+          "position": "center",
+          "size": "cover"
+        },
+        "data": {
+          "actionTime": "3 сек.",
+          "damageType": "Физический",
+          "cooldown": "10 / 9 / 8 сек.",
+          "needMana": "125"
+        }
+      },
+      {
+        "name": "Дикость",
+        "abilityKey": "W",
+        "description": {
+          "active": "при следующей атаке, герой дополнительно нанесёт 100% / 120 / 140% урона.",
+          "passive": ""
+        },
+        "image": {
+          "url": "",
+          "position": "center",
+          "size": "cover"
+        },
+        "data": {
+          "actionTime": "14 сек.",
+          "damageType": "Физический",
+          "needMana": "45 / 55 / 65",
+          "cooldown": "7 сек."
+        }
+      },
+      {
+        "name": "Свирепый рык",
+        "abilityKey": "E",
+        "description": {
+          "active": "издаёт свирепый рык, наносящий окружающим врагам по 80/120/170 ед. урона. Кроме того свирепый рык увеличивает броню героя на 30 / 35 / 40% на 6 сек.",
+          "passive": "при каждой атаке героя накапливается 1 заряд ярости, который увеличивает скорость атаки героя на 10%. Максимальное количество зарядов 6. Время действия каждого заряда 3 сек."
+        },
+        "image": {
+          "url": "/assets/heroes/wildhunter/spells/BTNForestGuardiansFerociousRoar.jpg",
+          "position": "center",
+          "size": "cover"
+        },
+        "data": {
+          "damageType": "Магический",
+          "needMana": "100",
+          "cooldown": "10 сек."
+        }
+      },
+      {
+        "name": "Чутье зверя",
+        "abilityKey": "R",
+        "description": {
+          "active": "",
+          "passive": "увеличение скорости передвижения на 75% и атаки героя на 45% если поблизости есть вражеские герои у которых осталось меньше 50% здоровья."
+        },
+        "image": {
+          "url": "assets/heroes/wildhunter/spells/BTNForestGuardiansAnimalInstinct.jpg",
+          "position": "center",
+          "size": "cover"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Элеонора",
+    "heroType": "Ткачиха судьбы",
+    "id": "WEAVER_OF_FATE",
+    "image": {
+      "url": "assets/heroes/weaveroffate/BTNCreepsHeroWeaverOfFate.png",
+      "position": "center",
+      "size": "cover"
+    },
+    "unitType": "Герой - Воин ближнего боя.",
+    "defaultChar": {
+      "name": "Ловкость",
+      "color": "text-green"
+    },
+    "defaultDamage": "30 - 34",
+    "str": {
+      "name": "Сила",
+      "base": 18,
+      "index": 2.00
+    },
+    "agi": {
+      "name": "Ловкость",
+      "base": 19,
+      "index": 2.20
+    },
+    "int": {
+      "name": "Интеллект",
+      "base": 18,
+      "index": 2.10
+    },
+    "hotkey": "X",
+    "armor": 3.66,
+    "speedMovement": 305,
+    "abilities": [{
+        "name": "Ядовитое жало",
+        "abilityKey": "Q",
+        "description": {
+          "active": "совершает ядовитый плевок из своего жала, нанося противнику 75 / 115 / 165 ед урона и по 18 / 26 / 34 ед магического урона в течении 5 сек.",
+          "passive": ""
+        },
+        "image": {
+          "url": "assets/heroes/weaveroffate/spells/BTNVenomousGale.png",
+          "position": "center",
+          "size": "cover"
+        },
+        "data": {
+          "actionTime": "5 сек.",
+          "damageType": "Магический",
+          "needMana": "95 / 105 / 115",
+          "cooldown": "12 сек."
+        }
+      },
+      {
+        "name": "Отравленная чешуя",
+        "abilityKey": "W",
+        "description": {
+          "active": "",
+          "passive": "тело Элеоноры покрывает ядовитая слизь. Атакующие её враги получают по 25 / 45 / 65 ед. урона в секунду в течении 5 / 8 / 10 сек."
+        },
+        "image": {
+          "url": "assets/heroes/weaveroffate/spells/BTNPoisonedScales.png",
+          "position": "center",
+          "size": "cover"
+        },
+        "data": {}
+      },
+      {
+        "name": "Дети Королевы",
+        "abilityKey": "E",
+        "description": {
+          "active": "",
+          "passive": "каждые 12 / 10 / 8 сек. призывает свое дитя на помощь. Дети Элионоры обладают 300 / 500 / 900 ед. здоровья и наносят по 12-18 / 24-36 / 38-47 физического урона. Одновременно у Королевы может быть 3 / 6 / 9 детенышей. "
+        },
+        "image": {
+          "url": "assets/heroes/weaveroffate/spells/BTNQueenOffspring.png",
+          "position": "center",
+          "size": "cover"
+        },
+        "data": {}
+      },
+      {
+        "name": "Нити жизни",
+        "abilityKey": "R",
+        "description": {
+          "active": "находясь на грани жизни и смерти Элеонора выбирает цель из которой вытягивает жизнь нанося 450 + 75% от недостающего здоровья Элеоноры, при этом восстанавливая себе 150% здоровья от нанесённого урона.",
+          "passive": "атаки Элионоры становятся отправленными. Атакованные противники получают дополнительно по 12 магического урона в течении 3 сек."
+        },
+        "image": {
+          "url": "assets/heroes/weaveroffate/spells/BTNLifeThreads.png",
+          "position": "center",
+          "size": "cover"
+        },
+        "data": {
+          "damageType": "Магический",
+          "needMana": "275",
+          "cooldown": "300 сек."
+        }
+      }
+    ]
+  }
+]

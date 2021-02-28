@@ -1,0 +1,73 @@
+<div mui-flex-direction="vertical" style="width: 100%; height: 100%; padding: 10px; background: black; color: #fff;">
+    <div mui-flex-direction="horizontal" style="width: 100%;">
+
+        <div mui-flex-ditection="vertical" style="width: 380px;">
+            <div mui-flex-direction mui-text-size="large">
+                Directory
+            </div>
+            <div mui-flex-direction="vertical">
+                <div *ngFor="let file of files">
+                    <div *ngIf="file.IsDir" (click)="onClick($event)" mui-table-list mui-flex-direction="horizontal" class="between middle hovered" style="padding: 10px 0px; font-size: 17px;">
+                        <div mui-flex-dirction mui-icon-size="normal" [ngStyle]="setMaskBackGroundWithColor(getImage(file.Extension), 'center', 'cover', '#fff')">
+                        </div>
+                        <div mui-flex-dirction style="margin-left: -5px;">
+                            {{file.Name}}
+                        </div>
+                        <div mui-flex-dirction>
+                            {{file.Extension}}
+                        </div>
+                        <div mui-flex-dirction>
+                            {{getSize(file.Size)}}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div mui-flex-ditection="vertical" style="width: 100%;">
+            <div mui-flex-direction="vertical" mui-card-box style="max-width: 600px; background: black; width: 100%; border: none;">
+                <div mui-flex-direction="vertical" mui-text-color="white">
+                    <div mui-flex-direction="horizontal" class="between text-bold middle">
+                        <div mui-icon-size="normal"></div>
+                        <div mui-flex-direction style="margin-left: -5px;">
+                            Название
+                        </div>
+                        <div mui-flex-direction style="padding: 5px;">
+                            Тип
+                        </div>
+                        <div mui-flex-direction style="padding: 5px;">
+                            Дата создания
+                        </div>
+                        <div mui-flex-direction style="padding: 5px;">
+                            Размер
+                        </div>
+                        <div mui-icon-size="normal"></div>
+                    </div>
+                    <div (click)="onClick($event)" mui-table-list mui-flex-direction="horizontal" class="between middle hovered" *ngFor="let file of files" style="padding: 10px 0px; font-size: 17px;">
+                        <div mui-flex-dirction mui-icon-size="normal" [ngStyle]="setMaskBackGroundWithColor(getImage(file.Extension), 'center', 'cover', '#fff')">
+                        </div>
+                        <div mui-flex-dirction style="margin-left: -5px;">
+                            {{file.Name}}
+                        </div>
+                        <div mui-flex-dirction>
+                            {{file.Extension}}
+                        </div>
+                        <div mui-flex-dirction>
+                            {{file.Date}}
+                        </div>
+                        <div mui-flex-dirction>
+                            {{getSize(file.Size)}}
+                        </div>
+                        <div mui-flex-dirction *ngIf="!file.IsDir" mui-icon-size="normal" [ngStyle]="setMaskBackGroundWithColor('../../assets/png/download.png', 'center', 'cover', '#fff')">
+                        </div>
+                        <div *ngIf="file.IsDir" mui-icon-size="normal"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>

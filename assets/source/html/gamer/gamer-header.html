@@ -1,0 +1,100 @@
+<header>
+<nav class="content-center">
+  <div class="horizontal middle w-100 around">
+      <figure class="image-128" [ngStyle]="settings.setImageBackground('assets/logo.png', 'center', 'cover')">
+        <a class="full" [routerLink]="['/gamer/home']"></a>
+      </figure>
+
+      <div class="horizontal middle">
+          <a class="text-first text-hover-blue" [routerLink]="[]">
+              Игры недели
+          </a>
+          <a class="text-first text-hover-green" [routerLink]="[]">
+              Новинки игр
+          </a>
+          <a class="text-first text-hover-green" [routerLink]="[]">
+              Обзоры редакции
+          </a>
+          <a class="text-first text-hover-yellow" [routerLink]="[]">
+              Киберспорт
+          </a>
+          <a class="text-first text-hover-green" [routerLink]="[]">
+              Рейтинги
+          </a>
+          <a class="text-first text-hover-violet" [routerLink]="[]">
+              Новости
+          </a>
+      </div>
+      <div class="icon-panel">
+          <div *ngFor="let icon of icons" class="icon icon-extra-small" [ngStyle]="settings.setMaskBackground(icon.image.url, icon.image.position, icon.image.size, icon.image.color)"><a  [routerLink]="" class="icon"></a>  
+          </div>
+      </div>
+      <div class="horizontal middle">
+          <div class="icon-panel">
+              <div class="icon icon-extra-small static">
+                  <img class="invert-icon" width="24" height="24" src="assets/icon/64px/ic-search-outline-64x64.png">
+              </div>
+          </div>
+          <button class="button child-mr-15">
+              <div class="icon-panel">
+                  <div class="icon icon-32" [ngStyle]="settings.setMaskBackground('assets/icon/48px/ic-avatar-full-48x48.png', 'top', 'cover', '#D1D2D6')">
+                  </div>
+              </div>
+              <a>Войти</a>
+          </button>
+        </div>
+    </div>
+</nav>
+
+<div class="line content-center"></div>
+
+<div class="horizontal middle w-100 start around content-center">
+    <div class="vertical top-right">
+        <small class="text-dark">1390</small>
+        <a class="text-second text-hover-red" routerLink="/gamer/games">Шутеры</a>
+    </div>
+    <div class="vertical top-right">
+        <small class="text-dark">1287</small>
+        <a class="text-second text-hover-red">Симуляторы</a>
+    </div>
+    <div class="vertical top-right">
+        <small class="text-dark">823</small>
+        <a class="text-second text-hover-red">Спортивные</a>
+    </div>
+    <div class="vertical top-right">
+        <small class="text-dark">635</small>
+        <a class="text-second text-hover-red">Файтинги</a>
+    </div>
+    <div class="vertical top-right">
+        <small class="text-dark">684</small>
+        <a class="text-second text-hover-red">Карточные</a>
+    </div>
+    <div class="vertical top-right">
+        <small class="text-dark">480</small>
+        <a class="text-second text-hover-red">MMO</a>
+    </div>
+    <div class="vertical top-right">
+        <small class="text-dark">466</small>
+        <a class="text-second text-hover-red">RPG</a>
+    </div>
+    <div class="vertical top-right">
+        <small class="text-dark">402</small>
+        <a class="text-second text-hover-red">Инди</a>
+    </div>
+    <div class="vertical top-right">
+        <small class="text-dark">1023</small>
+        <a class="text-second text-hover-red">Другие</a>
+    </div>
+</div>
+</header>
+
+<div class="horizontal w-100 around middle" style="height: 70px; background: #000; margin: 20px 0;">
+<div class="horizontal child-ml-10 child-mr-10 middle" style="margin: auto; width: 1178px;">
+  <div class="horizontal middle center" style="width: 59px; height: 46px; background-color: #303240; border-radius: 4px;padding: 5px;">
+    <a style="width: 24px; height: 24px;">
+      <div class="icon icon-extra-small" [ngStyle]="settings.setMaskBackground('assets/icon/64px/ic-home-2-full-64x64.png', 'center', 'cover', '#D31140')"></div>
+    </a>
+  </div>
+  <a [routerLink]="['/']"></a>
+</div>
+</div>

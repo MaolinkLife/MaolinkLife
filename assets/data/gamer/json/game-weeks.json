@@ -1,0 +1,56 @@
+[{
+        "name": "Playerunknown's battlegrounds",
+        "count": 8.2,
+        "image": {
+            "path": "../../../../assets/data/gamer/images/games-week/PUBG.jpg",
+            "settings": {
+                "size": "cover",
+                "position": "center"
+            }
+        }
+    },
+    {
+        "name": "Counter-Strike: Global Offensive",
+        "count": 9.7,
+        "image": {
+            "path": "../../../../assets/data/gamer/images/games-week/Counter-Strike-Global-Offensive.jpg",
+            "settings": {
+                "size": "cover",
+                "position": "right"
+            }
+        }
+    },
+    {
+        "name": "Tom Clancy's Rainbow Six Siege",
+        "count": 9.6,
+        "image": {
+            "path": "../../../../assets/data/gamer/images/games-week/rss.jpg",
+            "settings": {
+                "size": "cover",
+                "position": "center"
+            }
+        }
+    },
+    {
+        "name": "Grand Theft Auto 5",
+        "count": 9.8,
+        "image": {
+            "path": "../../../../assets/data/gamer/images/games-week/GTA5.jpg",
+            "settings": {
+                "size": "cover",
+                "position": "center"
+            }
+        }
+    },
+    {
+        "name": "Warframe",
+        "count": 9.6,
+        "image": {
+            "path": "../../../../assets/data/gamer/images/games-week/Warframe.jpg",
+            "settings": {
+                "size": "cover",
+                "position": "right"
+            }
+        }
+    }
+]

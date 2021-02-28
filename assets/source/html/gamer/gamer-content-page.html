@@ -1,0 +1,29 @@
+<div class="horizontal w-100 to-left" style="margin-bottom: 20px;">
+    <div class="line-row">
+        <span class="text-third line-item"> {{ data.name }} </span>
+        <a
+            class="text-first text-green line-item link"
+            [routerLink]="['/games', data.url]"
+            >Смотреть все</a
+        >
+    </div>
+</div>
+
+<div class="horizontal between w-100">
+    <div
+        *ngFor="let game of games"
+        class="card medium"
+        [ngStyle]="settings.setImageBackground(game.image.url, game.image.position, game.image.size)"
+    >
+        <div class="card-content">
+            <div class="item-right">
+                <div class="mark horizontal center-all">
+                    <span class="text-red">{{ game.count }}</span>
+                </div>
+            </div>
+            <div class="text-description">
+                {{ game.name }}
+            </div>
+        </div>
+    </div>
+</div>

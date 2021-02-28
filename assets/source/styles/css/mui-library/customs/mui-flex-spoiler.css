@@ -1,0 +1,97 @@
+/* SPOILER */
+
+div[mui-flex-spoiler-box] {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+div[mui-flex-spoiler-title] {
+  font-weight: 400;
+  font-size: 13px;
+  font-family: buiText, Roboto, sans-serif;
+  line-height: 24px;
+  display: flex;
+  padding: 12px 20px;
+  padding-right: 12px;
+  cursor: pointer;
+  height: 56px;
+  border: 1px solid #cbcfd3;
+  color: #333;
+  box-sizing: border-box;
+  transition-duration: .3s;
+  transition-property: background;
+  transition-timing-function: ease-in-out;
+  border-radius: 5px 5px 0px 0px;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin: 0;
+}
+
+div[mui-flex-spoiler-title]:hover,
+div[mui-flex-spoiler-title].active {
+  background: rgba(51, 51, 51, 0.24);
+  transition-property: background;
+  transition-timing-function: ease-in-out;
+  transition-duration: .3s;
+}
+
+div[mui-flex-spoiler-title][mui-color="tinkoff_primary"]:hover,
+div[mui-flex-spoiler-title][mui-color="tinkoff_primary"].active {
+  /* background: rgba(51, 51, 51, 0.24); */
+  background: #ffdd2d;
+  transition-property: background;
+  transition-timing-function: ease-in-out;
+  transition-duration: .3s;
+}
+
+div[mui-flex-spoiler-content] {
+  opacity: 1;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: Roboto, sans-serif;
+  line-height: 24px;
+  padding: 20px;
+  word-wrap: break-word;
+  background: #fff;
+  margin: 0;
+  padding: 16px 10px;
+  border: 1px solid #cbcfd3;
+  border-top: none;
+  border-radius: 0px 0px 4px 4px;
+}
+
+div[mui-flex-spoiler-title]>.title {
+  margin-right: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  max-height: 24px;
+}
+
+
+
+/* div[mui-flex-spoiler-title]>.mui-flex-icon {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  color: #959ba4;
+  vertical-align: middle;
+  box-sizing: content-box;
+} */
+
+/* div[mui-spoiler-title]>.arrow>.icon {
+  height: 100%;
+  width: 100%;
+  transition-duration: .3s;
+  background-image: url('http://insite.tinkoff.ru/departments/trading/procedures/procedure_underground/arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+/* div[mui-spoiler-title]>.arrow>.icon.active-spoiler {
+  transition-duration: .3s;
+  transform: rotate(180deg);
+} */

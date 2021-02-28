@@ -1,0 +1,100 @@
+/* SELECT */
+
+input[mui-input][type="select"] {
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+div[mui-input-group]>div[mui-icon] {
+    position: absolute;
+    top: 0;
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    right: 12px;
+    font-weight: bold;
+}
+
+div[mui-input-group="select"] {
+    cursor: pointer;
+}
+
+div[mui-input-group="select"]>label,
+div[mui-input-group="select"]>label>span {
+    cursor: pointer;
+}
+
+div[mui-input-group]>div[mui-icon]:not(.rotate) {
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+ul[mui-list] {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+div[mui-select]>ul[mui-list] {
+    max-height: 220px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+div[mui-select]:not(.hidden) {
+    /* position: relative; */
+    top: 62px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+ul[mui-list] {
+    display: flex;
+    flex-direction: column;
+}
+
+div[mui-select] {
+    position: absolute;
+    top: 62px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    width: 481px;
+    z-index: 100;
+}
+
+div[mui-select]>ul>li[mui-item] {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 0;
+    transition-property: background-color;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+div[mui-select]>ul>li[mui-item]:hover {
+    background-color: #ECF1F7;
+    transition-property: background-color;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+}
+
+div[mui-select]>ul>li[mui-item]:hover:first-child {
+    border-radius: 4px 4px 0px 0px;
+}
+
+div[mui-select]>ul>li[mui-item]:hover:last-child {
+    border-radius: 0px 0px 4px 4px;
+}

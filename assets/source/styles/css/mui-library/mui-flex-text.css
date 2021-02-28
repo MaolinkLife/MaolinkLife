@@ -1,0 +1,116 @@
+@import url('../fonts_styles/HelveticaNeueFont.css');
+
+/* TEXT */
+
+
+[mui-text].color-summary-text,
+[mui-number].color-summary-text {
+  color: #889197;
+}
+
+
+[mui-flex-text] {
+  font-family: 'Arial';
+  font-size: 100%;
+  font-style: normal;
+}
+
+[mui-flex-text].padding {
+  padding: 10px 0;
+}
+
+/* SIZE */
+
+[mui-flex-text="ultra-small"] {
+  font-size: 11px;
+  line-height: 14px;
+}
+
+[mui-flex-text="extra-small"] {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+[mui-flex-text="small"] {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+[mui-flex-text="normal"] {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+[mui-flex-text="medium"] {
+  font-size: 21px;
+  line-height: 24px;
+}
+
+[mui-flex-text="large"] {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+[mui-flex-text="extra-large"] {
+  font-size: 28px;
+  line-height: 34px;
+}
+
+[mui-flex-text="ultra-large"] {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+[mui-flex-text="mega"] {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+/* FAMILY */
+
+[mui-flex-text][family="Quicksand"] {
+  font-family: 'Quicksand', sans-serif;
+}
+
+[mui-flex-text][family="Roboto"] {
+  font-family: 'Roboto';
+}
+
+[mui-flex-text][family="Roboto"].light {
+  font-family: 'Roboto Light';
+}
+
+
+
+
+[mui-flex-text][family="HelveticaNeue"] {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+}
+
+[mui-flex-text][family="HelveticaNeue"].medium {
+  font-family: 'HelveticaNeueCyr Medium';
+  font-style: normal;
+}
+
+[mui-flex-text][family="HelveticaNeue"].light {
+  font-family: 'HelveticaNeueCyr Light';
+  font-style: normal;
+}
+
+[mui-flex-text][family="HelveticaNeue"].bold {
+  font-family: 'HelveticaNeueCyr Bold';
+  font-style: normal;
+}
+
+
+
+.text-bold {
+  font-weight: bold;
+}
+
+
+a[mui-flex-text] {
+  text-decoration: none;
+  color: inherit;
+}

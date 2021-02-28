@@ -1,0 +1,45 @@
+<div id="" class="card large">
+    <div
+        class="card-background"
+        [ngStyle]="settings.setImageBackground(game.image.url, game.image.position, game.image.size)"
+    ></div>
+    <div class="card-content">
+        <div
+            class="card medium"
+            [ngStyle]="settings.setImageBackground(game.image.url, game.image.position, game.image.size)"
+        >
+            <div class="card-content">
+                <div class="item-right">
+                    <div class="mark horizontal center-all">
+                        <div class="text-red">{{ game.count }}</div>
+                    </div>
+                </div>
+                <div class="text-description">
+                    {{ game.name }}
+                </div>
+            </div>
+        </div>
+        <div class="text-description">
+            <div class="title">
+                {{ game.description.title }}
+            </div>
+            <div class="description">
+                {{ game.description.text }}
+            </div>
+            <div class="small-line"></div>
+
+            <div class="item-left items-center">
+                <div
+                    class="avatar-image"
+                    [ngStyle]="settings.setImageBackground(game.assignee.avatar.url, game.assignee.avatar.position, game.assignee.avatar.size)"
+                ></div>
+                <div>
+                    <div class="subtitle">{{ game.assignee.name }}</div>
+                    <div class="text-extra-small">
+                        {{ game.assignee.workPosition }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+[{
+        "title": "Топ 20 самых переоценненных игр на ПК",
+        "image": {
+            "path": "../../../../assets/data/gamer/images/ratings/game1.jpeg",
+            "size": "cover",
+            "position": "center"
+        },
+        "routerPath": []
+    },
+    {
+        "title": "12 культовых игр, которые перевернули историю",
+        "image": {
+            "path": "../../../../assets/data/gamer/images/ratings/game3.jpg",
+            "size": "cover",
+            "position": "center"
+        },
+        "routerPath": []
+    },
+    {
+        "title": "Десятка лучших игр про космос",
+        "image": {
+            "path": "../../../../assets/data/gamer/images/ratings/game2.jpg",
+            "size": "cover",
+            "position": "center"
+        },
+        "routerPath": []
+    },
+    {
+        "title": "10 лучших гоночных игр 2010-2019 годов",
+        "image": {
+            "path": "../../../../assets/data/gamer/images/ratings/game4.jpg",
+            "size": "cover",
+            "position": "center"
+        },
+        "routerPath": []
+    }
+]

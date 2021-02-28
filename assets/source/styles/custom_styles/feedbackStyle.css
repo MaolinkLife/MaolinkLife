@@ -1,0 +1,14 @@
+.feedback-button {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #fddd2d;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 13px;
+    border: 0.2px solid #616871;
+}
+
+.feedback-button:hover {
+    background-color: #ffcd33;
+}

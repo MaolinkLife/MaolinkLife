@@ -1,0 +1,22 @@
+:root {
+    --color1: #fc8681;
+    --color2: #25c5ff;
+    --color3: #de1d69;
+    --color4: #00dad2;
+    --color5: #2602ff;
+    --color6: #daac60;
+    --color7: #f422c6;
+    --color8: #b931ff;
+    --color-tag-1: #811f1c;
+    --color-tag-2: #a42372;
+    --color-tag-3: #eb222a;
+    --color-tag-4: #a41f1c;
+    --tag-shadow-color: #1e2045;
+    --color-attr-1: #a6e226;
+    --color-attr-2: #88e22e;
+    --color-html-value-1: #e6db74;
+    --color-html-value-2: #e6cc46;
+    --color-monokai-background: #1e1f1c;
+    --color-html-element-and-text: #bbbbbb;
+    --icons-: #3B71FD;
+}

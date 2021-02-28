@@ -1,0 +1,68 @@
+/* CHECKBOX */
+
+[mui-flex-checkbox] {
+    transition-property: background;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    background-color: #F2F5F8;
+    box-sizing: border-box;
+}
+
+[mui-flex-checkbox].active {
+    transition-property: background;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    background-color: #FFDD2D;
+    /* border: 1px solid #E7E8EA; */
+    box-sizing: border-box;
+}
+
+[mui-flex-icon] {
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+[mui-flex-icon][size="18"] {
+    min-width: 18px !important;
+    min-height: 18px !important;
+    max-height: 18px !important;
+    max-width: 18px !important;
+}
+
+[mui-flex-icon]>img::selection {
+    background: transparent;
+}
+
+[mui-flex-icon][size="24"] {
+    min-width: 24px !important;
+    min-height: 24px !important;
+    max-height: 24px !important;
+    max-width: 24px !important;
+}
+
+[mui-flex-icon]>img {
+    transition-property: display;
+    transition-timing-function: ease;
+    transition-duration: .2s;
+    position: absolute;
+    margin: 0;
+}
+
+[mui-flex-icon][type="checkbox"][size="24"]>img {
+    min-width: 18px !important;
+    min-height: 18px !important;
+    max-height: 18px !important;
+    max-width: 18px !important;
+}
+
+[mui-flex-icon][type="checkbox"][size="18"]>img {
+    min-width: 12px !important;
+    min-height: 12px !important;
+    max-height: 12px !important;
+    max-width: 12px !important;
+}

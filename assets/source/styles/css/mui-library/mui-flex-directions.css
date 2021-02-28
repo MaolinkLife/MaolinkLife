@@ -1,0 +1,69 @@
+/*
+// DIRECTIONS 
+//
+// MUI-FLEX-DIRECTIONS
+//
+// НАПРАВЛЯЮЩИЕ 
+*/
+
+
+
+
+[mui-flex-direction] {
+  display: flex;
+}
+
+[mui-flex-direction].wrapper {
+  flex-wrap: wrap;
+}
+
+[mui-flex-direction="vertical"] {
+  flex-direction: column !important;
+}
+
+[mui-flex-direction="horizontal"] {
+  flex-direction: row !important;
+}
+
+[mui-flex-direction="horizontal"][with-margin]>* {
+  margin: 0px 5px;
+}
+
+[mui-flex-direction="vertical"][with-margin]>* {
+  margin: 5px 0px;
+}
+
+[mui-flex-direction="vertical"].between,
+[mui-flex-direction="horizontal"].between {
+  justify-content: space-between !important;
+}
+
+[mui-flex-direction="vertical"].around,
+[mui-flex-direction="horizontal"].around {
+  justify-content: space-around !important;
+}
+
+[mui-flex-direction="vertical"].center,
+[mui-flex-direction="horizontal"].middle {
+  align-items: center !important;
+}
+
+[mui-flex-direction="vertical"].middle,
+[mui-flex-direction="horizontal"].center {
+  justify-content: center !important;
+}
+
+
+[mui-flex-direction="horizontal"].bottom {
+  align-items: flex-end !important;
+}
+
+[mui-flex-direction="vertical"].bottom {
+  justify-content: flex-end !important;
+}
+
+[mui-flex-direction="vertical"].baseline,
+[mui-flex-direction="horizontal"].baseline {
+  align-items: baseline !important;
+
+}

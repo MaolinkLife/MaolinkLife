@@ -1,0 +1,188 @@
+
+
+/* CODE */
+
+
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="symbol"] {
+  color: #ACBBBB;
+}
+
+
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="text"] {
+  color: #e8e8e8;
+}
+
+
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="attr"] {
+  color: #99e22e;
+}
+
+
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="value"],
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="string"] {
+  color: #e6db74;
+}
+
+
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="argument"] {
+  color: #fd771d;
+}
+
+
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="operator"],
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="tag"] {
+  color: #D82158;
+}
+
+
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="variable"],
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="function"] {
+  color: #60c5d8;
+  /* color: #58b5c6; */
+}
+
+
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="number"],
+code[mui-flex-code][mui-flex-color="dark"]>[mui-flex-color="boolean"] {
+  color: #936fd4;
+}
+
+
+
+code[mui-flex-code][mui-flex-color="light"]>[mui-flex-color="symbol"],
+code[mui-flex-code][mui-flex-color="light"]>[mui-flex-color="text"] {
+  color: #333;
+  font-weight: bold;
+}
+
+
+code[mui-flex-code][mui-flex-color="light"]>[mui-flex-color="attr"] {
+  color: #D82158;
+  font-weight: bold;
+}
+
+
+code[mui-flex-code][mui-color="light"]>[mui-flex-color="value"],
+code[mui-flex-code][mui-color="light"]>[mui-flex-color="string"] {
+  color: #008000;
+  font-weight: bold;
+}
+
+
+code[mui-flex-code][mui-flex-color="light"]>[mui-flex-color="argument"] {
+  color: #fd771d;
+  font-weight: bold;
+}
+
+
+code[mui-flex-code][mui-flex-color="light"]>[mui-flex-color="function"] {
+  color: #000080;
+  font-weight: bold;
+}
+
+
+code[mui-flex-code][mui-flex-color="light"]>[mui-flex-color="tag"] {
+  color: #000080;
+  font-weight: bold;
+}
+
+
+code[mui-flex-code][mui-flex-color="dark"] {
+  background-color: #333;
+}
+
+code[mui-flex-code][mui-flex-color="light"] {
+  background-color: #ecf1f7;
+}
+
+
+
+/* CARD BOX */
+
+[mui-flex-card-box][mui-flex-color="dark"] {
+  border: 1px solid #E7E8EA;
+  background-color: #333;
+  color: #fff;
+}
+
+[mui-flex-card-box][mui-flex-color="light"] {
+  border: 1px solid #E7E8EA;
+  background: #fff;
+  color: #333;
+}
+
+
+
+/*  CUSTOMS */
+
+
+/* MUI-FLEX-CODE */
+code[mui-flex-code="dark"]>[mui-flex-color="text"],
+code[mui-flex-code="dark"]>[mui-flex-color="symbol"] {
+  color: #ACBBBB;
+}
+
+code[mui-flex-code="dark"]>[mui-flex-color="attr"] {
+  color: #99e22e;
+}
+
+code[mui-flex-code="dark"]>[mui-flex-color="value"] {
+  color: #e6db74;
+}
+
+code[mui-flex-code="dark"]>[mui-flex-color="argument"] {
+  color: #fd771d;
+}
+
+code[mui-flex-code="dark"]>[mui-flex-color="function"] {
+  color: #1e87cd;
+}
+
+code[mui-flex-code="dark"]>[mui-flex-color="tag"] {
+  color: #D82158;
+}
+
+
+/* MUI-FLEX-BUTTON */
+button[mui-flex-button][mui-flex-color="success"] {
+  background-color: #3cb359;
+  color: #fff;
+}
+
+
+/* MUI-FLEX-PROGRESS-BAR */
+div[mui-flex-prodress-bar]>span[mui-flex-progress-bar-in][mui-flex-color="success"] {
+  background: #71d189;
+}
+
+div[mui-flex-prodress-bar]>span[mui-flex-progress-bar-in][mui-flex-color="orange"] {
+  background: #f5896c;
+}
+
+div[mui-flex-prodress-bar]>span[mui-flex-progress-bar-in][mui-flex-color="violet"] {
+  background: #827f9c;
+}
+
+div[mui-flex-prodress-bar]>span[mui-flex-progress-bar-in][mui-flex-color="warning"] {
+  background: #f5c47a;
+}
+
+div[mui-flex-prodress-bar]>span[mui-flex-progress-bar-in][mui-flex-color="danger"] {
+  background: #f56767;
+}
+
+
+
+
+/* MUI-FLEX-CARD-BOX */
+[mui-flex-card-box][mui-flex-color="dark"] {
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+}
+
+[mui-flex-card-box][mui-flex-color="light"] {
+  border: 1px solid #E7E8EA;
+  background: #fff;
+  color: #333;
+}

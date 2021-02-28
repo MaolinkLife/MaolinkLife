@@ -1,0 +1,504 @@
+:root {
+    --input-color-default--: #ECF1F7;
+    --input-color-hover--: #E4EBF3;
+    --input-color-focus--: #FFFFFF;
+    --tui-height: 40px;
+    --tui-height-extra-extra-small: 20px;
+    --tui-height-extra-small: 24px;
+    --tui-height-small: 32px;
+    --tui-height-medium: 40px;
+    --tui-height-large: 44px;
+    --tui-height-extra-large: 56px;
+    --tui-height-extra-extra-large: 60px;
+    --tui-radius: 4px;
+    --tui-radius-xl: 8px;
+    --tui-space: 4px;
+    --tui-disabled-opacity: 0.56;
+    --tui-color-blank: #fff;
+    --tui-color-blank-disabled: rgba(255, 255, 255, 0.56);
+    --tui-color-void: rgba(255, 255, 255, 0);
+    --tui-color-true-black: #000;
+    --tui-color-selection: rgba(255, 221, 45, 0.32);
+    --tui-color-text: #333;
+    --tui-color-text-light: #666;
+    --tui-color-text-lighter: #909090;
+    --tui-color-text-secondary: #959ba4;
+    --tui-color-text-secondary-disabled: rgba(51, 51, 51, 0.4);
+    --tui-color-text-error: #e01f19;
+    --tui-color-text-success: #168a21;
+    --tui-color-text-disabled: rgba(51, 51, 51, 0.56);
+    --tui-color-text-error-disabled: rgba(224, 31, 25, 0.56);
+    --tui-color-text-success-disabled: rgba(57, 181, 74, 0.56);
+    --tui-color-border: #e7e8ea;
+    --tui-color-border-dark: #cbcfd3;
+    --tui-color-border-darker: #959ba4;
+    --tui-color-border-active: #ffdd2d;
+    --tui-color-border-focus: rgba(51, 51, 51, 0.48);
+    --tui-color-border-disabled: rgba(231, 232, 234, 0.56);
+    --tui-color-scrollbar: rgba(51, 51, 51, 0.24);
+    --tui-color-scrollbar-hover: rgba(51, 51, 51, 0.36);
+    --tui-color-scrollbar-active: rgba(51, 51, 51, 0.56);
+    --tui-color-scrollbar-light: rgba(255, 255, 255, 0.24);
+    --tui-color-scrollbar-light-hover: rgba(255, 255, 255, 0.36);
+    --tui-color-scrollbar-light-active: rgba(255, 255, 255, 0.56);
+    --tui-color-textfield: #ecf1f7;
+    --tui-color-textfield-hover: #e4ebf3;
+    --tui-color-textfield-active: #dde4ed;
+    --tui-color-textfield-readonly: rgba(236, 241, 247, 0.56);
+    --tui-color-textfield-disabled: rgba(236, 241, 247, 0.56);
+    --tui-color-textfield-error: rgba(224, 31, 25, 0.08);
+    --tui-color-textfield-error-hover: rgba(224, 31, 25, 0.16);
+    --tui-color-textfield-error-focus-border: #e01f19;
+    --tui-color-textfield-error-text: #e01f19;
+    --tui-color-textfield-success: rgba(57, 181, 74, 0.08);
+    --tui-color-textfield-success-hover: rgba(57, 181, 74, 0.16);
+    --tui-color-textfield-success-focus-border: #39b54a;
+    --tui-color-textfield-success-text: #39b54a;
+    --tui-color-textfield-autofill: #fff5c0;
+    --tui-color-textfield-light: rgba(255, 255, 255, 0.16);
+    --tui-color-textfield-light-hover: rgba(255, 255, 255, 0.24);
+    --tui-color-textfield-light-active: rgba(255, 255, 255, 0.32);
+    --tui-color-textfield-light-focus-border: #fff;
+    --tui-color-textfield-light-readonly: rgba(255, 255, 255, 0.08);
+    --tui-color-textfield-light-disabled: rgba(255, 255, 255, 0.08);
+    --tui-color-textfield-dark: rgba(51, 51, 51, 0.16);
+    --tui-color-textfield-dark-hover: rgba(51, 51, 51, 0.24);
+    --tui-color-textfield-dark-active: rgba(51, 51, 51, 0.28);
+    --tui-color-textfield-dark-focus-border: #333;
+    --tui-color-textfield-dark-readonly: rgba(51, 51, 51, 0.08);
+    --tui-color-textfield-dark-disabled: rgba(51, 51, 51, 0.08);
+    --tui-color-primary-text: #333;
+    --tui-color-primary: #ffdd2d;
+    --tui-color-primary-hover: #fcc521;
+    --tui-color-primary-active: #fab619;
+    --tui-color-primary-text-disabled: rgba(51, 51, 51, 0.56);
+    --tui-color-primary-disabled: rgba(255, 221, 45, 0.56);
+    --tui-color-secondary: #ecf1f7;
+    --tui-color-secondary-hover: #e4ebf3;
+    --tui-color-secondary-active: #dde4ed;
+    --tui-color-secondary-disabled: rgba(236, 241, 247, 0.56);
+    --tui-color-outline-border: #1771e6;
+    --tui-color-outline-border-hover: #1464cc;
+    --tui-color-outline-hover: rgba(23, 113, 230, 0.08);
+    --tui-color-outline-border-active: #0953b3;
+    --tui-color-outline-active: rgba(23, 113, 230, 0.16);
+    --tui-color-outline-border-disabled: rgba(23, 113, 230, 0.56);
+    --tui-color-outline-dark-border: #333;
+    --tui-color-outline-dark-hover: rgba(51, 51, 51, 0.08);
+    --tui-color-outline-dark-border-hover: #909090;
+    --tui-color-outline-dark-active: rgba(51, 51, 51, 0.16);
+    --tui-color-outline-dark-border-disabled: rgba(51, 51, 51, 0.56);
+    --tui-color-outline-dark-text-disabled: rgba(51, 51, 51, 0.56);
+    --tui-color-outline-light-border: #fff;
+    --tui-color-outline-light-hover: rgba(255, 255, 255, 0.08);
+    --tui-color-outline-light-border-hover: rgba(255, 255, 255, 0.56);
+    --tui-color-outline-light-active: rgba(255, 255, 255, 0.16);
+    --tui-color-outline-light-focus-border: #fff;
+    --tui-color-outline-light-border-disabled: rgba(255, 255, 255, 0.24);
+    --tui-color-outline-light-text-disabled: rgba(255, 255, 255, 0.24);
+    --tui-color-whiteblock-border: #e7e8ea;
+    --tui-color-whiteblock-hover: #f5f5f6;
+    --tui-color-whiteblock-border-hover: #cbcfd3;
+    --tui-color-whiteblock-border-active: #ffdd2d;
+    --tui-color-whiteblock-border-active-disabled: rgba(255, 221, 45, 0.56);
+    --tui-color-whiteblock-border-active-hover: #fcc521;
+    --tui-color-card-primary: #fff;
+    --tui-color-card-secondary: #f5f5f6;
+    --tui-color-flat-text-disabled: rgba(23, 113, 230, 0.56);
+    --tui-color-flat-light-text-disabled: rgba(255, 255, 255, 0.36);
+    --tui-color-flat-background-hover: #ecf1f7;
+    --tui-color-flat-background-active: #e4ebf3;
+    --tui-color-link: #1771e6;
+    --tui-color-link-light: rgba(255, 255, 255, 0.56);
+    --tui-color-link-hover: #1464cc;
+    --tui-color-link-active: #0953b3;
+    --tui-color-link-disabled: rgba(23, 113, 230, 0.56);
+    --tui-color-textfield-placeholder: #79818c;
+    --tui-color-textfield-placeholder-hover: #616871;
+    --tui-color-textfield-placeholder-disabled: rgba(121, 129, 140, 0.56);
+    --tui-color-textfield-border: #616871;
+    --tui-color-textfield-label: #959ba4;
+    --tui-color-textfield-icon: #959ba4;
+    --tui-color-textfield-icon-hover: #616871;
+    --tui-color-textfield-icon-disabled: rgba(149, 155, 164, 0.56);
+    --tui-color-toggle-on-disabled: #959ba4;
+    --tui-color-toggle-off-disabled: rgba(149, 155, 164, 0.56);
+    --tui-color-tabs: #79818c;
+    --tui-color-tabs-border: #e7e8ea;
+    --tui-color-tabs-arrow: #e7e8ea;
+    --tui-color-accordion-border: #cbcfd3;
+    --tui-color-accordion-background-hover: #f5f5f6;
+    --tui-color-status-text: #666;
+    --tui-color-status: #959ba4;
+    --tui-color-status-hover: #79818c;
+    --tui-color-status-active: #616871;
+    --tui-color-status-light: #ecf1f7;
+    --tui-color-status-light-hover: #e4ebf3;
+    --tui-color-status-light-active: #dde4ed;
+    --tui-color-status-gray: #e7e8ea;
+    --tui-color-status-gray-hover: #cbcfd3;
+    --tui-color-status-gray-active: #959ba4;
+    --tui-color-status-error: #e01f19;
+    --tui-color-status-error-disabled: rgba(224, 31, 25, 0.56);
+    --tui-color-status-error-hover: #d3120e;
+    --tui-color-status-error-active: #c40b08;
+    --tui-color-status-error-light: rgba(224, 31, 25, 0.12);
+    --tui-color-status-success: #39b54a;
+    --tui-color-status-success-hover: #2ca53a;
+    --tui-color-status-success-active: #168a21;
+    --tui-color-status-success-light: rgba(57, 181, 74, 0.16);
+    --tui-color-status-secondary: #1771e6;
+    --tui-color-status-secondary-hover: #1464cc;
+    --tui-color-status-secondary-active: #0953b3;
+    --tui-color-status-secondary-text: #fff;
+    --tui-color-status-secondary-text-disabled: rgba(255, 255, 255, 0.56);
+    --tui-color-avatar: #dde4ed;
+    --tui-color-textfield-light-placeholder: rgba(255, 255, 255, 0.56);
+    --tui-color-textfield-light-placeholder-disabled: rgba(255, 255, 255, 0.36);
+    --tui-color-textfield-light-label: rgba(255, 255, 255, 0.56);
+    --tui-color-textfield-light-icon: rgba(255, 255, 255, 0.56);
+    --tui-color-textfield-light-icon-disabled: rgba(255, 255, 255, 0.36);
+    --tui-color-textfield-dark-placeholder-disabled: rgba(51, 51, 51, 0.36);
+    --tui-color-textfield-dark-icon-disabled: rgba(51, 51, 51, 0.36);
+    --tui-color-tooltip-dark-background: #616871;
+    --tui-color-tooltip-error-background: #e01f19;
+    --tui-color-tooltip-light-background: #fff;
+    --tui-color-alert-warning: #fcc521;
+    --tui-color-table-bar: #79818c;
+    --tui-color-menu-dark: #616871;
+    --tui-color-support-mustard: #ffd450;
+    --tui-color-support-texas: #ffb74c;
+    --tui-color-support-tan: #f8a34d;
+    --tui-color-support-salmon: #ff8863;
+    --tui-color-support-sienna: #ee805d;
+    --tui-color-support-bittersweet: #ff7b76;
+    --tui-color-support-pinkie: #ff78a7;
+    --tui-color-support-charm: #d45d8c;
+    --tui-color-support-amethyst: #bc71c9;
+    --tui-color-support-helio: #a381ff;
+    --tui-color-support-lilac: #8f75d1;
+    --tui-color-support-malibu: #7caeff;
+    --tui-color-support-havelock: #65a7e0;
+    --tui-color-support-picton: #4dc3f7;
+    --tui-color-support-mint: #4bd0e1;
+    --tui-color-support-fountain: #4eb6c2;
+    --tui-color-support-puertorico: #4fbdb2;
+    --tui-color-support-bay: #4da197;
+    --tui-color-support-forest: #73b077;
+    --tui-color-support-york: #81c785;
+    --tui-color-support-feijoa: #aed57f
+}
+
+
+/* custon style */
+
+::selection {
+    background-color: var(--tui-color-selection);
+}
+
+.wrapper[_ngcontent-syu-c26] {
+    border-radius: inherit;
+}
+
+.tui-form__row+.tui-form__row {
+    margin-top: 20px;
+}
+
+.hosted[_ngcontent-syu-c7] {
+    display: block;
+    border-radius: inherit;
+}
+
+/* ================================================================================================== */
+
+.fc-mark {
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 3.01px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 1px 5px;
+    margin: 0 3px 0 0;
+    text-align: left;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    padding-right: 20px;
+}
+
+[fc-container] {
+    width: 611px;
+    min-height: 210px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+[fc-header] {
+    min-height: 48px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 10px 20px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'PF Highway Sans Pro';
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-style: normal;
+    border-bottom: 1px solid #C4C4C4;
+    border-radius: 4px 4px 0px 0px;
+}
+
+[fc-body] {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'PF Highway Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.targetClass {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    margin: 0px 10px;
+}
+
+select {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+option {
+    padding: 10px;
+    display: flex;
+}
+
+[fc-body]>ul>li {
+    margin: 10px 0;
+    display: flex;
+}
+
+[fc-body]>div>label {
+    display: flex;
+    flex-direction: column;
+}
+
+[fc-body]>div>label {
+    width: 75%;
+    float: left;
+}
+
+.delete {
+    position: absolute;
+    /* content: "x"; */
+    text-align: center;
+    color: grey;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    line-height: 1;
+    right: 4px;
+    width: 16px;
+    vertical-align: text-bottom;
+}
+
+[fc-input] {
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background: #C4C4C4;
+}
+
+[fc-input]:focus {
+    outline: none;
+}
+
+button[fc-button] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #ffdd2d;
+    transition: background .2s ease;
+    cursor: pointer;
+}
+
+button[fc-button]:hover {
+    background: #fcc521;
+    transition: background .2s ease;
+    cursor: pointer;
+}
+
+[fc-div-input] {
+    max-width: 536px;
+    height: 56px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+[fc-div-input]>span.focused {
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    font-size: 14px;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    font-family: 'PF Highway Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+}
+
+[fc-div-input]>span {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    font-size: 15px;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    font-family: 'PF Highway Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+}
+
+input[fc-input-2] {
+    height: 100%;
+    border-radius: 6px;
+    background: #ECF1F7;
+    outline: none;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 16px 0px 16px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    transition: background .2s ease;
+}
+
+[fc-div-input].require::before {
+    position: absolute;
+    content: "*";
+    right: 6px;
+    color: red;
+    font-size: 24px;
+    top: 1px;
+}
+
+input[fc-input-2]:focus,
+input[fc-input-2].active {
+    border: 1px solid #333;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    transition: background .2s ease;
+}
+
+input[fc-input-2]:hover:not(.active) {
+    background: #E4EBF3;
+    transition: background .2s ease;
+}
+
+input[fc-input-2]::placeholder {
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-family: 'PF Highway Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    color: #959BA4;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+[slide-bar] {
+    min-height: 80px;
+    border: 1px solid #e7e8ea;
+    max-width: 536px;
+    border-radius: 4px;
+    position: absolute;
+    width: 100%;
+    top: 65px;
+    box-shadow: 0px 4px 8px rgba(51, 51, 51, 0.56);
+    z-index: 1;
+}
+
+ul[no-icon] {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+ul[no-icon]>li {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background;
+    height: 100%;
+    cursor: pointer;
+}
+
+ul[no-icon]>li:last-child {
+    border-radius: 0px 0px 4px 4px;
+}
+
+ul[no-icon]>li:first-child {
+    border-radius: 4px 4px 0px 0px;
+}
+
+ul[no-icon]>li:hover {
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background;
+    background: #ecf1f7;
+}
+
+ul[no-icon]>li.target::before {
+    content: "✓";
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    top: 4px;
+    right: 10px;
+}
+
+[fc-input-2].select {
+    padding-right: 40px;
+}
+
+input[fc-input-2]::-webkit-outer-spin-button,
+input[fc-input-2]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}

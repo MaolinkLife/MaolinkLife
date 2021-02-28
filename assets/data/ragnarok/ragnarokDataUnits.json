@@ -1,0 +1,2298 @@
+[{
+        "name": "name",
+        "id": "id",
+        "image": {
+            "url": "url",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "primary",
+            "secondary": "secondary"
+        },
+        "key": "key",
+        "text": "Уровень 4",
+        "data": [{
+            "name": "name",
+            "value": "value"
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/darkHorde/units/gif/dh_kotoBeast.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Рабочий",
+        "id": "bloodElf_worker",
+        "image": {
+            "url": "../../../assets/ragnarok/content/bloodElf/units/images/BTNBloodElfPeasant.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": ""
+        },
+        "key": "Q",
+        "text": "Уровень 1",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "75 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "нет"
+        }, {
+            "name": "Время обучения",
+            "value": "12 сек."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": []
+    },
+    {
+        "name": "Мечник",
+        "id": "bloodElf_warrior",
+        "description": {
+            "primary": "Рядовой воин из армии Син'дорай, вооруженный мечом и щитом. Владеет способностью «Сожжение маны». В дальнейшем может научиться укрываться за щитом от магических атак противника.",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "image": {
+            "url": "../../../assets/ragnarok/content/bloodElf/units/images/BTNBloodElfSwordman.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "key": "Q",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "425 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "125 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "75 сек."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/bloodElf/units/gif/bloodElf_warriorHD.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Лучница",
+        "id": "bloodElf_archer",
+        "image": {
+            "url": "../../../assets/ragnarok/content/bloodElf/units/images/BTNBloodElfArcher.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Эльфиская воительница, атакующая противников на расстоянии. Изучив «Волшебные луки», лучницы смогут атаковать с большего расстояния. Также могут изучить способность «Огненные стрелы».",
+            "secondary": ""
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/bloodElf/units/gif/bloodElf_archerHD.gif",
+            "position": "center",
+            "size": "cover"
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }]
+    }, {
+        "name": "Рыцарь",
+        "id": "bloodElf_knight",
+        "image": {
+            "url": "../../../assets/ragnarok/content/bloodElf/units/images/BTNSpellBreakerMagicUnDefend.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Могучий конный воин, закованный в доспехи. Может освоить способность «Дрессировка животных».",
+            "secondary": ""
+        },
+        "key": "E",
+        "text": "Уровень 4",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/bloodElf/units/gif/be_knight.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Чародейка",
+        "id": "bloodElf_wizzard",
+        "image": {
+            "url": "../../assets/ragnarok/content/bloodElf/units/images/BTNBloodElfSorceress.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Эльфийская леди, с детства развивавшая свои магические способности. Изначально она владеет заклинанием «Замедление», а в дальнейшем может выучить «Безмолвие» и «Поглощение маны».",
+            "secondary": "Может атаковать наземные и воздушные цели"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Жрец",
+        "id": "bloodElf_priest",
+        "image": {
+            "url": "../../assets/ragnarok/content/bloodElf/units/images/BTNPriest.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Этот жрец добрых богов осуществляет магическую поддержку наступающих или обороняющихся войск. Изначально он владеет заклинанием «Исцеление», а в дальнейшем способен выучить «Духовное пламя» и «Рассеять чары».",
+            "secondary": ""
+        },
+        "key": "Q",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Ведьмак",
+        "id": "bloodElf_spellBreaker",
+        "image": {
+            "url": "../../assets/ragnarok/content/bloodElf/units/images/BTNSpellBreaker.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Эльфийский воин, специально обученный для борьбы с магами. Невосприимчив к заклинаниям. Может сжигать ману противников и похищать заклинания, наложенные на других воинов. Способен выучить заклинание «Захват контроля».",
+            "secondary": ""
+        },
+        "key": "E",
+        "text": "Уровень 3",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/bloodElf/units/gif/bloodElf_spellBreakerHD.gif",
+            "position": "-30px",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Кристальная катапульта",
+        "id": "bloodElf_crystalCatapult",
+        "image": {
+            "url": "../../assets/ragnarok/content/bloodElf/units/images/BTNBloodElfDecimator.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Осадное орудие, эффективное против зданий противника. Изучив способность «Механизмы», сможет атаковать воздушные цели.",
+            "secondary": ""
+        },
+        "key": "Q",
+        "text": "Уровень 4",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/bloodElf/units/gif/be_decimator.gif",
+            "position": "center",
+            "size": "cover"
+        }, {
+            "url": "../../assets/ragnarok/content/bloodElf/units/gif/be_decimator_alternate.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Магический страж",
+        "id": "bloodElf_arcaneGuardian",
+        "image": {
+            "url": "../../assets/ragnarok/content/bloodElf/units/images/BTNBloodElfArcaneGuardian.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Грозный воин ближнего боя. Невосприимчив к магии. Обладает способностью «Удар по земле».",
+            "secondary": ""
+        },
+        "key": "W",
+        "text": "Уровень 4",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/bloodElf/units/gif/be_arcanaGuardian.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Ястреб",
+        "id": "bloodElf_dragonHuwk",
+        "image": {
+            "url": "../../assets/ragnarok/content/bloodElf/units/images/BTNBloodElfDragonhawkRider.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Гигантская хищная птица, оседланная эльфийским воином. Владеет заклинанием «Огненное лассо». Может освоить способность «Дрессировка животных» и выучить заклинание «Туман».",
+            "secondary": ""
+        },
+        "key": "Q",
+        "text": "Уровень 3",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/bloodElf/units/gif/be_dragonhawk.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Феникс",
+        "id": "bloodElf_phoenix",
+        "image": {
+            "url": "../../assets/ragnarok/content/bloodElf/units/images/BTNBloodElfPhoenix.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Огненная птица, атакующая с воздуха магическим огнем. Может изучить способность «Перерождение»",
+            "secondary": ""
+        },
+        "key": "W",
+        "text": "Уровень 6",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/bloodElf/units/gif/be_phoenix.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Рабочий",
+        "id": "forsaken_worker",
+        "image": {
+            "url": "../../../assets/ragnarok/content/forsaken/units/images/BTNForsaken_worker.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "Q",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/forsaken/units/gif/forsaken_worker.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Темный мечник",
+        "id": "forsaken_warrior",
+        "image": {
+            "url": "../../../assets/ragnarok/content/forsaken/units/images/BTNForsakenDarkChampion.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Темный воин, сражающийся на стороне отрекшихся. Владеет способностью «Вампиризм»",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/forsaken/units/gif/forsaken_warrior.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Темная лучница",
+        "id": "forsaken_archer",
+        "image": {
+            "url": "../../../assets/ragnarok/content/forsaken/units/images/BTNForsakenDarkRanger.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Темный воин, сражающийся на стороне отрекшихся. Владеет способностью «Вампиризм»",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/forsaken/units/gif/forsaken_archerHD.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Катапульта",
+        "id": "forsaken_catapult",
+        "image": {
+            "url": "../../../assets/ragnarok/content/forsaken/units/images/BTNForsakenFrozenCatapult.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Темный воин, сражающийся на стороне отрекшихся. Владеет способностью «Вампиризм»",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "W",
+        "text": "Уровень 3",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/forsaken/units/gif/forsaken_catapult.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Летучая мышь",
+        "id": "forsaken_bat",
+        "image": {
+            "url": "../../../assets/ragnarok/content/forsaken/units/images/BTNForsakenBat.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Темный воин, сражающийся на стороне отрекшихся. Владеет способностью «Вампиризм»",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/forsaken/units/gif/forsaken_bat.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Баньши",
+        "id": "forsaken_banshee",
+        "image": {
+            "url": "../../../assets/ragnarok/content/forsaken/units/images/BTNBansheeEthereal.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Темный воин, сражающийся на стороне отрекшихся. Владеет способностью «Вампиризм»",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/bloodElf/units/gif/be_dragonhawk.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Жнец",
+        "id": "forsaken_reaper",
+        "image": {
+            "url": "../../../assets/ragnarok/content/forsaken/units/images/BTNForsakenReaper.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Темный воин, сражающийся на стороне отрекшихся. Владеет способностью «Вампиризм»",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/forsaken/units/gif/forsaken_reaper.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Темная валькирия",
+        "id": "forsaken_valkyr",
+        "image": {
+            "url": "../../../assets/ragnarok/content/forsaken/units/images/BTNForsaken_Valkyr_dark.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Темный воин, сражающийся на стороне отрекшихся. Владеет способностью «Вампиризм»",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "140 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "10 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "20 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/forsaken/units/gif/forsaken_darkValkyr.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Гомункул",
+        "id": "forsaken_homunculus",
+        "image": {
+            "url": "../../../assets/ragnarok/content/forsaken/units/images/BTNFleshGolem.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Огромный голем, собранный из трупов. Имеет очень большой запас здоровья. Может изучить способность «Броня из плоти»",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "W",
+        "text": "Уровень 5",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "220 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "60 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "48 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "4 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/forsaken/units/gif/forsaken_homunculus.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Строитель",
+        "id": "dwarven_worker",
+        "image": {
+            "url": "../../assets/ragnarok/content/dwarven/units/images/BTNDwarvenWorker.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Строители могут возводить и ремонтировать здания, а также добывать древесину и золото в рудниках",
+            "secondary": "При необходимости может атаковать наземные цели"
+        },
+        "key": "Q",
+        "text": "Уровень 1",
+        "data": [{
+            "name": "Требует золота",
+            "value": "80 ед."
+        }, {
+            "name": "Требует древесины",
+            "value": "нет"
+        }, {
+            "name": "Время обучения",
+            "value": "15 сек."
+        }, {
+            "name": "Требует пищи",
+            "value": "1 ед."
+        }, {
+            "name": "Скорость восстановления здоровья",
+            "value": "0.25 / сек."
+        }, {
+            "name": "Атака",
+            "value": "4 ед."
+        }],
+        "abilities": [],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Молотобоец",
+        "id": "dwarven_warrior",
+        "image": {
+            "url": "../../assets/ragnarok/content/dwarven/units/images/BTNDwarvenShieldBreaker.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Рядовой воин из армии дворфов, сражающийся в ближнем бою. Обладает внушительным запасом здоровья. Может научиться укрываться за щитом от вражеских стрел.",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "Q",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требует золота",
+            "value": "165 ед."
+        }, {
+            "name": "Требует древесины",
+            "value": "нет"
+        }, {
+            "name": "Время обучения",
+            "value": "22 сек."
+        }, {
+            "name": "Требует пищи",
+            "value": "2 ед."
+        }, {
+            "name": "Скорость восстановления здоровья",
+            "value": "0.25 / сек."
+        }, {
+            "name": "Атака",
+            "value": "10 ед."
+        }, {
+            "name": "Наносимый урон (1 уровень)",
+            "value": "11 - 13"
+        }, {
+            "name": "Здоровье",
+            "value": "600 ед."
+        }, {
+            "name": "Броня",
+            "value": "5 ед."
+        }, {
+            "name": "Скорость атаки",
+            "value": "1.35 сек."
+        }, {
+            "name": "Требования",
+            "value": "нет"
+        }, {
+            "name": "Тип защиты",
+            "value": "Тяжелая"
+        }],
+        "abilities": [],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Стрелок",
+        "id": "dwarven_rifleman",
+        "image": {
+            "url": "../../assets/ragnarok/content/dwarven/units/images/BTNDwarvenRifleman.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Меткий стрелок, особенно эффективный против летающих существ противника. Изобретение длинноствольных мушкетов повышает дальность стрельбы.",
+            "secondary": "Может атаковать наземные и воздушные цели"
+        },
+        "key": "W",
+        "text": "Уровень 3",
+        "data": [{
+            "name": "Требует золота",
+            "value": "205 ед."
+        }, {
+            "name": "Требует древесины",
+            "value": "30 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "26 сек."
+        }, {
+            "name": "Требует пищи",
+            "value": "3 ед."
+        }, {
+            "name": "Скорость восстановления здоровья",
+            "value": "0.25 / сек."
+        }, {
+            "name": "Атака",
+            "value": "16 ед."
+        }, {
+            "name": "Наносимый урон (1 уровень)",
+            "value": "20 - 28"
+        }, {
+            "name": "Здоровье",
+            "value": "535 ед."
+        }, {
+            "name": "Броня",
+            "value": "0 ед."
+        }, {
+            "name": "Скорость атаки",
+            "value": "1.5 сек."
+        }, {
+            "name": "Требования",
+            "value": "Кузница"
+        }, {
+            "name": "Тип защиты",
+            "value": "Средняя"
+        }],
+        "abilities": [],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Всадник",
+        "id": "dwarven_bearRider",
+        "image": {
+            "url": "../../assets/ragnarok/content/dwarven/units/images/BTNFrostBear.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Могучий воин, закованный в доспехи, верхом на белом медведе.Владеет способностью «Сильный удар». Может освоить способность «Дрессировка животных».",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "key": "E",
+        "text": "Уровень 4",
+        "data": [{
+            "name": "Требует золота",
+            "value": "265 ед."
+        }, {
+            "name": "Требует древесины",
+            "value": "60 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "40 сек."
+        }, {
+            "name": "Требует пищи",
+            "value": "4 ед."
+        }, {
+            "name": "Скорость восстановления здоровья",
+            "value": "0.50 / сек."
+        }, {
+            "name": "Атака",
+            "value": "28 ед."
+        }, {
+            "name": "Наносимый урон (1 уровень)",
+            "value": "34 - 42"
+        }, {
+            "name": "Здоровье",
+            "value": "1035 ед."
+        }, {
+            "name": "Броня",
+            "value": "7 ед."
+        }, {
+            "name": "Скорость атаки",
+            "value": "2.20 сек."
+        }, {
+            "name": "Требования",
+            "value": "Замок, Лесопилка, Кузница"
+        }, {
+            "name": "Тип защиты",
+            "value": "Тяжелая"
+        }],
+        "abilities": [],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Мудрец",
+        "id": "dwarven_sage",
+        "image": {
+            "url": "../../assets/ragnarok/content/dwarven/units/images/BTNDwarvenSage.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Мудрый жрец, обеспечивающий магическую поддержку армии в защите или в нападении. Изначально владеет заклинанием «Шаровая молния», а в дальнейшем может изучить «Барьер» и «Ледник».",
+            "secondary": "Может атаковать наземные и воздушные цели"
+        },
+        "key": "Q",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требует золота",
+            "value": "175 ед."
+        }, {
+            "name": "Требует древесины",
+            "value": "25 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "23 сек."
+        }, {
+            "name": "Требует пищи",
+            "value": "2 ед."
+        }, {
+            "name": "Скорость восстановления здоровья",
+            "value": "0.25 / сек."
+        }, {
+            "name": "Атака",
+            "value": "7 ед."
+        }, {
+            "name": "Наносимый урон (1 уровень)",
+            "value": "15 - 21"
+        }, {
+            "name": "Здоровье",
+            "value": "350 ед."
+        }, {
+            "name": "Броня",
+            "value": "0 ед."
+        }, {
+            "name": "Скорость атаки",
+            "value": "2 сек."
+        }, {
+            "name": "Требования",
+            "value": "нет"
+        }, {
+            "name": "Тип защиты",
+            "value": "Легкая"
+        }, {
+            "name": "Мана",
+            "value": "300"
+        }],
+        "abilities": [],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Заклинательница",
+        "id": "dwarven_runecaster",
+        "image": {
+            "url": "../../assets/ragnarok/content/dwarven/units/images/BTNDwarvenRunecaster.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Юная дева, с детства развивающая сои магические таланты. Способна изменять ход битвы с помощи своих заклинаний. Изначально владеет заклинанием «Руна жизни», которое может как восстанавливать здоровье союзников, так и отнимать его у противников. В дальнейшем можем изучить способности «Руна мощи» и «Руна скорости».",
+            "secondary": "Может атаковать наземные и воздушные цели"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требует золота",
+            "value": "155 ед."
+        }, {
+            "name": "Требует древесины",
+            "value": "20 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "22 сек."
+        }, {
+            "name": "Требует пищи",
+            "value": "2 ед."
+        }, {
+            "name": "Скорость восстановления здоровья",
+            "value": "0.25 / сек."
+        }, {
+            "name": "Атака",
+            "value": "7 ед."
+        }, {
+            "name": "Наносимый урон (1 уровень)",
+            "value": "15 - 21"
+        }, {
+            "name": "Здоровье",
+            "value": "325 ед."
+        }, {
+            "name": "Броня",
+            "value": "0 ед."
+        }, {
+            "name": "Скорость атаки",
+            "value": "2 сек."
+        }, {
+            "name": "Требования",
+            "value": "нет"
+        }, {
+            "name": "Тип защиты",
+            "value": "Легкая"
+        }, {
+            "name": "Мана",
+            "value": "200"
+        }],
+        "abilities": [],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Грифон",
+        "id": "dwarven_gryphon",
+        "image": {
+            "url": "../../assets/ragnarok/content/dwarven/units/images/BTNGryphonRider.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Могучий летающий зверь с наездником из народа гномов. Может освоить способности «Громовой молот» и «Дрессировка животных».",
+            "secondary": "Может атаковать наземные и воздушные цели"
+        },
+        "key": "E",
+        "text": "Уровень 5",
+        "data": [{
+            "name": "Требует золота",
+            "value": "280 ед."
+        }, {
+            "name": "Требует древесины",
+            "value": "70 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "45 сек."
+        }, {
+            "name": "Требует пищи",
+            "value": "4 ед."
+        }, {
+            "name": "Скорость восстановления здоровья",
+            "value": "0.25 / сек."
+        }, {
+            "name": "Атака",
+            "value": "44 ед."
+        }, {
+            "name": "Наносимый урон (1 уровень)",
+            "value": "45 - 55"
+        }, {
+            "name": "Здоровье",
+            "value": "825 ед."
+        }, {
+            "name": "Броня",
+            "value": "0 ед."
+        }, {
+            "name": "Скорость атаки",
+            "value": "2 сек."
+        }, {
+            "name": "Требования",
+            "value": "Замок"
+        }, {
+            "name": "Тип защиты",
+            "value": "Средняя"
+        }, {
+            "name": "Мана",
+            "value": "нет"
+        }],
+        "abilities": [],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Каменный голем",
+        "id": "dwarven_rockGolem",
+        "image": {
+            "url": "../../assets/ragnarok/content/dwarven/units/images/BTNRockGolem.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Грозный воин ближнего боя, способный метать камни. Невосприимчив к магии и защищен от магического урона. Может изучить способность «Каменные доспехи»",
+            "secondary": "Может атаковать наземные и воздушные цели"
+        },
+        "key": "Q",
+        "text": "Уровень 6",
+        "data": [{
+            "name": "Требует золота",
+            "value": "325 ед."
+        }, {
+            "name": "Требует древесины",
+            "value": "100 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "55 сек."
+        }, {
+            "name": "Требует пищи",
+            "value": "5 ед."
+        }, {
+            "name": "Скорость восстановления здоровья",
+            "value": "0.25 / сек."
+        }, {
+            "name": "Атака",
+            "value": "46 ед."
+        }, {
+            "name": "Наносимый урон (1 уровень)",
+            "value": "48 - 56"
+        }, {
+            "name": "Здоровье",
+            "value": "1100 ед."
+        }, {
+            "name": "Броня",
+            "value": "11 ед."
+        }, {
+            "name": "Скорость атаки",
+            "value": "2.15 сек."
+        }, {
+            "name": "Требования",
+            "value": "Замок"
+        }, {
+            "name": "Тип защиты",
+            "value": "Тяжелая"
+        }, {
+            "name": "Мана",
+            "value": "нет"
+        }],
+        "abilities": [],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Дренорский раб",
+        "id": "darkHorde_worker",
+        "image": {
+            "url": "../../assets/ragnarok/content/darkHorde/units/images/BTNDarkHordePeon.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Дренорские рабы могут возводить постройки и чинить поврежденные, а также добывать древесину и золото в рудниках.",
+            "secondary": ""
+        },
+        "key": "Q",
+        "secondaryText": "Уровень 1",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "70 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "нет"
+        }, {
+            "name": "Время обучения",
+            "value": "15 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "1 ед."
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }]
+    },
+    {
+        "name": "Дренорский бугай",
+        "id": "darkHorde_warrior",
+        "description": {
+            "primary": "Могучий воин народа орков, разум которого затмевает кровь демонов. Может научиться впадать в ярость.",
+            "secondary": "Может атаковать наземные цели"
+        },
+        "image": {
+            "url": "../../assets/ragnarok/content/darkHorde/units/images/BTNChaosGrunt.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "key": "Q",
+        "secondaryText": "Уровень 4",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "200 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "нет"
+        }, {
+            "name": "Время обучения",
+            "value": "25 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "3 ед."
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }]
+    },
+    {
+        "name": "Волчий всадник Дренора",
+        "id": "darkHorde_wolfrider",
+        "image": {
+            "url": "../../assets/ragnarok/content/darkHorde/units/images/BTNChaosWolfRider.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Быстрый и ловкий наездник, разум которого затмевает кровь демонов. Владеет способностью «Демоническая сила». Может изучить способность «Ловчий».",
+            "secondary": ""
+        },
+        "key": "Q",
+        "secondaryText": "Уровень 4",
+        "data": [{
+                "name": "Требуется золота",
+                "value": "180 ед."
+            }, {
+                "name": "Требуется древесины",
+                "value": "40 ед."
+            }, {
+                "name": "Время обучения",
+                "value": "28 сек."
+            }, {
+                "name": "Требуется пищи",
+                "value": "3 ед."
+            }, {
+                "name": "Атака",
+                "value": "27"
+            }
+
+        ],
+        "model": [{
+            "url": "../../assets/ragnarok/content/darkHorde/units/gif/dh_wolfrider_v2.gif",
+            "position": "center",
+            "size": "cover"
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }]
+    },
+    {
+        "name": "Берсеркер",
+        "id": "darkHorde_berserker",
+        "image": {
+            "url": "../../assets/ragnarok/content/darkHorde/units/images/BTNDarkHordeBerserker.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Кровожадный тролль, метающий в противников топоры. Может узичить способность «Пробивание брони».",
+            "secondary": "Может атаковать наземные или воздушные цели"
+        },
+        "key": "W",
+        "secondaryText": "Уровень 3",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "215 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "20 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "26 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "Пробивание брони",
+            "id": "darkHorde_penetrationArmor"
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/darkHorde/units/gif/dh_bersetker.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Дренорский кодой",
+        "id": "darkHorde_kotobeast",
+        "image": {
+            "url": "../../assets/ragnarok/content/darkHorde/units/images/BTNChaosKotoBeast.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Вьючное животное, на котором сидит орк-барабанщик, чей разум затмевает кровь демонов. Может приобрести способность «Боевой марш» и научиться проглатывать противников.",
+            "secondary": "Может атаковать наземные и воздушные цели"
+        },
+        "key": "W",
+        "secondaryText": "Уровень 4",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "255 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "60 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "40 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "4 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/darkHorde/units/gif/dh_kotoBeast.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Шаман",
+        "id": "darkHorde_shaman",
+        "image": {
+            "url": "../../assets/ragnarok/content/darkHorde/units/images/BTNDarkHordeShaman.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Орк, избранный духами предков и наделенный магическим даром, в чьих жилах течет демоническая кровь. Изначально владеет заклинанием «Очищение», рассеивающим чары и обездвиживающим противников, а в дальнейшем способен выучить «Щит молний» и «Зов крови».",
+            "secondary": "Может атаковать наземные и воздушные цели"
+        },
+        "key": "Q",
+        "secondaryText": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "130 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "20 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "30 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/darkHorde/units/gif/dh_shaman_v2.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Колдун",
+        "id": "darkHorde_warlock",
+        "image": {
+            "url": "../../assets/ragnarok/content/darkHorde/units/images/BTNChaosWarlock.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Маг народа орков, разум которого затмевает кровь демонов. Владеет заклинанием «Огненная стрела», парализующим противника и наносящим ему урон. Также способен выучить заклинания «Ярость проклятых» и «Увечье».",
+            "secondary": "Может атаковать наземные и воздушные цели."
+        },
+        "key": "W",
+        "secondaryText": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "220 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "нет"
+        }, {
+            "name": "Время обучения",
+            "value": "25 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "2 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/darkHorde/units/gif/dh_warlock_v2.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Виверна хаоса",
+        "id": "darkHorde_wywernrider",
+        "image": {
+            "url": "../../assets/ragnarok/content/darkHorde/units/images/BTNDarkHordeBlackrockRider.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Быстрое летающее существо, идеально приспособленное для разведки. Может освоить способность «Проклятое оружие».",
+            "secondary": "Может атаковать наземные и воздушные цели"
+        },
+        "key": "E",
+        "secondaryText": "Уровень 4",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "265 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "40 ед."
+        }, {
+            "name": "Время обучения",
+            "value": "35 сек."
+        }, {
+            "name": "Требуется пищи",
+            "value": "4 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/darkHorde/units/gif/dh_wywernRider.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Черный дракон",
+        "id": "darkHorde_blackDragon",
+        "image": {
+            "url": "../../assets/ragnarok/content/darkHorde/units/images/BTNDarkHordeBlackDragon.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": ""
+        },
+        "key": "Q",
+        "secondaryText": "Уровень 7",
+        "data": [{
+                "name": "Требуется золота",
+                "value": "465 ед."
+            }, {
+                "name": "Требуется древесины",
+                "value": "125 ед."
+            }, {
+                "name": "Время обучения",
+                "value": "78 сек."
+            }, {
+                "name": "Требуется пищи",
+                "value": "4 ед."
+            }, {
+                "name": "Здоровье",
+                "value": "1800 ед."
+            }, {
+                "name": "Мана",
+                "value": "нет"
+            }, {
+                "name": "Скорость восстановления здоровья",
+                "value": "5 ед./сек."
+            }
+
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/darkHorde/units/gif/dh_blackDragon.gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    },
+    {
+        "name": "Катапульта",
+        "id": "darkHorde_catapult",
+        "image": {
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": ""
+        },
+        "key": "W",
+        "text": "",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Ящер-рабочий",
+        "id": "lizardman_worker",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanWorker_v2.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": ""
+        },
+        "key": "Q",
+        "text": "Уровень 1",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "70 ед."
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_worker_1.gif",
+            "position": "center",
+            "size": "contain"
+        }, {
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_worker_2.gif",
+            "position": "center",
+            "size": "contain"
+        }, {
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_worker_3.gif",
+            "position": "center",
+            "size": "contain"
+        }]
+    }, {
+        "name": "Ящер-убийца",
+        "id": "lizardman_assasin",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/LizardmanAssassin_v2.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Скритный воин из расы ящеров. Постоянно скрывается в тенях, пока не атакует цель. Кроме того, может выучить способности «Отравленное лезвие» и «Скрытый удар».",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "235 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "35 ед."
+        }, {
+            "name": "Наносимый урон (уровень 1)",
+            "value": "15 - 32"
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_assasin_1.gif",
+            "position": "center",
+            "size": "contain"
+        }, {
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_assasin_2.gif",
+            "position": "center",
+            "size": "contain"
+        }, {
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_assasin_3.gif",
+            "position": "center",
+            "size": "contain"
+        }]
+    }, {
+        "name": "Ящер-воин",
+        "id": "lizardman_warrior",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanWarrior_v2.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "Q",
+        "text": "Уровень 2",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "135 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "нет"
+        }, {
+            "name": "Наносимый урон (уровень 1)",
+            "value": "13 - 18"
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_warrior.gif",
+            "position": "center",
+            "size": "contain"
+        }]
+    }, {
+        "name": "Ящер-лучник",
+        "id": "lizardman_archer",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanRanger.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "W",
+        "text": "Уровень 3",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Ящер-охотник",
+        "id": "lizardman_ranger",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanArmoredRanger.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "W",
+        "text": "Уровень 4",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_ranger.gif",
+            "position": "center",
+            "size": "contain"
+        }]
+    }, {
+        "name": "Всадник на морском драконе",
+        "id": "lizardman_rider",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanRider_v2.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "E",
+        "text": "Уровень 3",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Всадник на рапторе",
+        "id": "lizardman_raptor",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanRaptor.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "W",
+        "text": "Уровень 4",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Шаман ящеров",
+        "id": "lizardman_shaman",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanShaman_v2.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Ведьма",
+        "id": "lizardman_witch",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanWitch.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "W",
+        "text": "Уровень 2",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Огнерожденный",
+        "id": "lizardman_pyromancer",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardman_pyromancer.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "E",
+        "text": "Уровень 3",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_pyromancer_1.gif",
+            "position": "center",
+            "size": "contain"
+        }, {
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_pyromancer_2.gif",
+            "position": "center",
+            "size": "contain"
+        }]
+    }, {
+        "name": "Стрекоза",
+        "id": "lizardman_dragonfly",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanStringer.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать воздушные цели противника"
+        },
+        "key": "Q",
+        "text": "Уровень 2",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "../../assets/ragnarok/content/lizardmans/units/gif/lizardman_dragonfly.gif",
+            "position": "center",
+            "size": "contain"
+        }]
+    }, {
+        "name": "Громовая ящерица",
+        "id": "lizardman_thunderLizard",
+        "image": {
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "W",
+        "text": "Уровень 4",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Ящер-гладиатор",
+        "id": "lizardman_gladiator",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanGladiator.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "E",
+        "text": "Уровень 5",
+        "data": [
+
+        ],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Пророк солнца",
+        "id": "lizardman_prophetOfSun",
+        "image": {
+            "url": "../../assets/ragnarok/content/lizardmans/units/images/BTNLizardmanProphetOfTheSun.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "Q",
+        "text": "Уровень 6",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "215 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": ""
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Энт-рабочий",
+        "id": "forestGuardians_ent",
+        "image": {
+            "url": "../../assets/ragnarok/content/forestGuardians/units/images/BTNEnt.png",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "Q",
+        "text": "Уровень 1",
+        "data": [{
+            "name": "Требуется золота",
+            "value": "35 ед."
+        }, {
+            "name": "Требуется древесины",
+            "value": "15"
+        }],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Стражница",
+        "id": "forestGuardians_guard",
+        "image": {
+            "url": "../../assets/ragnarok/content/forestGuardians/units/images/BTNForestGuardiansWatcher.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Лучница",
+        "id": "forestGuardians_archer",
+        "image": {
+            "url": "../../assets/ragnarok/content/forestGuardians/units/images/BTNForestGuardianAarcher.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Балиста",
+        "id": "forestGuardians_balista",
+        "image": {
+            "url": "../../assets/ragnarok/content/forestGuardians/units/images/BTNForestGuardiansBalista.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Дриада",
+        "id": "forestGuardians_dryad",
+        "image": {
+            "url": "../../assets/ragnarok/content/forestGuardians/units/images/BTNForestGuardiansCentaur.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Мудрая дочь леса. При каждой атаке отравляет противника ядом, снижая скорость перемещения и боя, а также наносящим урон. Невосприимчива к любой магии. Может выучить заклинание «Рассеять чары».",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Совиный медведь",
+        "id": "forestGuardians_owlbear",
+        "image": {
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Сокол",
+        "id": "forestGuardians_eagle",
+        "image": {
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Друид-медведь",
+        "id": "",
+        "image": {
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Друид-ворон",
+        "id": "",
+        "image": {
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Лучница на соколе",
+        "id": "forestGuardians_eagleRider",
+        "image": {
+            "url": "../../assets/ragnarok/content/forestGuardians/units/images/BTNForestGuardiansEagleRider.jpg",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Зеленый дракон",
+        "id": "forestGuardians_greenDragon",
+        "image": {
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Древний зверь маны",
+        "id": "forestGuardians_beastOfMana",
+        "image": {
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "Древний зверь, обитающий в глубинах Ашенвальского леса. Эффективен против зданий противника. Защищён от магических и физических атак. Может изучить способность «Аура Маны».",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }, {
+        "name": "Древний зверь маны",
+        "id": "forestGuardians_beastOfMana",
+        "image": {
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        },
+        "description": {
+            "primary": "",
+            "secondary": "Может атаковать наземные цели противника"
+        },
+        "key": "",
+        "text": "",
+        "data": [],
+        "abilities": [{
+            "name": "",
+            "id": ""
+        }],
+        "model": [{
+            "url": "",
+            "position": "center",
+            "size": "cover"
+        }]
+    }
+]

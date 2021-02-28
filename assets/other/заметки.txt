@@ -1,0 +1,188 @@
+AutoCloseTag - авто закрытие тегов
+Auto Rename Tag - переименование парных тегов
+Beautify - разжатие кода (из minify в стандартный вид)
+highlight-mathing-tag - подсвечивание парных тегов (нужно настроить в конфиге, чтобы поярче было)
+html snippets - сниппеты как в сублайме
+insert <br> tag - вставка тега новой строки через шифт+enter
+PHP Debug - деббагер для php (нужно настраивать)
+Debugger for Chrome - JS дебаггер
+vscode-icons - иконки для VSC
+minify - сжатие кода
+css auto prefix - автопрефиксы
+
+apache Conf (для подсветки .htaccess)
+autoFileName - дополнение пути (например для "requere" в node.js)
+Bookmarks - делать закладки в коде
+Bracket Pair Colorizer - подсвечивать парные скобки (квадратные, фигурные, прямоугольные, круглые) очень удобно
+C# FixFormat - для тех, кто использует C#
+css-auto-prefix - ставит префиксы в css
+gitignore - добавляет .gitignore файл под проект (node.js, docker, yii2, laravel и т.д.)
+GitLens — Git supercharged - показывает гит-коммиты в коде (и автора коммита, удобно в командной разработке)
+HTML Class Suggestions
+HTML Boilerplate - "правильный шаблон основа" html5
+Live Server - открывает браузер, где в режиме "онлайн" видишь изменения в html
+Markdown Preview Enhanced - тоже самое, что и Live Server, но только для страниц с markdown разметкой
+
+Material Icon Theme - для красоты VSC
+vscode-icons - для красоты VSC
+
+Monokai Dark Soda - тема для VSC
+
+MySQL Syntax - для подсветки синтаксиса sql
+
+PHP Intellisense - Crane - полезная штука для php
+
+Pug beautify - если используете шаблонизатор pug/jade
+Pug to HTML - если используете шаблонизатор pug/jade
+
+Quick gitignore - тоже что-то полезное
+
+Regex Previewer - помогает в регуляркой
+
+Russian Language Pack for Visual Studio Code - русский язык
+
+Snippet - расширения для создания собственных сниппетов
+
+SQL Server (mssql) - для работы с sql server
+
+SVG Viewer - просматривать SVG картинки
+
+Todo Tree - делать заметки, удобно
+
+Yii2 Snippets - сниппеты для yii2
+
+Remote FS - для удаленного подключения по FTP (удобно, если несколько серверов), пример конфига:
+{
+    "remotefs.remote": {"site": {
+        "scheme": "ftp",
+        "host": "1************01",
+        "username": "ad**********ain",
+        "password": "Lv************xF",
+        "rootPath": "/"
+      },
+      "site2": {
+        "scheme": "ftp",
+        "host": "17**********1",
+        "username": "a*****************m",
+        "password": "************O",
+        "rootPath": "/"
+      },
+      "moy-yandex": {
+        "scheme": "ftp",
+        "host": "a***********u",
+        "username": "a***************mone",
+        "password": "1***************W",
+        "rootPath": "/"
+      }
+  }
+
+
+// Подбробнее https://toster.ru/q/475177
+
+
+
+
+
+
+
+// CSS
+
+строчные тэги
+
+b, big, i, small, tt
+abbr, acronym, cite, code, dfn, em, kbd, strong, samp, var
+a, bdo, br, img, map, object, q, script, span, sub, sup
+button, input, label, select, textarea
+
+
+
+
+
+
+
+// ============
+
+<div *ngFor="let item of object | keyvalue">
+  {{item.key}}:{{item.value}}
+</div>
+
+
+
+// ссылка на видео Мишани
+https://www.youtube.com/watch?v=kbDC92655Yc&feature=youtu.be
+
+// ссылка на канал
+https://www.youtube.com/channel/UCpckdTLx7NU_rM7Q1u-l4xQ
+
+
+
+// Рефы
+
+https://www.behance.net/gallery/82837533/Caller-User-Profile-Dashboard-Design-Free-Download?tracking_source=search%7Ccrm%20call%20center
+
+https://www.behance.net/gallery/64594073/Neirika-Dashboard?tracking_source=search%7CDashboard%20crm
+
+https://www.behance.net/gallery/84585945/CRM-entreprise-system-for-education-center?tracking_source=search%7CDashboard%20crm
+
+
+
+
+
+
+
+DarkSiDe company Portal
+
+Меню
+=> Игровой портал
+  => Наши проекты
+    => Warcraft 3 : Ragnarok
+    => Pandora Online
+  => Стримы, обзоры, гайды
+    => Каталог
+
+=> Разработка и программирование
+  => Заказать проект
+    => Выбрать прототип ( Форма с вариантами )
+  => Посмотреть работы
+    => Галерея
+  => Команда разработчиков
+    => Каталог
+
+=> Курсы и обучение
+  => Игровая индустрия
+      => Unreal Engine
+        => Каталог
+      => Unity 3D
+        => Каталог
+
+  => Программирование
+
+=> О команде
+
+=> Администрирование
+  => Чат
+  => Библиотека
+  => Материалы
+
+
+
+ng build --prod --aot --build-optimization
+
+
+
+
+Структура проекта
+-- app
+  -- shared
+    -- components
+    -- services
+
+  -- modules
+
+
+  -- pages
+    -- main
+      -- projects-page
+      -- libraries-page
+      -- profile-page
+

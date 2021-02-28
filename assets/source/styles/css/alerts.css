@@ -1,0 +1,215 @@
+/* ALERTS */
+
+
+/* The alert message box */
+
+.alert {
+    background-color: #fff;
+    display: block;
+    padding: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    /* position: absolute; */
+    top: 20px;
+    right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animationRight;
+    -webkit-animation-duration: .8s;
+    animation-name: animationRight;
+    animation-duration: .8s;
+    border-radius: 6px;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+
+
+/* Alert Colors */
+
+.alert.success {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.alert.error {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.alert.info {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.alert.warning {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: #333;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes animationRight {
+    from {
+        right: 0;
+        opacity: 0;
+    }
+    to {
+        right: 40px;
+        opacity: 1;
+    }
+}
+
+@keyframes animationRight {
+    from {
+        right: 0;
+        opacity: 0;
+    }
+    tO {
+        right: 40px;
+        opacity: 1;
+    }
+}
+
+
+/* MUI ALERTS */
+
+.mui-alert-container {
+    box-shadow: 0 8px 16px rgba(51, 51, 51, .2);
+    display: block;
+    border-radius: 4px;
+    transition: opacity, .6s ease-in-out;
+}
+
+.mui-alert {
+    font-weight: 400;
+    font-size: 13px;
+    font-family: 'Roboto Regular', sans-serif;
+    line-height: 20px;
+    color: #333;
+    position: relative;
+    display: block;
+    padding: 13px 16px 11px;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.mui-alert::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: currentColor;
+    pointer-events: none;
+}
+
+.mui-alert::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    pointer-events: none;
+}
+
+.mui-alert._has-icon {
+    padding-left: 44px;
+}
+
+._has-close-button {
+    padding-right: 32px;
+}
+
+.mui-alert.success::after {
+    background: rgba(57, 181, 74, .12);
+}
+
+.mui-alert.info::after {
+    background: rgba(23, 113, 230, .12);
+}
+
+.mui-alert.error::after {
+    background: rgba(224, 31, 25, .12);
+}
+
+.mui-alert.warning::after {
+    background: rgba(255, 221, 45, .12);
+}
+
+.mui-alert.success {
+    color: #39b54a;
+}
+
+.mui-alert.info {
+    color: #1771e6;
+}
+
+.mui-alert.error {
+    color: #e01f19;
+}
+
+.mui-alert.warning {
+    color: #fcc521;
+}
+
+.mui-alert>.alert-content {
+    word-wrap: break-word;
+    color: #333;
+}
+
+.mui-alert>.alert-content>.heading {
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Roboto Regular', sans-serif;
+    line-height: 20px;
+    margin: 0;
+}
+
+.alert-icon {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    flex-shrink: 0;
+    line-height: 0;
+    fill: transparent;
+}
+
+.alert-close-button {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    color: #959ba4;
+    transition: .2s ease-in-out;
+}
+
+.alert-close-button:hover {
+    color: #333;
+    transition: .2s ease-in-out;
+}

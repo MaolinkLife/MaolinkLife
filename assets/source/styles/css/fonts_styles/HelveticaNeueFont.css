@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'HelveticaNeueCyr Roman';
+    src: url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot');
+    src: url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'), url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff') format('woff'), url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr Medium';
+    src: url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Medium.eot');
+    src: url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'), url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Medium.woff') format('woff'), url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr Bold';
+    src: url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot');
+    src: url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'), url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff') format('woff'), url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr Light';
+    src: url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot');
+    src: url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'), url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff') format('woff'), url('../../../font/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BebasNeue Bold';
+    src: url('../../../font/BebasNeue/BebasNeueBold.eot');
+    src: url('../../../font/BebasNeue/BebasNeueBold.eot?#iefix') format('embedded-opentype'), url('../../../font/BebasNeue/BebasNeueBold.woff') format('woff'), url('../../../font/BebasNeue/BebasNeueBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

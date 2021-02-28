@@ -1,0 +1,176 @@
+{
+  "name": "Эльфы крови",
+  "id": "bloodElf",
+  "units": [
+    {
+      "name": "Рабочий",
+      "id": "bloodElf_worker"
+    },
+    {
+      "name": "Мечник",
+      "id": "bloodElf_warrior",
+      "discription": {
+        "primary": "Рядовой воин из армии Син'дорай, вооруженный мечом и щитом. Владеет способностью «Сожжение маны». В дальнейшем может научиться укрываться за щитом от магических атак противника.",
+        "secondary": "Может атаковать наземные цели"
+      },
+      "image": {
+        "url": "../../../assets/ragnarok/content/bloodElf/units/images/BTNBloodElfSwordman.jpg",
+        "position": "center",
+        "size": "cover"
+      }
+    },
+    {
+      "name": "Лучница",
+      "id": "bloodElf_archer",
+      "image": {
+        "url": "../../../assets/ragnarok/content/bloodElf/units/images/BTNBloodElfArcher.jpg",
+        "position": "center",
+        "size": "cover"
+      }
+    },
+    {
+      "name": "Рыцарь",
+      "id": "bloodElf_knight"
+    },
+    {
+      "name": "Чародейка",
+      "id": "bloodElf_wizzard"
+    },
+    {
+      "name": "Жрец",
+      "id": "bloodElf_priest"
+    },
+    {
+      "name": "Ведьмак",
+      "id": "bloodElf_spellBreaker"
+    },
+    {
+      "name": "Кристальная катапульта",
+      "id": "bloodElf_crystalCatapult"
+    },
+    {
+      "name": "Магический страж",
+      "id": "bloodElf_arcaneGuardian"
+    },
+    {
+      "name": "Ястреб",
+      "id": "bloodElf_dragonHuwk"
+    },
+    {
+      "name": "Феникс",
+      "id": "bloodElf_phoenix"
+    }
+  ],
+  "buildings": [
+    {
+      "name": "Святилище магии",
+      "id": "bloodElf_"
+    },
+    {
+      "name": "Святилище силы",
+      "id": "bloodElf_"
+    },
+    {
+      "name": "Святилище мудрости",
+      "id": "bloodElf_"
+    },
+    {
+      "name": "Казармы",
+      "id": "bloodElf_barracks"
+    },
+    {
+      "name": "Лесопилка",
+      "id": "bloodElf_lumberMill"
+    },
+    {
+      "name": "Кузница",
+      "id": "bloodElf_blacksmith"
+    },
+    {
+      "name": "Дом",
+      "id": "bloodElf_house"
+    },
+    {
+      "name": "Алтарь силы",
+      "id": "bloodElf_altar"
+    },
+    {
+      "name": "Храм магии",
+      "id": "bloodElf_arcaneSanctuary"
+    },
+    {
+      "name": "Магическая мастерская",
+      "id": "bloodElf_workshop"
+    },
+    {
+      "name": "Смотровая башня",
+      "id": "bloodElf_scoutTower"
+    },
+    {
+      "name": "Сторожевая башня",
+      "id": "bloodElf_guardTower"
+    },
+    {
+      "name": "Осадная башня",
+      "id": "bloodElf_cannonTower"
+    },
+    {
+      "name": "Чародейская башня",
+      "id": "bloodElf_arcaneTower"
+    },
+    {
+      "name": "Гнезда ястребов",
+      "id": "bloodElf_hatchery"
+    },
+    {
+      "name": "Магическая лавка",
+      "id": "bloodElf_arcaneVault"
+    }
+  ],
+  "heroes": [
+    {
+      "name": "Мальком",
+      "id": "bloodElf_swordChampion"
+    },
+    {
+      "name": "Алексия",
+      "id": "bloodElf_firePriestess"
+    },
+    {
+      "name": "Вейн",
+      "id": "bloodElf_phoenixRanger"
+    },
+    {
+      "name": "Кель",
+      "id": "bloodElf_bloodWizzard"
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Огненный шар",
+      "id": "bloodElf_fireBall",
+      "type": "active"
+    },
+    {
+      "name": "Огненный дождь",
+      "id": "bloodElf_fireRain",
+      "type": "active"
+    },
+    {
+      "name": "Огненные стрелы",
+      "id": "bloodElf_fireArrows",
+      "type": "active"
+    },
+    {
+      "name": "Сожжение маны",
+      "id": "bloodElf_manaBurn",
+      "type": "passive"
+    }
+  ],
+  "upgrades": [],
+  "logo": {
+    "url": "",
+    "position": "",
+    "size": ""
+  }
+}

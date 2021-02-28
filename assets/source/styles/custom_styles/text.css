@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.text-xs {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.text-s {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.text-m {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.text-l {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text-xl {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.text-xxl {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.text-grey {
+    color: #D1D2D6;
+}
+
+.text-grey-2 {
+    color: #A2A8AF;
+}
+
+.text-yellow {
+    color: #f6d265;
+}
+
+.roud-light {
+    border-radius: 6px;
+}
+
+
+/* * * * * * * * * * *
+text-color
+* * * * * * * * * * */
+
+
+/* Белый текст */
+
+.text-primary {
+    color: #D1D2D6;
+}
+
+
+/* Красный текст */
+
+.text-red,
+.text-hover-red:hover {
+    color: var(--color-red--) !important;
+    transition-duration: .2s;
+}
+
+
+/* Зеленый текст */
+
+.text-green,
+.text-hover-green:hover {
+    color: var(--color-green--) !important;
+    transition-duration: .2s;
+}
+
+.text-green:hover:not(.text-green.static) {
+    color: #437b33 !important;
+}
+
+
+/* Синий текст */
+
+.text-blue,
+.text-hover-blue:hover {
+    color: var(--color-blue--) !important;
+    transition-duration: .2s;
+}
+
+.text-blue:hover:not(.text-blue.static) {
+    color: #2F99CA !important;
+}
+
+
+/* Желтый текст */
+
+.text-yellow:hover:not(.text-yellow.static) {
+    color: var(--color-yellow--);
+}
+
+
+/* Фиолетовый текст */
+
+.text-violet:hover:not(.text-violet.static) {
+    color: var(--color-violet--);
+}
+
+
+/* Темный текст */
+
+.text-color-dark.statick {
+    color: var(--gamer-text-color-dark--);
+}
+
+.text-color-blue.active:not(.static),
+.text-color-blue:hover:not(.static) {
+    color: var(--gamer-text-color-blue--);
+    transition-duration: .2s;
+}
+
+.text-color-green.active:not(.static),
+.text-color-green:hover:not(.static) {
+    color: var(--gamer-text-color-green--);
+    transition-duration: .2s;
+}
+
+.text-color-yellow.active:not(.static),
+.text-color-yellow:hover:not(.static) {
+    color: var(--gamer-text-color-yellow--);
+    transition-duration: .2s;
+}
+
+.text-color-violet.active:not(.static),
+.text-color-violet:hover:not(.static) {
+    color: var(--gamer-text-color-violet--);
+    transition-duration: .2s;
+}
+
+.text-color-red:hover:not(.static),
+.text-color-red.active:not(.static) {
+    color: var(--gamer-text-color-red--);
+    transition-duration: .2s;
+}
+
+.text-color-red.static {
+    color: var(--gamer-text-color-red--);
+    transition-duration: .2s;
+}
+
+.text-color-blue.static {
+    color: var(--gamer-text-color-blue--);
+    transition-duration: .2s;
+}
+
+.text-color-yellow.static {
+    color: var(--gamer-text-color-yellow--);
+    transition-duration: .2s;
+}
+
+.text-color-green.static {
+    color: var(--gamer-text-color-green--);
+    transition-duration: .2s;
+}
+
+.text-color-violet.static {
+    color: var(--gamer-text-color-violet--);
+    transition-duration: .2s;
+}
+
+.text-ultra-small {
+    font-family: PF Highway Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.text--extra-small {
+    font-family: PF Highway Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.text-small {
+    font-family: PF Highway Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.text-normal {
+    font-family: PF Highway Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.text-extra-large {
+    font-family: PF Highway Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.text-bold {
+    font-weight: bold;
+}

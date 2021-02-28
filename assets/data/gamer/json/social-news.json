@@ -1,0 +1,41 @@
+[{
+        "image": {
+            "path": "../../../../assets/data/gamer/images/social-news/SpecOps_title.jpg",
+            "size": "cover",
+            "position": "center"
+        },
+        "name": "Spec Ops: The line",
+        "count": 10,
+        "title": "Шедевр игропрома и однозначно лучшая игра года",
+        "description": "Никто не ожидал, что неизвестная до этого времени студия Yager Development даст жару самым популярных сериям игр. Перед нами открылся совершенно новый вид игрового исскуства, когда игрок вовлекался в игру настолько что...",
+        "author": {
+            "name": "Максим Григорьев",
+            "work_position": "Разработчик",
+            "image": {
+                "path": "https://trello-attachments.s3.amazonaws.com/5c1d66487ffd5b268e26115c/5d17560e000b6a4525e979fb/2caedda93806c4b44698713bff335035/avatar1.jpg",
+                "position": "center",
+                "size": "cover"
+            }
+        }
+    },
+    {
+        "name": "The Last of Us",
+        "count": 10,
+        "title": "Невероятный сюжет, прекрасная графика и...",
+        "description": "The Last of Us — это не просто игра про зомби-аппокалипсис, но еще и про человеческие взаимоотношения. Перед нами несколько главных героев, каждый из которых влияет на ход истории всей игры. Чтобы не говорили, но такие игры входят...",
+        "image": {
+            "path": "../../../../assets/data/gamer/images/social-news/theLustOfUs.jpg",
+            "size": "cover",
+            "position": "right"
+        },
+        "author": {
+            "name": "Максим Григорьев",
+            "work_position": "Разработчик",
+            "image": {
+                "path": "https://trello-attachments.s3.amazonaws.com/5c1d66487ffd5b268e26115c/5d17560e000b6a4525e979fb/2caedda93806c4b44698713bff335035/avatar1.jpg",
+                "position": "center",
+                "size": "cover"
+            }
+        }
+    }
+]

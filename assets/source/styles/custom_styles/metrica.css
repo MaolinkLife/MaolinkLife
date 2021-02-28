@@ -1,0 +1,221 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css?family=Concert+One&display=swap");
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+}
+
+[mui-slide-panel-right] {
+    height: 100%;
+    max-width: 130px;
+    width: 100%;
+    position: fixed;
+}
+
+[mui-slide-panel-right="darken"] {
+    background-color: #050223;
+}
+
+app-root {
+    width: 100%;
+    height: 100%;
+}
+
+[mui-flex-direction],
+[mui-image] {
+    display: flex;
+}
+
+[mui-flex-direction="horizontal"] {
+    flex-direction: row;
+}
+
+[mui-flex-direction="vertical"] {
+    flex-direction: column;
+}
+
+[mui-flex-direction="vertical"].baseline,
+[mui-flex-direction="horizontal"].baseline {
+    align-items: baseline;
+}
+
+[mui-frame-content] {
+    height: 100%;
+    width: 100%;
+    padding: 21px;
+}
+
+.between>* {
+    width: 100%;
+    height: 100%;
+}
+
+[mui-frame-content]>*:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+[mui-flex-direction="vertical"].center {
+    align-items: center;
+}
+
+[mui-flex-direction="vertical"].middle {
+    justify-content: center;
+}
+
+[mui-flex-direction="vertical"].around,
+[mui-flex-direction="horizontal"].around {
+    justify-content: space-around;
+}
+
+[mui-slide-element] {
+    border-bottom: 1px solid #201d39;
+    padding: 16px 16px 23px 16px;
+}
+
+[mui-image] {
+    width: 100%;
+    height: 100%;
+}
+
+[mui-image="80"] {
+    max-width: 80px;
+    min-width: 80px;
+    max-height: 80px;
+    min-height: 80px;
+}
+
+[mui-image="48"] {
+    max-width: 48px;
+    min-width: 48px;
+    max-height: 48px;
+    min-height: 48px;
+}
+
+.arounded {
+    border-radius: 50%;
+}
+
+
+/* 
+[mui-card-box] {
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.25);
+    background: #8691cd;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+} */
+
+[mui-button] {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 8px 13px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+[mui-text] {
+    font-family: 'Quicksand', sans-serif;
+}
+
+[mui-text="small"] {
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+[mui-text="extra-small"] {
+    font-size: 13px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+[mui-number="large"] {
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+[mui-button="succes"] {
+    background-color: #3cb359;
+    color: #fff;
+}
+
+[mui-text].color-summary-text,
+[mui-number].color-summary-text {
+    color: #889197;
+}
+
+[mui-icon] {
+    display: flex;
+    flex-direction: column;
+}
+
+[mui-icon="small"] {
+    max-width: 24px;
+    min-width: 24px;
+    max-height: 24px;
+    min-height: 24px;
+    width: 100%;
+    height: 100%;
+}
+
+[mui-icon="medium"] {
+    max-width: 32px;
+    min-width: 32px;
+    max-height: 32px;
+    min-height: 32px;
+    width: 100%;
+    height: 100%;
+}
+
+[mui-progress-bar] {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #d7e2e5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+[mui-progress-bar]>[mui-progress-in] {
+    border-radius: inherit;
+    width: inherit;
+    height: 10px;
+    width: 75%;
+    position: absolute;
+}
+
+[mui-progress-bar]>[mui-progress-in="succes"] {
+    background: #71d189;
+}
+
+[mui-progress-bar]>[mui-progress-in="orange"] {
+    background: #f5896c;
+}
+
+[mui-progress-bar]>[mui-progress-in="violet"] {
+    background: #827f9c;
+}
+
+[mui-progress-bar]>[mui-progress-in="warning"] {
+    background: #f5c47a;
+}
+
+[mui-progress-bar]>[mui-progress-in="danger"] {
+    background: #f56767;
+}

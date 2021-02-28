@@ -1,0 +1,18 @@
+[
+  {
+    "id" : "blood_elf",
+    "name": "Эльфы крови",
+    "units" : [
+        "id", "id", "id"
+    ],
+    "buildings" : [
+        "id", "id", "id"
+    ],
+    "spells" : [
+        "id", "id", "id"
+    ],
+    "upgrades" : [
+        "id", "id", "id"
+    ]
+  }
+]

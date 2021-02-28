@@ -1,0 +1,2434 @@
+<div mui-flex-direction="vertical" mui-card-box>
+    <h1>Шаблоны</h1>
+    <div style="max-width: 650px; width: 100%;">
+        <p>
+            Вложения
+        </p>
+        <div mui-input-files>
+            <div mui-flex-direction mui-input-placeholder style="position: relative; width: 100%; height: 100%;">
+                <input id="inputFile" mui-file-input type="file">
+                <label mui-flex-direction="horizontal" class="middle center" for="inputFile" style="position: absolute; width: 100%; height: 100%;">
+          <a mui-link style="color: #1771e6; margin-right: 5px; background-color: transparent;">
+            Выберите файлы
+          </a>
+          <small>
+            или перетащите их сюда
+          </small>
+        </label>
+            </div>
+            <div id="fileList" mui-flex-direction="vertical" style="display: none;">
+                <div mui-flex-direction="vertical" mui-file-list style="padding: 0px 10px;">
+                    <!-- Тут будут файлы -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--
+<div mui-flex-direction="vertical" style="max-width: 650px; height: 56px;">
+
+
+  <div _ngcontent-okh-c3="" _nghost-okh-c17="" class="ng-valid ng-star-inserted ng-touched ng-dirty">
+    <div _ngcontent-okh-c17="" _nghost-okh-c29="">
+      <div _ngcontent-okh-c29="" class="wrapper">
+
+        <div _ngcontent-okh-c29="" class="outline _initialized" _nghost-okh-c21="" data-tui-host-validation="normal"
+          data-tui-host-mode="attach">
+          <div _ngcontent-okh-c21="" class="content"></div>
+        </div>
+
+        <div _ngcontent-okh-c29="" class="content">
+          <input _ngcontent-okh-c29="" class="native" id="native" type="file" accept="null" multiple="" />
+
+          <div _ngcontent-okh-c29="" automation-id="tui-attach-file__label" class="title ng-star-inserted">
+            <a _ngcontent-okh-c29="" tuilink="" _nghost-okh-c30="">
+              <span _ngcontent-okh-c30="" class="content">
+                <label _ngcontent-okh-c29="" automation-id="tui-attach-file__document-label" class="label"
+                  for="native">
+                  Выберите файлы
+                </label>
+              </span>
+            </a> или перетащите их сюда
+          </div>
+
+          <div _ngcontent-okh-c29="" class="files ng-star-inserted">
+            <div _ngcontent-okh-c29="" class="file ng-star-inserted" _nghost-okh-c31="" data-tui-host-state="normal">
+              <div _ngcontent-okh-c31="" class="file-content ng-star-inserted" tuichangereceiver=""
+                automation-id="tui-attach-file__file">
+
+
+                <tui-svg _ngcontent-okh-c31="" automation-id="tui-attach-file__file-icon"
+                  class="file-icon ng-star-inserted" _nghost-okh-c22=""></tui-svg>
+
+
+                <div _ngcontent-okh-c31="" class="file-name ng-star-inserted">
+                  <div _ngcontent-okh-c31="" automation-id="tui-attach-file__file-title" class="file-title">
+                    Безымянный (2)
+                  </div>
+
+                  <div _ngcontent-okh-c31="" automation-id="tui-attach-file__file-extension"
+                    class="file-extension ng-star-inserted">
+                    .jpg
+                  </div>
+                </div>
+                <div _ngcontent-okh-c31="" automation-id="tui-attach-file__file-size"
+                  class="file-size ng-star-inserted">
+                  199 КБ
+                </div>
+
+                <div _ngcontent-okh-c31="" automation-id="tui-attach-file__remove-file-button"
+                  class="file-remover _without-mode ng-star-inserted" icon="tuiIconCloseLarge" label="Удалить"
+                  _nghost-okh-c32="" data-tui-host-size="l">
+                  <div _ngcontent-okh-c32="" tuichangereceiver="" _nghost-okh-c21=""
+                    data-tui-host-validation="normal">
+                    <div _ngcontent-okh-c21="" class="content">
+                      <div _ngcontent-okh-c32="" class="content">
+
+                        <tui-svg _ngcontent-okh-c32="" class="icon" _nghost-okh-c22="">
+                        </tui-svg>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <button _ngcontent-okh-c32="" automation-id="tui-icon-button__native"
+                    class="native ng-star-inserted" title="Удалить" id="tui_interactive_51568651330018" type="button"
+                    tabindex="0" aria-describedby="tui_interactive_51568651330018_described-by"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</div> -->
+
+
+    <script>
+        // var html = "";
+        // var files = [];
+
+
+        // for (i of $("#inputFile").prop('files')) {
+        // 	files.push(i);
+        // }
+
+
+        // for (i of files) {
+        // 	html += `
+        // <div mui-file-list mui-flex-direction="vertical" style=" padding: 0px 10px;">
+        //     <div mui-flex-direction="horizontal" mui-file class="middle" style="justify-content: space-between;">
+        //         <div mui-flex-direction="horizontal" mui-file-list>
+        //           <span mui-icon="success">✓</span>
+        //           <small>${i.name}</small>
+        //         </div>
+        // 		<div mui-flex-direction="horizontal" mui-icon="cancel">x</div>
+        // 	</div>
+        // </div>
+        // 	`;
+        // }
+
+        // $("#fileList").empty();
+        // $("#fileList").html(html);
+    </script>
+
+    <a [routerLink]="['/templates', 'calculate']">Калькулятор</a>
+
+</div>
+
+
+<div mui-flex-direction="vertical" mui-card-box style="margin-bottom: 20px;">
+    <h1>Страница 1</h1>
+
+
+    <div fc-container>
+        <div fc-header></div>
+        <div fc-body>
+
+            <div>
+                <label for="direction">
+          <span>Направление</span>
+          <select id="direction">
+            <option value=""> -Выберите- </option>
+          </select>
+        </label>
+            </div>
+
+            <div>
+                <label for="product">
+          Продукт
+          <select id="product" name="">
+            <option value=""> -Выберите- </option>
+          </select>
+        </label>
+            </div>
+            <div>
+                <label for="reason">
+          Параметры
+          <select id="reason" name="">
+            <option value=""> -Выберите- </option>
+          </select>
+        </label>
+            </div>
+
+            <ul>
+                <li>
+                    <b style="font-weight: 500;">Ответственный</b>
+                    <span id="assignee_"></span>
+                </li>
+                <li>
+                    <b style="font-weight: 500;">Tags</b>
+                    <span id="tags_"></span>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div fc-container>
+        <div fc-body>
+            Добавить нового ответсвенного
+            <br><br> Добавить новую тематику
+        </div>
+    </div>
+
+
+
+
+    <div fc-container>
+        <div fc-body>
+            <h1 style="text-align: center;">Добавить новое направление</h1>
+            <mui-input [isRequire]="true" [type]="'text'" [overview_text]="'Направление'" [placeholder]="'Введите наименование направления'" [id]="'directions'" [error_text]="'Не все обязательные поля заполнены!'"></mui-input>
+        </div>
+    </div>
+
+
+    <div fc-container>
+        <div fc-body>
+            <h1 style="text-align: center;">Добавить продукты направления</h1>
+
+
+            <div style="margin: 20px 0;">
+                <label for="selectDirectionForAddProduct">
+          Направление
+          <select id="selectDirectionForAddProduct" style="margin: 20px 0;">
+            <option value=""> -Выберите- </option>
+          </select>
+        </label>
+            </div>
+
+            <mui-input [isRequire]="true" [type]="'text'" [overview_text]="'Продукт'" [placeholder]="'Введите наименование продукта'" [id]="'products'" [error_text]="'Не все обязательные поля заполнены!'"></mui-input>
+            <div style="margin-top: 20px;" id="productList">
+                <span>тут будет список продуктов через запятую или еще как-нибудь</span>
+            </div>
+
+
+
+
+            <div style='margin: 20px 0;'>
+                <button id="addProductButton" fc-button type="submit">Валидировать список продуктов</button>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    <div fc-container>
+        <div fc-body>
+            <h1 style="text-align: center;">Внимание</h1>
+            <p style="text-align: center;">
+                В текущем направлении у данной тематики проставлен ответственный login, изменить пользователя ?
+            </p>
+            <div style="display: flex; flex-direction: row; justify-content: space-around;">
+                <button fc-button type="submit">Изменить</button>
+                <button fc-button type="cancel">Отмена</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Селект с выпадающим списком -->
+    <div fc-div-input class="require" style="margin-bottom: 40px;">
+        <span>Продукт</span>
+        <input id="" fc-input-2 class="select" name="">
+        <div id="sliderDiv" slide-bar class="hidden">
+            <ul no-icon>
+                <li class="target">
+                    Инвестиции
+                </li>
+                <li class="target">
+                    Путешествия
+                </li>
+                <li>
+                    Бизнес
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+    <!-- таймер -->
+    <div fc-container>
+        <div fc-body>
+            <h1 style="text-align: center;">
+                Таймер
+            </h1>
+            <div mui-flex-direction="horizontal" class="between">
+                <mui-input [type]="'number'" [overview_text]="'Часы'" [placeholder]="'Введите время'" [id]="'hour'" [error_text]="'Не все обязательные поля заполнены!'"></mui-input>
+
+                <mui-input [type]="'number'" [overview_text]="'Минуты'" [placeholder]="'Введите время'" [id]="'minuts'" [error_text]="'Не все обязательные поля заполнены!'"></mui-input>
+                <mui-input [type]="'number'" [overview_text]="'Секунды'" [placeholder]="'Введите время'" [id]="'sec'" [error_text]="'Не все обязательные поля заполнены!'"></mui-input>
+            </div>
+            <h3 style="font-weight: 400">
+                Осталось времени : <span id="genTime"></span>
+            </h3>
+            <div style="display: flex; justify-content: space-around;">
+                <button fc-button type="submit">Запустить таймер</button>
+                <button fc-button type="cancel">Остановить таймер</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div mui-flex-direciton="vertical" mui-card-box>
+    <mui-input></mui-input>
+</div>
+
+
+
+<div mui-flex-direction="vertical">
+    <router-outlet></router-outlet>
+</div>
+
+
+
+<form action="handler.php" method="post">
+    <fieldset>
+        <legend class="text-bold">Работа со временем</legend>
+
+        <input type="checkbox"> создание пунктуальности (никогда не будете никуда опаздывать);<br>
+        <input type="checkbox"> излечение от пунктуальности (никогда никуда не будете торопиться);<br>
+        <input type="checkbox"> изменение восприятия времени и часов.
+        <p><input type="submit"></p>
+    </fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div mui-flex-direction="vertical" mui-flex-card-box mui-flex-color="dark">
+
+    <div mui-flex-direction="vertical" mui-flex-background="darken" style="position: relative; color: #ABB7C1; ">
+
+
+        <div mui-flex-direction="vertical" style="padding-left: 10px;">
+            <div mui-flex-direction="vertical" style="font-family: monospace;">
+                <span>Files</span>
+                <ul>
+                    <li>mui-flex-direction.css</li>
+                    <li>mui-flex-decoration.css</li>
+                    <li>mui-flex-color.css</li>
+                    <li>mui-flex-format.css</li>
+                    <li>mui-flex-text.css</li>
+                    <li>mui-flex-custom.css</li>
+                </ul>
+                <span>mui-flex-library.css</span>
+            </div>
+
+            <div mui-flex-direction="horizontal" class="middle">
+                <span mui-flex-text="small" class="text-bold">
+          selector
+        </span>
+                <code style="font-size: 16px; color: #88e22e;">
+          mui-flex-direction
+        </code>
+                <div style="font-family: monospace; font-size: 16px;">
+                    CSS
+                    <br> <span style="color: #25c5ff;">display</span>: <span style="color: #25c5ff;">flex</span>;
+                </div>
+            </div>
+            <div mui-flex-direction="horizontal">
+                <span mui-flex-text="normal" class="text-bold">
+          optiions
+        </span>
+                <ul mui-flex-direction="horizontal" style="font-family: monospace; font-size: 16px;">
+                    <li mui-flex-direction="vertical">
+                        <span class="text-bold">Primary</span>
+                        <ul>
+                            <li mui-flex-direction="vertical">
+                                <span style="color: #e6cc46;">
+                  vertical
+                </span>
+                                <div>
+                                    <span style="color: rgb(248, 248, 248);">
+                    CSS
+                  </span>
+                                    <br> <span style="color: #25c5ff;"> flex-direction</span>:<span style="color: #25c5ff;"> column
+                  </span>
+                                    <span style="color: #eb222a;">!important</span>;
+                                    <br> <span style="color: #25c5ff;">justify-content</span>: <span style="color: #25c5ff;">flex-start</span>;
+                                </div>
+                            </li>
+                            <li mui-flex-direction="vertical">
+                                <span style="color: #e6cc46;">
+                  horizontal
+                </span>
+                                <div>
+                                    <span style="color: rgb(248, 248, 248);">
+                    CSS
+                  </span>
+                                    <br> <span style="color: #25c5ff;"> flex-direction</span>:<span style="color: #25c5ff;"> row </span>
+                                    <span style="color: #eb222a;">!important</span>;
+                                    <br> <span style="color: #25c5ff;">justify-content</span>: <span style="color: #25c5ff;">flex-start</span>;
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li mui-flex-direction="vertical">
+                        <span class="text-bold">
+              Secondary
+            </span>
+                        <ul mui-flex-direction="horizontal" class="wrapper" style="font-family: monospace; ">
+                            <li mui-flex-direction="vertical">
+                                <span style="color: #88e22e;">size-width</span>
+                                <span>
+                  По умолчанию используется <span style="color: #e6cc46;">full</span>
+                                </span>
+                                <ul>
+                                    <li>
+                                        <span style="color: #e6cc46;">
+                      w-1
+                    </span>
+                                        <span>
+                      ( 10% )
+                    </span>
+                                    </li>
+                                    <li>
+                                        <span style="color: #e6cc46;">
+                      w-12
+                    </span>
+                                        <span>
+                      ( 100% ),
+                    </span>
+                                        <span style="color: #e6cc46;">full</span>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li mui-flex-direction="vertical">
+                                <span style="color: #88e22e;">b-color</span>
+                                <ul>
+                                    <li mui-flex-direction="vertical">
+                                        <span style="color: #e6cc46; border-bottom: 1px solid #e6cc46; max-width: 100%; padding: 5px 0px;">
+                      dark
+                    </span>
+                                        <div>
+                                            <span style="color: rgb(248, 248, 248);">
+                        CSS
+                      </span>
+                                            <br> <span style="color: #25c5ff;"> background-color </span>: #<span style="color: #e6cc46;">1B1B25 </span>
+                                            <span style="color: #eb222a;">!important</span>;
+                                        </div>
+                                    </li>
+                                    <li mui-flex-direction>
+                                        <div mui-flex-direction="vertical">
+                                            <span style="color: #e6cc46; border-bottom: 1px solid #e6cc46; padding: 5px 0px;">
+                        light
+                      </span>
+                                            <div>
+                                                <span style="color: rgb(248, 248, 248);">
+                          CSS
+                        </span>
+                                                <br> <span style="color: #25c5ff;"> background-color </span>: #<span style="color: #e6cc46;">fff
+                        </span>
+                                                <span style="color: #eb222a;">!important</span>;
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li mui-flex-direction>
+                                        <span style="color: #e6cc46; border-bottom: 1px solid #e6cc46; max-width: 100%; padding: 5px 0px;">
+                      custom
+                    </span>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+                            <li mui-flex-direction="vertical">
+                                <span style="color: #88e22e;">text-color</span>
+                                <ul>
+                                    <li>
+                                        <span style="color: #e6cc46;">
+                      dark
+                    </span>
+                                    </li>
+                                    <li>
+                                        <span style="color: #e6cc46;">
+                      light
+                    </span>
+                                    </li>
+                                    <li mui-flex-direction="vertical">
+                                        <span style="color: #e6cc46;">
+                      custom
+                    </span>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+
+                            <li mui-flex-direction="vertical">
+                                <span style="color: #88e22e;">class</span>
+                                <ul>
+                                    <li mui-flex-direction="vertical">
+                                        <span style="color: #e6cc46;">
+                      middle
+                    </span>
+                                    </li>
+                                    <li mui-flex-direction="vertical">
+                                        <span style="color: #e6cc46;">
+                      center
+                    </span>
+                                    </li>
+                                    <li mui-flex-direction="vertical">
+                                        <span style="color: #e6cc46;">
+                      top
+                    </span>
+                                    </li>
+                                    <li mui-flex-direction="vertical">
+                                        <span style="color: #e6cc46;">
+                      wrapper
+                    </span>
+                                    </li>
+                                    <li mui-flex-direction="vertical">
+                                        <span style="color: #e6cc46;">
+                      between
+                    </span>
+                                    </li>
+                                    <li mui-flex-direction="vertical">
+                                        <span style="color: #e6cc46;">
+                      around
+                    </span>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div mui-flex-direction="horizontal">
+                <span class="text-bold">
+          default
+        </span>
+            </div>
+
+
+
+
+            <div mui-flex-direction="vertical">
+                <div mui-flex-direction="vertical" style="font-family: monospace;">
+                    <span>Категории</span>
+                    <span>Наплавляющие, Декораторы, Красители, Форматирующие, Тестовые, Специальные</span>
+                </div>
+                <h3>
+                    Направляющие
+                </h3>
+
+
+            </div>
+
+
+            <div>
+
+                <input type="checkbox" value="">
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--     <div mui-flex-direction="horizontal">
+              <div id="info_panel" mui-flex-direction="vertical" style="position: relative; min-height: 800px; max-width: 481px; border: 1px solid #333333; box-shadow: -4px 4px 16px rgba(0, 0, 0, 0.25); border-radius: 4px; width: 100%; margin-left: 20px; color: #ABB7C1;     border: 1px solid;">
+
+                  <div mui-flex-direction="horizontal">
+
+                      <div mui-flex-image class="around" size="normal" style="width: 80px; height: 80px; border-radius: 50%; max-width: 80px; max-height: 80px; border: 1px solid;">
+                          <img src="" alt="">
+                      </div>
+
+
+                      <div mui-flex-direction="vertical">
+                          <div>
+                              text
+                          </div>
+                          <div>
+                              text
+                          </div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+              <div id="content">
+                  <div mui-flex-direction="vertical">
+
+
+                      <span mui-flex-text type="title">Переработка героев</span>
+
+                      <ul>//Стандартные
+                          <li>
+                              Сильвана - Темная Охотница
+                          </li>
+                          <li>
+                              Вариматас - Лорд ужаса
+                          </li>
+                          <li>
+                              Кель - Чародей Крови
+                          </li>
+                          <li>
+                              Джайна - Архимаг
+                          </li>
+                          <li>
+                              Гром - Адский Крик
+                          </li>
+                          <li>
+                              Вайши - Медуза
+                          </li>
+                      </ul>
+
+                      <ul>//Нестандартные
+                          <li>
+                              Грокк-Тар - Вождь Орды
+                          </li>
+                          <li>
+                              Тордрис - Владыка Севера
+                          </li>
+                          <li>
+                              Зеус - Повелитель Грозы
+                          </li>
+                      </ul>
+
+                      <span mui-flex-text type="title">ДОРАБОТКИ</span>
+
+
+
+                      <ul>
+                          <li mui-flex-text type="title">
+                              Темная Орда (Dark Horde)
+                              <ul>
+                                  <li>
+                                      - ИИ
+                                  </li>
+                                  <li>
+                                      - Способности
+                                  </li>
+                                  <li>
+                                      - UI
+                                  </li>
+                                  <li>
+                                      - Load Screen
+                                  </li>
+                                  <li>
+                                      - Score Screen
+                                  </li>
+                                  <li>
+                                      - Баланс + оформление
+                                  </li>
+                              </ul>
+                          </li>
+                      </ul>
+
+                      <ul>
+                          <li mui-flex-text type="title">
+                              Наги (Naga)
+                              <ul>
+                                  <li>
+                                      - ИИ
+                                  </li>
+                                  <li>
+                                      - Способности
+                                  </li>
+                                  <li>
+                                      - Score Screen
+                                  </li>
+                              </ul>
+                          </li>
+                      </ul>
+
+
+                      <ul>
+                          <li mui-flex-text type="title">
+                              Ящеры (Lizardman)
+                              <ul>
+                                  <li>
+                                      - ИИ
+                                  </li>
+                                  <li>
+                                      - Способности
+                                  </li>
+                              </ul>
+                          </li>
+                      </ul>
+
+
+                      <span mui-flex-text type="title">Механика рас</span>
+
+
+                      <p>
+                          ПЕРЕВОД СПОСОБНОСТЕЙ НА JASS
+                      </p>
+                      <ul>
+                          <li>
+                              СНАЙПЕРСКИЙ ПРИЦЕЛ - РИДГАР
+                          </li>
+                          <li>
+                              ГРОЗОВАЯ БУРЯ - ЗЕУС (Требует оптимизации)
+                          </li>
+                          <li>
+                              ВОДЯНОЙ ГЕЙЗЕР - ТАЙДЕБАРОН (Требует оптимизации)
+                          </li>
+                          <li>
+                              МОРСКОЙ ПОТОК - ТАЙДЕБАРОН
+                          </li>
+                          <li>
+                              ДЕМОНИЧЕСКАЯ КРОВЬ - ГРОКК-ТАР
+                          </li>
+                          <li>
+                              ЖАЖДА КРОВИ - НАЗГАРД
+                          </li>
+                          <li>
+                              ЯРОСТЬ ВОЙНЫ - НАЗГАРД (Требует оптимизации)
+                          </li>
+                          <li>
+                              ВЕЕР ОГНЕННЫХ СТРЕЛ - ВЕЙН
+                          </li>
+                          <li>
+                              СТРЕЛА ФЕНИКСА - ВЕЙН
+                          </li>
+                      </ul>
+
+                  </div>
+              </div>
+          </div>-->
+    </div>
+
+
+</div>
+<div mui-flex-direction="vertical" mui-flex-card-box mui-flex-color="light" id="preview_spoiler_component" style="margin-top: 40px;">
+    <div>
+        <!-- <mui-input [type]="'text'" [isRequire]="true" [placeholder]="'Введите текст'" [overview_text]="'Текст над вводом'"
+      [error_text]="'Не все обязательные поля заполнены'"></mui-input>
+    <p mui-flex-text="normal" family="Roboto">
+      С необзательным заполнением
+    </p>
+    <mui-input [type]="'text'" [isRequire]="false" [placeholder]="'Введите текст'" [overview_text]="'Текст над вводом'"
+      [error_text]="'Не все обязательные поля заполнены'"></mui-input>
+ -->
+
+
+        <!-- ===================================================================================================================== -->
+        <div mui-flex-input-container>
+            <div mui-flex-input-group>
+                <label for="input_0">
+          <div mui-flex-input="" type="default" color="light" class="require">
+            <input mui-flex-input data-placeholder="Введите текст" id="input_0" type="text" require="" class="active" placeholder="Введите текст">
+            <span mui-flex-input-overview class="active">
+              <span>Текст над вводом</span>
+            </span>
+          </div>
+        </label>
+                <div mui-flex-input-hidden-text="error" class="hidden" style="display: none;">
+                    Не все обязательные поля заполнены!
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div mui-flex-direction="vertical" mui-flex-card-box="light" style="margin-top: 40px;">
+    <div mui-flex-direction="horizontal" class="around">
+
+        <div mui-flex-direction="horizontal" class="middle">
+            <label for="">
+        Color
+      </label>
+            <select name="" id="" style="padding: 8px 16px;">
+        <option value="">Yellow</option>
+      </select>
+        </div>
+        <div mui-flex-direction="horizontal" class="middle">
+            <label for="">
+        Border type
+      </label>
+            <select name="" id="" style="padding: 8px 16px;">
+        <option value="">babel</option>
+        <option value="">default</option>
+        <option value="">arounded</option>
+      </select>
+        </div>
+
+        <div mui-flex-direction="horizontal" class="middle">
+            <label for="">
+        Size X
+      </label>
+            <select name="" id="" style="padding: 8px 16px;">
+        <option value="">ultra-small</option>
+        <option value="">extra-small</option>
+        <option value="">small</option>
+        <option value="">normal</option>
+        <option value="">large</option>
+        <option value="">extra-large</option>
+        <option value="">ultra-large</option>
+      </select>
+        </div>
+
+        <div mui-flex-direction="horizontal" class="middle">
+            <label for="">
+        Size Y
+      </label>
+            <select name="" id="" style="padding: 8px 16px;">
+        <option value="">ultra-small</option>
+        <option value="">extra-small</option>
+        <option value="">small</option>
+        <option value="">normal</option>
+        <option value="">large</option>
+        <option value="">extra-large</option>
+        <option value="">ultra-large</option>
+      </select>
+        </div>
+    </div>
+
+
+</div>
+
+<div mui-flex-direction="horizontal" class="between">
+    <div mui-flex-direction="vertical" class="center">
+        <div mui-flex-direction="horizontal">
+            default
+        </div>
+        <div mui-flex-direction="horizontal">
+            <button mui-flex-button data-size-x="small" data-size-y="small" data-color="yellow" data-type="default" data-border-type="default">
+        button
+      </button>
+        </div>
+        <div mui-flex-direction="horizontal">
+            <button mui-flex-button data-size-x="small" data-size-y="small" data-color="dark" data-type="default" data-border-type="default">
+        button
+      </button>
+        </div>
+    </div>
+    <div mui-flex-direction="vertical" class="center">
+        <div mui-flex-direction="horizontal">
+            outline
+        </div>
+        <div mui-flex-direction="horizontal">
+            <button mui-flex-button data-size-x="small" data-size-y="small" data-color="yellow" data-type="outline" data-border-type="default">
+        button
+      </button>
+        </div>
+        <div mui-flex-direction="horizontal">
+            <button mui-flex-button data-size-x="small" data-size-y="small" data-color="dark" data-type="outline" data-border-type="default">
+        button
+      </button>
+        </div>
+    </div>
+</div>
+
+
+<div mui-flex-direction="horizontal" class="between" [ngClass]="{hidden: mobile}" [ngStyle]="{'background-color': background, 'max-height' : height, 'min-height' : height, 'height' : height}">
+
+    <header [ngStyle]="{'background-color': background, 'max-height' : height, 'min-height' : height, 'height' : height}" mui-flex-direction="horizontal" mui-flex-header size="normal">
+
+
+        <nav mui-flex-direction="horizontal" class="between" style="width: 100%; color: #fff; max-width: 1200px; margin: 0 auto; padding: 20px 0;">
+            <div mui-flex-direction="vertical" class="middle" style="max-width: 180px;">
+                <a [routerLink]="['/']" mui-flex-text="large" mui-flex-direction="horizontal" family="HelveticaNeue" class="middle bold" style="width: 156px;">
+                    <span>
+            Mirco World
+          </span>
+                </a>
+
+            </div>
+
+
+
+            <div mui-flex-direction="horizontal" class="middle around">
+
+                <a mui-flex-link mui-flex-direction="horizontal" mui-flex-text="normal" family="HelveticaNeue" class="medium padding" [routerLink]="['/development']" routerLinkActive="active">
+          Разработка
+          <div class="hidden" style="position: absolute; border-radius: 4px; margin: 0; top: 101px; background: rgb(5, 2, 35); display: flex; width: 181px; box-sizing: border-box; box-shadow: -4px 8px 16px #333;">
+            <ul mui-flex-direction="vertical" style="margin: 0; padding: 0; box-sizing: border-box;">
+              <li mui-flex-direction style="padding: 5px 10px;  box-sizing: border-box;">
+                <a mui-flex-text="normal" family="HelveticaNeue" class="bottom medium" href="">
+                  JavaScript
+                </a>
+                </li>
+                <li mui-flex-direction style="padding: 5px 10px;  box-sizing: border-box;">
+                    <a mui-flex-text="normal" family="HelveticaNeue" class="medium" href=""> Прототипы сайтов
+                </a>
+                </li>
+                </ul>
+            </div>
+            </a>
+            <a mui-flex-link mui-flex-direction="horizontal" mui-flex-text="normal" family="HelveticaNeue" class="medium padding" [routerLink]="['/courses']" routerLinkActive="active">Курсы
+          и обучение</a>
+            <a mui-flex-link mui-flex-direction="horizontal" mui-flex-text="normal" family="HelveticaNeue" class="medium padding" [routerLink]="['/templates']" routerLinkActive="active">Шаблоны
+          и прототипы</a>
+            <a mui-flex-link mui-flex-direction="horizontal" mui-flex-text="normal" family="HelveticaNeue" class="medium padding" [routerLink]="['/libraries']" routerLinkActive="active">Библиотеки</a>
+
+            <a mui-flex-link mui-flex-direction="horizontal" mui-flex-text="normal" family="HelveticaNeue" class="medium padding" [routerLink]="['/projects']" routerLinkActive="active">Проекты</a>
+
+
+
+            <button mui-flex-direction="horizontal" mui-flex-button class="bottom" style="background: transparent; border: none;">
+          <svg _ngcontent-emb-c7="" focusable="false" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" style="color: #fff;">
+            <path _ngcontent-emb-c7="" d="M16.5 12c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5zm-6 0c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5zm-6 0c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5z" fill="currentColor"></path>
+          </svg>
+        </button>
+</div>
+</nav>
+</header>
+</div>
+
+
+<div mui-frame>
+    <div mui-flex-direction="horizontal">
+        <div mui-container>
+            <div mui-profile>
+
+                <div mui-avatar>
+                    <a>
+                        <div mui-image="64">
+
+                        </div>
+                    </a>
+                    <div mui-text="center">
+                        <span mui-text-title>
+              David Kosherman
+            </span>
+                    </div>
+                </div>
+
+                <div mui-table class="got">
+                    <div mui-flex-direction="horizontal" class="table-style">
+                        <span>Кол-во звонков</span>
+                        <span>300</span>
+                    </div>
+                    <div mui-flex-direction="horizontal" class="table-style">
+                        <span>Исходящих</span>
+                        <span>78</span>
+                    </div>
+                    <div mui-flex-direction="horizontal" class="table-style">
+                        <span>Входящих</span>
+                        <span>222</span>
+                    </div>
+
+                </div>
+
+                <div mui-table-bottom>
+                    <content mui-content>
+                        <p class="text-bold">Комментарии</p>
+                        <p>
+                            Квалифицированный сотрудник, старший специалист поддержки.
+                        </p>
+                        <small>Был в сети 36 минут назад</small>
+                    </content>
+                    <div mui-flex-direction="horizontal">
+                        <input mui-input-text placeholder="Enter your message here...." />
+                        <button mui-button>
+              Send
+            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div mui-container>
+            <div mui-flex-direction="horizontal">
+                <div mui-card-row-panel>
+                    <div mui-card-box style="background: #72ca88;">
+                        <div mui-flex-direction="horizontal" class="baseline">
+                            <p style="margin-right: 10px; font-size: 36px;">
+                                100
+                            </p>
+                            <p>
+                                Исходящих
+                            </p>
+                        </div>
+                    </div>
+                    <div mui-card-box style="background: #f5c781;">
+                        <div mui-flex-direction="horizontal" class="baseline">
+                            <p style="margin-right: 10px; font-size: 36px;">
+                                100
+                            </p>
+                            <p>
+                                Входящих
+                            </p>
+                        </div>
+                    </div>
+
+                    <div mui-card-box style="background: #a683eb;">
+                        <div mui-flex-direction="horizontal" class="baseline">
+                            <p style="margin-right: 10px; font-size: 36px;">
+                                78%
+                            </p>
+                            <p>
+                                Звонков ↑↑
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div mui-flex-direction="horizontal" style="padding: 20px;">
+        <audio controls>
+      <source src="../../assets/audio/Maolink - в долгий путь.mp3" type="audio/mp3">
+    </audio>
+    </div>
+</div>
+
+
+
+<div mui-flex-direction="vertical" style="padding: 16px;">
+
+
+
+    <label for="">Full name
+    <div mui-input-parent-container>
+      <span mui-placeholder-text>
+        Test
+      </span>
+      <input mui-input type="text" placeholder="" name="" />
+
+    </div>
+  </label>
+    <label for="">email
+    <div mui-input-parent-container>
+      <span mui-placeholder-text>
+
+      </span>
+      <input mui-input type="email" placeholder="" name="" />
+
+    </div>
+  </label>
+
+    <label for="">password
+    <div mui-input-parent-container>
+      <span mui-placeholder-text>
+
+      </span>
+      <input type="password" mui-input placeholder="" name="" />
+
+    </div>
+  </label>
+
+
+
+
+
+</div>
+
+
+<style>
+    /* @import "../../assets/source/css/custom_styles/flex-direction.css"; */
+
+    .preview-content {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 4px;
+        box-sizing: border-box;
+        box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.75);
+    }
+
+    .card-box.normal {
+        width: 220px;
+        height: 310px;
+    }
+
+    .card-box.large {
+        width: 581px;
+        height: 381px;
+    }
+
+    .text-box,
+    .mark-box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .mark {
+        min-width: 50px;
+        height: 35px;
+        max-height: 35px;
+        background-color: #fff;
+        border-radius: 40px;
+    }
+
+    .highlight {
+        font-weight: 600;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .highlight {
+        /*background-color: #f5f5f5;*/
+        background-color: rgb(31, 31, 31);
+        border-radius: 6px;
+        color: #586e75;
+    }
+
+    .highlight {
+        position: relative;
+    }
+
+    article,
+    aside,
+    figure,
+    footer,
+    header,
+    hgroup,
+    section {
+        display: block;
+    }
+
+    #navbarJsExample .highlight pre,
+    .highlight-full .highlight pre {
+        max-height: none;
+    }
+    /* @media screen and (min-width: 769px), print
+.highlight pre {
+white-space: pre-wrap;
+} */
+
+    .highlight pre {
+        max-height: 320px;
+        margin-bottom: 0 !important;
+    }
+
+    .highlight pre {
+        background-color: transparent;
+        font-size: .875em;
+        line-height: 1.375;
+    }
+
+    .highlight pre {
+        overflow: auto;
+        max-width: 100%;
+    }
+
+    pre {
+        -webkit-overflow-scrolling: touch;
+        background-color: #f5f5f5;
+        color: #4a4a4a;
+        font-size: .875em;
+        overflow-x: auto;
+        padding: 1.25rem 1.5rem;
+        white-space: pre;
+        word-wrap: normal;
+    }
+
+    code,
+    pre {
+        -moz-osx-font-smoothing: auto;
+        -webkit-font-smoothing: auto;
+        font-family: monospace;
+    }
+
+    pre code {
+        background-color: transparent;
+        color: currentColor;
+        font-size: 1em;
+        padding: 0;
+    }
+
+    code {
+        padding: 10px;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    figure {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+
+    .c-tag {
+        color: #ff3860;
+    }
+
+    .c-attr {
+        color: #32CD32;
+    }
+
+    .c-text {
+        color: #b9bcba;
+    }
+
+    .c-value {
+        color: #c5a635;
+    }
+
+    .c-element {
+        color: #b9bcba;
+    }
+
+    .child-mr-15>* {
+        margin-right: 15px;
+    }
+
+    .colors {
+        color: #6A5ACD;
+        color: #8B008B;
+        color: #BA55D3;
+        color: #F0E68C;
+        color: #DAA520;
+        --bright-orange-yellow--: #FF8E00;
+        --bright-yellow--: #FFB300;
+        --yandex-color--: #FFCC00;
+        --color-white-blue--: #78A2B7;
+        --facebook-color--: #3B5998;
+        --twitter-color--: #1FAEE9;
+        --color-dark-grey--: #505050;
+        --violet-blue--: #7B68EE;
+    }
+
+    .image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image.image-64 {
+        max-width: 64px;
+        max-height: 64px;
+        min-width: 64px;
+        min-height: 64px;
+    }
+
+    td.center {
+        text-align: center;
+    }
+
+    [mui-text-color="white"] {
+        color: #fff;
+    }
+
+    .text-bold {
+        font-weight: bold;
+    }
+
+    [mui-icon] {
+        display: flex;
+    }
+
+    [mui-icon-size="normal"] {
+        max-width: 24px;
+        max-height: 24px;
+        min-width: 24px;
+        min-height: 24px;
+    }
+
+    [mui-flex-direction].baseline {
+        align-items: baseline !important;
+    }
+
+    [mui-table-list] {
+        border: 1px solid transparent;
+        box-sizing: border-box;
+    }
+
+    [mui-table-list]:hover {
+        border: 1px solid #fff;
+        box-shadow: 0px 0px 16px #fff;
+        border-radius: 4px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    [mui-text-size="large"] {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 1px;
+        line-height: auto;
+    }
+</style>
+
+<div mui-slide-panel-right="darken" mui-flex-direction="vertical" class="between">
+
+    <div mui-flex-direction="vertical">
+
+
+
+        <div mui-flex-direction="horizontal" class="center middle" style="height: 64px;">
+            <a mui-link [routerLink]="['/home']" style="opacity: 1;">
+                <h3 mui-text="title" class="center">
+                    Micro World
+                </h3>
+            </a>
+        </div>
+
+
+
+        <ul style="padding: 0;">
+            <a *ngFor="let menulink of menuLinks" mui-link [routerLink]="menulink.links">
+                <li mui-flex-direction mui-text="normal">
+                    {{ menulink.name }}
+                </li>
+            </a>
+        </ul>
+    </div>
+
+
+
+    <div mui-flex-direction="vertical">
+
+        <div mui-flex-direction="horizontal" class="wrapper center">
+            v 1.0
+        </div>
+        <a mui-flex-direction="horizontal" class="wrapper center" [routerLink]="['/logger']" style="color: #fff; text-decoration: none;     text-align: center;">
+            <li mui-flex-direction mui-text="normal">
+                История версий
+            </li>
+        </a>
+
+
+    </div>
+
+</div>
+
+
+<div mui-flex-direction="vertical" style="width: 100%; height: 100%; padding: 10px; background: black; color: #fff;">
+    <div mui-flex-direction="horizontal" style="width: 100%;">
+
+        <div mui-flex-ditection="vertical" style="width: 380px;">
+            <div mui-flex-direction mui-text-size="large">
+                Directory
+            </div>
+            <div mui-flex-direction="vertical">
+                <div *ngFor="let file of files">
+                    <div *ngIf="file.IsDir" (click)="onClick($event)" mui-table-list mui-flex-direction="horizontal" class="between middle hovered" style="padding: 10px 0px; font-size: 17px;">
+                        <div mui-flex-dirction mui-icon-size="normal" [ngStyle]="setMaskBackGroundWithColor(getImage(file.Extension), 'center', 'cover', '#fff')">
+                        </div>
+                        <div mui-flex-dirction style="margin-left: -5px;">
+                            {{file.Name}}
+                        </div>
+                        <div mui-flex-dirction>
+                            {{file.Extension}}
+                        </div>
+                        <div mui-flex-dirction>
+                            {{getSize(file.Size)}}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div mui-flex-ditection="vertical" style="width: 100%;">
+            <div mui-flex-direction="vertical" mui-card-box style="max-width: 600px; background: black; width: 100%; border: none;">
+                <div mui-flex-direction="vertical" mui-text-color="white">
+                    <div mui-flex-direction="horizontal" class="between text-bold middle">
+                        <div mui-icon-size="normal"></div>
+                        <div mui-flex-direction style="margin-left: -5px;">
+                            Название
+                        </div>
+                        <div mui-flex-direction style="padding: 5px;">
+                            Тип
+                        </div>
+                        <div mui-flex-direction style="padding: 5px;">
+                            Дата создания
+                        </div>
+                        <div mui-flex-direction style="padding: 5px;">
+                            Размер
+                        </div>
+                        <div mui-icon-size="normal"></div>
+                    </div>
+                    <div (click)="onClick($event)" mui-table-list mui-flex-direction="horizontal" class="between middle hovered" *ngFor="let file of files" style="padding: 10px 0px; font-size: 17px;">
+                        <div mui-flex-dirction mui-icon-size="normal" [ngStyle]="setMaskBackGroundWithColor(getImage(file.Extension), 'center', 'cover', '#fff')">
+                        </div>
+                        <div mui-flex-dirction style="margin-left: -5px;">
+                            {{file.Name}}
+                        </div>
+                        <div mui-flex-dirction>
+                            {{file.Extension}}
+                        </div>
+                        <div mui-flex-dirction>
+                            {{file.Date}}
+                        </div>
+                        <div mui-flex-dirction>
+                            {{getSize(file.Size)}}
+                        </div>
+                        <div mui-flex-dirction *ngIf="!file.IsDir" mui-icon-size="normal" [ngStyle]="setMaskBackGroundWithColor('../../assets/png/download.png', 'center', 'cover', '#fff')">
+                        </div>
+                        <div *ngIf="file.IsDir" mui-icon-size="normal"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<div mui-flex-direction="vertical" mui-card-box="dark">
+
+    <div mui-flex-direction="horizontal">
+
+        <div mui-flex-direction="vertical" mui-card-box="dark" style="background-image: url(../../../assets/images/Rengar_0.jpg); background-position: -453px; background-size: cover; background-repeat: no-repeat; max-width: 360px; height: 600px; padding: 0; width: 100%; border: none;">
+        </div>
+        <div mui-flex-direction="vertical">
+            <span mui-flex-text="large" family="HelveticaNeue" class="bold">
+        Джейзарду
+      </span>
+
+
+            <div *ngFor="let stat of stats" mui-flex-direction="horizontal" class="baseline between" style="max-width: 400px;">
+                <span mui-flex-text="small" family="Roboto">
+          {{stat.name}}
+        </span>
+                <span mui-flex-text="extra-small">
+          {{stat.value}}
+        </span>
+            </div>
+
+
+            <div mui-flex-direction="vertical">
+                <p mui-flex-text="small" family="Roboto">
+                    Джейзарду, воин получеловек, полузверь. Это чистокровный белый лев из древнего народа, населяющего...
+                </p>
+            </div>
+
+
+            <h3>
+                Инвентарь и снаряжение
+            </h3>
+            <div mui-flex-direction="horizontal">
+                <div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<style>
+    /* You can add global styles to this file, and also import other style files */
+
+    @import url("https://fonts.googleapis.com/css?family=Concert+One&display=swap");
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0;
+    }
+
+    [mui-slide-panel-right] {
+        height: 100%;
+        max-width: 130px;
+        width: 100%;
+        position: fixed;
+    }
+
+    [mui-slide-panel-right="darken"] {
+        background-color: #050223;
+    }
+
+    app-root {
+        width: 100%;
+        height: 100%;
+    }
+
+    [mui-flex-direction],
+    [mui-image] {
+        display: flex;
+    }
+
+    [mui-flex-direction="horizontal"] {
+        flex-direction: row;
+    }
+
+    [mui-flex-direction="vertical"] {
+        flex-direction: column;
+    }
+
+    [mui-flex-direction="vertical"].baseline,
+    [mui-flex-direction="horizontal"].baseline {
+        align-items: baseline;
+    }
+    /* [mui-frame-content] {
+height: 100%;
+width: 100%;
+padding: 21px;
+}
+
+[mui-frame-content]>*:not(:last-child) {
+margin-bottom: 40px;
+} */
+
+    .between>* {
+        width: 100%;
+        height: 100%;
+    }
+
+    .between>*:last-child {
+        text-align: right;
+    }
+
+    [mui-flex-direction="vertical"].center {
+        align-items: center;
+    }
+
+    [mui-flex-direction="vertical"].middle {
+        justify-content: center;
+    }
+
+    [mui-flex-direction="vertical"].around,
+    [mui-flex-direction="horizontal"].around {
+        justify-content: space-around;
+    }
+
+    [mui-slide-element] {
+        border-bottom: 1px solid #201d39;
+        padding: 16px 16px 23px 16px;
+    }
+
+    [mui-image] {
+        width: 100%;
+        height: 100%;
+    }
+
+    [mui-image="80"] {
+        max-width: 80px;
+        min-width: 80px;
+        max-height: 80px;
+        min-height: 80px;
+    }
+
+    [mui-image="48"] {
+        max-width: 48px;
+        min-width: 48px;
+        max-height: 48px;
+        min-height: 48px;
+    }
+
+    .arounded {
+        border-radius: 50%;
+    }
+
+    [mui-button] {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: 100%;
+        padding: 8px 13px;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    [mui-text] {
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    [mui-text="small"] {
+        font-size: 16px;
+        line-height: 19px;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    [mui-text="extra-small"] {
+        font-size: 13px;
+        line-height: 16px;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    [mui-number="large"] {
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    [mui-button="succes"] {
+        background-color: #3cb359;
+        color: #fff;
+    }
+
+    [mui-text].color-summary-text,
+    [mui-number].color-summary-text {
+        color: #889197;
+    }
+
+    [mui-icon] {
+        display: flex;
+        flex-direction: column;
+    }
+
+    [mui-icon="small"] {
+        max-width: 24px;
+        min-width: 24px;
+        max-height: 24px;
+        min-height: 24px;
+        width: 100%;
+        height: 100%;
+    }
+
+    [mui-icon="medium"] {
+        max-width: 32px;
+        min-width: 32px;
+        max-height: 32px;
+        min-height: 32px;
+        width: 100%;
+        height: 100%;
+    }
+
+    [mui-progress-bar] {
+        position: relative;
+        width: 100%;
+        height: 10px;
+        background: #d7e2e5;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid black; */
+    }
+
+    [mui-progress-bar]>[mui-progress-in] {
+        border-radius: inherit;
+        width: inherit;
+        height: 10px;
+        width: 75%;
+        position: absolute;
+    }
+
+    [mui-progress-bar]>[mui-progress-in="succes"] {
+        background: #71d189;
+    }
+
+    [mui-progress-bar]>[mui-progress-in="orange"] {
+        background: #f5896c;
+    }
+
+    [mui-progress-bar]>[mui-progress-in="violet"] {
+        background: #827f9c;
+    }
+
+    [mui-progress-bar]>[mui-progress-in="warning"] {
+        background: #f5c47a;
+    }
+
+    [mui-progress-bar]>[mui-progress-in="danger"] {
+        background: #f56767;
+    }
+</style>
+
+
+<div mui-flex-direction='vertical' style="width: 100%; height: 100%;">
+
+    <header>
+        <h1 class="start">Far Cry 5</h1>
+    </header>
+    <div mui-flex-direction="horizontal" mui-decorations="child-m-all-10" class="center wrapper">
+        <a href="../../assets/images/Counter-Strike-Global-Offensive.jpg" target="_blank">
+            <img src="../../assets/images/Counter-Strike-Global-Offensive.jpg" width="360" height="240" class="scale">
+        </a>
+        <a href="../../assets/images/game13.jpg" target="_blank">
+            <img src="../../assets/images/game13.jpg" width="360" height="240" class="scale">
+        </a>
+        <a href="../../assets/images/TCDivision.jpg" target="_blank">
+            <img src="../../assets/images/TCDivision.jpg" width="360" height="240" class="scale">
+        </a>
+        <a href="../../assets/images/warface.jpg" target="_blank">
+            <img src="../../assets/images/warface.jpg" width="360" height="240" class="scale">
+        </a>
+        <a href="../../assets/images/SpecOps_title.jpg" target="_blank">
+            <img src="../../assets/images/SpecOps_title.jpg" width="360" height="240" class="scale">
+        </a>
+    </div>
+    <p align="center" class="bold">Вот например.</p>
+</div>
+
+
+<style>
+    h1 {
+        /* background: url(Asstes/image/Houses_Evening_Fields_Far_Cry_5_Fence_524163_2560x1706.jpg) center / cover no-repeat;*/
+        max-height: 100%;
+        max-width: 100%;
+        font-family: 'HelveticaNeueCyr Medium';
+    }
+
+    img {
+        border-radius: 40px;
+        border: 2px;
+    }
+
+    body {
+        background-color: #050223;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        padding-left: 50px;
+    }
+
+    .start {
+        font-size: 50px;
+        color: #6A5ACD;
+        font-weight: bold;
+        text-align: center;
+        /* text-shadow: 1px 1px 40px #9370DB, 1em 1em 5em #9370DB; */
+    }
+
+    .scale:hover {
+        transform: scale(1.2);
+    }
+
+    .scale {
+        transition: 1s;
+    }
+
+    .bold {
+        font-weight: bold;
+        font-size: 25px;
+        color: #6A5ACD;
+    }
+
+    aside {
+        float: right;
+    }
+
+    .image-source-link {
+        color: #98C3D1;
+    }
+
+    .mfp-with-zoom .mfp-container,
+    .mfp-with-zoom.mfp-bg {
+        opacity: 0;
+        -webkit-backface-visibility: hidden;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+
+    .mfp-with-zoom.mfp-ready .mfp-container {
+        opacity: 1;
+    }
+
+    .mfp-with-zoom.mfp-ready.mfp-bg {
+        opacity: 0.8;
+    }
+
+    .mfp-with-zoom.mfp-removing .mfp-container,
+    .mfp-with-zoom.mfp-removing.mfp-bg {
+        opacity: 0;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    [mui-decorations="child-m-all-10"]>* {
+        margin: 10px;
+    }
+</style>
+
+
+<div mui-flex-direction="vertical" mui-card-box="dark" style="height: 100%; margin-bottom: 20px;">
+
+    <mui-spoiler></mui-spoiler>
+
+    <h1>
+        Мастерская
+    </h1>
+
+
+    <div mui-flex-direction="vertical">
+        <div mui-flex-direction="horizontal">
+            Шрифты
+        </div>
+        <ul>
+            <li>Helvetica Neue</li>
+            <li>Roboto</li>
+            <li>Calibri</li>
+            <li>Bebas Neue</li>
+        </ul>
+    </div>
+
+    <div mui-flex-direction="horizontal" class="between">
+        <div mui-flex-direction="vertical">
+            Тут селекты
+        </div>
+        <div mui-flex-direction="vertical">
+            Тут показ
+        </div>
+    </div>
+
+
+
+
+    <div mui-flex-direction="vertical">
+        <div mui-flex-direction="horizontal">
+            Типографика
+        </div>
+
+        <div mui-flex-direction="vertical">
+            <div mui-flex-direction="horizontal">
+                <span mui-flex-text="ultra-small">
+          ultra-small / 11px
+        </span>
+            </div>
+
+            <div mui-flex-direction="horizontal">
+                <span mui-flex-text="extra-small">
+          extra-small / 14px
+        </span>
+            </div>
+
+            <div mui-flex-direction="horizontal">
+                <span mui-flex-text="small">
+          small / 16px
+        </span>
+            </div>
+
+            <div mui-flex-direction="horizontal">
+                <span mui-flex-text="normal">
+          normal / 18px
+        </span>
+            </div>
+
+            <div mui-flex-direction="horizontal">
+                <span mui-flex-text="medium">
+          medium / 21px
+        </span>
+            </div>
+
+            <div mui-flex-direction="horizontal">
+                <span mui-flex-text="large">
+          large / 24px
+        </span>
+            </div>
+
+            <div mui-flex-direction="horizontal">
+                <span mui-flex-text="extra-large">
+          extra-large / 28px
+        </span>
+            </div>
+            <div mui-flex-direction="horizontal">
+                <span mui-flex-text="ultra-large">
+          ultra-large / 36px
+        </span>
+            </div>
+            <div mui-flex-direction="horizontal">
+                <span mui-flex-text="mega">
+          mega / 48px
+        </span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div mui-flex-direction="vertical">
+        <span mui-flex-text="normal">
+      Использование библиотеки MUI
+    </span>
+
+        <div mui-flex-direction="vertical">
+            <div mui-flex-direction="horizontal" class="middle">
+                <span mui-flex-text="small">
+          Selector
+        </span>
+                <code style="font-size: 16px; font-family: monospace;">
+          mui-flex-direction
+        </code>
+            </div>
+            <div mui-flex-direction="horizontal" class="middle">
+                <span mui-flex-text="small">
+          Optiions
+        </span>
+                <ul style="font-family: monospace; font-size: 16px;">
+                    <li>
+                        Primary
+                        <ul>
+                            <li>
+                                vertical
+                            </li>
+                            <li>
+                                horizontal
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Secondary
+                        <ul>
+                            <li>
+                                selector type
+
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <!--
+    <div class="preview-content">
+        <div class="content-element" style="border-top: 1px solid black;">
+
+            <h1>Card box</h1>
+
+            <h3>Card box normal / medium</h3>
+
+            <div class="horizontal child-mr-15" style="align-items: center;">
+
+                <div class="card-box normal" style="border: 1px solid black; max-width: 100%;">
+                    <div class="mark-box" style="justify-content: flex-end;">
+                        <div class="mark" style="border: 1px solid black;">
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        Playerunknown’s Battlegrounds
+                    </div>
+                </div>
+
+
+                <figure class="highlight">
+                    <code class="language-html" data-lang="html" style="padding: 10px;">
+            <br>
+            <span class="c-element">&lt;</span><span class="c-tag">div</span> <span class="c-attr"> class</span><span
+              class="c-element">=</span><span class="c-value">"card-box normal"</span><span
+              class="c-element">&gt;</span>
+            <br>
+
+            &nbsp;&nbsp;<span class="c-element">&lt;</span><span class="c-tag">div</span> <span class="c-attr">
+              class</span><span class="c-element">=</span><span class="c-value">"mark-box to-left"</span><span
+              class="c-element">&gt;</span>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="c-element">&lt;</span><span class="c-tag">div</span> <span
+              class="c-attr"> class</span><span class="c-element">=</span><span class="c-value">"mark"</span><span
+              class="c-element">&gt;</span>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="c-element">&lt;/</span><span class="c-tag">div</span><span
+              class="c-element">&gt;</span>
+            <br>
+            &nbsp;&nbsp;<span class="c-element">&lt;/</span><span class="c-tag">div</span><span
+              class="c-element">&gt;</span>
+            <br>
+            &nbsp;&nbsp;<span class="c-element">&lt;</span><span class="c-tag">div</span> <span class="c-attr">
+              class</span><span class="c-element">=</span><span class="c-value">"text-box"</span><span
+              class="c-element">&gt;</span>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="c-element">Playerunknown’s Battlegrounds</span>
+            <br>
+            &nbsp;&nbsp;<span class="c-element">&lt;/</span><span class="c-tag">div</span><span
+              class="c-element">&gt;</span>
+            <br>
+            <span class="c-element">&lt;/</span><span class="c-tag">div</span><span class="c-element">&gt;</span>
+          </code>
+                </figure>
+            </div>
+        </div>
+
+
+        <h3>Card box large</h3>
+
+        <div class="card-box large" style="border: 1px solid black;">
+            <div class="horizontal">
+
+            </div>
+        </div>
+    </div> -->
+
+    <div mui-flex-direction="vertical" mui-card-box style="max-width: 600px; background: black;">
+        <div mui-flex-direction="vertical" mui-text-color="white">
+            <div mui-flex-direction="horizontal" class="between text-bold middle">
+                <div mui-icon-size="normal"></div>
+                <div mui-flex-direction style="margin-left: -5px;">
+                    Название
+                </div>
+                <div mui-flex-direction style="padding: 5px;">
+                    Тип
+                </div>
+                <div mui-flex-direction style="padding: 5px;">
+                    Размер
+                </div>
+                <div mui-icon-size="normal"></div>
+            </div>
+            <div (click)="onClick($event)" mui-table-list mui-flex-direction="horizontal" class="between middle hovered" *ngFor="let file of files" style="padding: 10px 0px; font-size: 17px;">
+                <div mui-flex-dirction mui-icon-size="normal" [ngStyle]="setMaskBackGroundWithColor(getImage(file.Extension), 'center', 'cover', '#fff')">
+                </div>
+                <div mui-flex-dirction style="margin-left: -5px;">
+                    {{file.Name}}
+                </div>
+                <div mui-flex-dirction>
+                    {{file.Extension}}
+                </div>
+                <div mui-flex-dirction>
+                    {{getSize(file.Size)}}
+                </div>
+                <div mui-flex-dirction *ngIf="!file.IsDir" mui-icon-size="normal" [ngStyle]="setMaskBackGroundWithColor('../../assets/png/download.png', 'center', 'cover', '#fff')">
+                </div>
+                <div *ngIf="file.IsDir" mui-icon-size="normal"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+<div mui-flex-direction="vertical" mui-card-box style="max-width: 600px; padding: 0;">
+    <h3 style="padding: 10px;">
+        Палитра
+    </h3>
+    <span mui-text-size="normal" class="text-bold" style="padding: 0 10px;">Monokai Dark</span>
+
+
+
+    <div *ngFor="let color of colors" mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%;" [ngStyle]="{'background-color': color.name}">
+        <span mui-flex-direction="horizontal" class="middle" style="max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      {{color.name}}
+    </span>
+    </div>
+
+
+
+
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #90908a;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #90908a
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #007acc;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #007acc
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #86B42B;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #86B42B
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #B3B42B;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #B3B42B
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #546190;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #546190
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #f8f8f2;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #f8f8f2
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #666666;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #666666
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #56ADBC;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #56ADBC
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #414339;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #414339
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #6A7EC8;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #6A7EC8
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #e2e22e;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #e2e22e
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #75715E;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #75715E
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: #CFCFC2;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #CFCFC2
+    </span>
+    </div>
+
+    <span mui-text-size="normal" class="text-bold" style="padding: 0 10px;">Градиент</span>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background:  linear-gradient(90deg, #F92672 0%, #E6DB74 25%, #A6E22E 50%, #66D9EF 75%, #AE81FF 100%); padding: 10px; box-sizing: border-box;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #F92672 #E6DB74 #A6E22E #66D9EF #AE81FF
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background:  linear-gradient(90deg, #60C32E 0%, #1E87CD 100%); padding: 10px; box-sizing: border-box;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #60C32E, #1E87CD
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background:  linear-gradient(90deg, #C02472 0%, #EB222A 100%); padding: 10px; box-sizing: border-box;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #C02472, #EB222A
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background:  linear-gradient(90deg, #E6DB74 0%, #AE81FF 100%); padding: 10px; box-sizing: border-box;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #E6DB74, #AE81FF
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: linear-gradient(90deg, #AB1B9E 0%, #E90779 100%); padding: 10px; box-sizing: border-box;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #AB1B9E, #E90779
+    </span>
+    </div>
+    <div mui-flex-direction="horizontal" class="between middle" style="margin: 0; min-height: 40px; width: 100%; background: linear-gradient(90deg, #0268F9 0%, #5DC9E2 100%); padding: 10px; box-sizing: border-box;">
+        <span style="    max-width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 22px;
+        background: #fff;
+        cursor: pointer;">
+      #0268F9, #5DC9E2
+    </span>
+    </div>
+</div>
+
+
+
+<div mui-flex-direction="vertical" style="padding: 16px;">
+
+    <div mui-card-box mui-flex-direction="vertical" style="max-width: 1024px;">
+        <h3>
+            Project Metrika
+        </h3>
+        <div mui-flex-direction="horizontal" class="wrapper around" style="min-height: 230px; background: #fff; color: #333;">
+            <app-card-box mui-card-box *ngFor="let item of counterData" [data]="item.data" [name]="item.name" [value]="item.value" style="box-sizing: border-box; max-width: 375px; padding: 10px; width: 100%; margin-bottom: 20px;">
+            </app-card-box>
+        </div>
+
+        <div mui-flex-direction="horizontal" class="wrapper around">
+
+            <div mui-flex-direction="vertical" mui-card-box style="max-width: 375px; width: 100%; padding: 5px; box-sizing: border-box; margin-bottom: 20px;" mui-list>
+                <h5 style="padding: 10px !important;">
+                    colors
+                </h5>
+                <div mui-flex-direction="horizontal" style="background: #72CA88; width: 100%; max-height: 40px; padding: 5px; box-sizing: border-box; border-radius: 4px;">
+                    <span style="padding: 5px; background: #fff; color: #333; border-radius: 40px; font-size: 11px; cursor: pointer;">
+            #72CA88
+          </span>
+                </div>
+                <div mui-flex-direction="horizontal" style="background: #F56767; width: 100%; max-height: 40px; padding: 5px; box-sizing: border-box; border-radius: 4px;">
+                    <span style="padding: 5px; background: #fff; color: #333; border-radius: 40px; font-size: 11px; cursor: pointer;">
+            #F56767
+          </span>
+                </div>
+
+
+
+                <div mui-flex-direction="horizontal" style="background: #6bafe4; width: 100%; max-height: 40px; padding: 5px; box-sizing: border-box; border-radius: 4px;">
+                    <span style="padding: 5px; background: #fff; color: #333; border-radius: 40px; font-size: 11px; cursor: pointer;">
+            #6bafe4
+          </span>
+                </div>
+
+
+                <div mui-flex-direction="horizontal" style="background: #ff0001; width: 100%; max-height: 40px; padding: 5px; box-sizing: border-box; border-radius: 4px;">
+                    <span style="padding: 5px; background: #fff; color: #333; border-radius: 40px; font-size: 11px; cursor: pointer;">
+            #ff0001
+          </span>
+                </div>
+
+
+                <div mui-flex-direction="horizontal" style="background: #8691cd; width: 100%; max-height: 40px; padding: 5px; box-sizing: border-box; border-radius: 4px;">
+                    <span style="padding: 5px; background: #fff; color: #333; border-radius: 40px; font-size: 11px; cursor: pointer;">
+            #8691cd
+          </span>
+                </div>
+
+
+                <div mui-flex-direction="horizontal" style="background: #98a6ad; width: 100%; max-height: 40px; padding: 5px; box-sizing: border-box; border-radius: 4px;">
+                    <span style="padding: 5px; background: #fff; color: #333; border-radius: 40px; font-size: 11px; cursor: pointer;">
+            #98a6ad
+          </span>
+                </div>
+
+
+                <div mui-flex-direction="horizontal" style="background: #58666e; width: 100%; max-height: 40px; padding: 5px; box-sizing: border-box; border-radius: 4px;">
+                    <span style="padding: 5px; background: #fff; color: #333; border-radius: 40px; font-size: 11px; cursor: pointer;">
+            #58666e
+          </span>
+                </div>
+
+
+                <div mui-flex-direction="horizontal" style="background: #ffe082; width: 100%; max-height: 40px; padding: 5px; box-sizing: border-box; border-radius: 4px;">
+                    <span style="padding: 5px; background: #fff; color: #333; border-radius: 40px; font-size: 11px; cursor: pointer;">
+            #ffe082
+          </span>
+                </div>
+
+
+                <div mui-flex-direction="horizontal" style="background: #f5c47a; width: 100%; max-height: 40px; padding: 5px; box-sizing: border-box; border-radius: 4px;">
+                    <span style="padding: 5px; background: #fff; color: #333; border-radius: 40px; font-size: 11px; cursor: pointer;">
+            #f5c47a
+          </span>
+                </div>
+            </div>
+
+            <div mui-flex-direction="vertical" mui-card-box style="max-width: 375px; width: 100%; padding: 5px; box-sizing: border-box; margin-bottom: 20px;" mui-list>
+                <h5 style="padding: 10px !important;">
+                    fonts
+                </h5>
+                <p class="text-bold" style="font-family: 'Roboto', sans-serif;"> Roboto, Medium / Regular / Light</p>
+
+                <span style="font-family: 'Roboto', sans-serif; font-size: 15pt; line-height: 20pt;">
+          15/20pt - medium
+        </span>
+                <span style="font-family: 'Roboto', sans-serif; font-size: 13pt; line-height: 15pt;">
+          13/15pt - regular
+        </span>
+                <span style="font-family: 'Roboto', sans-serif; font-size: 11pt; line-height: 13pt;">
+          11/13pt - light
+        </span>
+            </div>
+        </div>
+
+
+        <div mui-card-box mui-flex-direction="vertical" style="padding: 0;">
+            <div mui-flex-direction="horizontal" style="margin: 0; background: #72CA88; color: #fff; padding: 10px; font-family: Roboto; font-size: 13pt; line-height: 15pt; border-radius: 4px 4px 0px 0px;" class="between">
+                <span>Адресная книга</span>
+                <span>icon</span>
+            </div>
+
+            <div mui-flex-direction="horizontal" style="padding: 15px;">
+                Поиск
+            </div>
+            <div mui-flex-direction="vertical">
+                <div mui-flex-direction="horizontal">
+                    <span>
+            icon
+          </span>
+                    <div mui-flex-direction="vertical" style="font-size: 11pt; line-height: 13px;">
+                        <span>
+              Имя
+            </span>
+                        <span>
+              Должность
+            </span>
+                        <span>
+              Метки
+            </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>

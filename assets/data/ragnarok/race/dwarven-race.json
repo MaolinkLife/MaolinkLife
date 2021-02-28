@@ -1,0 +1,13 @@
+{
+    "ID": "DWARVEN",
+    "HEROES": [
+        "DWARVEN_HERO_LORD_OF_THE_NORD",
+        "DWARVEN_HERO_SNIPER",
+        "DWARVEN_HERO_MASTER_OF_THUNDER",
+        "DWARVEN_HERO_ENGINEER"
+    ],
+    "UNITS": [],
+    "SPELLS": [],
+    "UPGRADES": [],
+    "CAMPAIGN": {}
+}
